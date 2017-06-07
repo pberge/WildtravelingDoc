@@ -1,0 +1,161 @@
+% Chapter Template
+
+\chapter{Gestió Econòmical} % Main chapter title
+
+\label{GestioEconomica} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\section{Identificació i estimació dels costos}
+En aquest punt es fa una estimació dels elements que formen part del pressupost del projecte tenint en compre els recursos que s’utilitzen.
+
+\begin{itemize}
+\item{}\textbf{Recursos humans}\\
+Aquest projecte el desenvolupa únicament una persona, per aquest motiu
+es necessari adoptar diferents rols. A continuació es mostra una taula amb
+el preu que cobra per hora cada perfil implicat en el projecte, les hores
+estimades que durà a terme cada rol i el cost total.
+
+
+
+\begin{table}[!h]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Recursos}  & \textbf{Rol} & \textbf{\euro/h} & \textbf{Estimació en hores} & \textbf{Total estimat} \\ \hline
+ & Cap de projecte & 45 \euro/h & 160 h & 7.200 \euro \\ \cline {2-5}
+\multicolumn{ 1}{|l|}{} & Analista & 30 \euro/h & 45 h & 1.350 \euro \\ \cline{ 2- 5}
+Pere Bergé & Dissenyador & 30 \euro/h & 70 h & 2.100 \euro \\ \cline{ 2- 5}
+\multicolumn{ 1}{|l|}{} & Programador & 25 \euro/h & 104 h & 2.600 \euro \\ \cline{ 2- 5}
+\multicolumn{ 1}{|l|}{} & Tester & 15 \euro/h & 30 h & 450 \euro \\ \hline
+\multicolumn{ 1}{|l|}{} &   &  & 409 h & 13.700 \euro \\ \hline
+\end{tabular}
+\label{}
+\caption{Estimació cost recursos humans}
+\end{table}
+
+\item{}\textbf{Software}\\
+Per dur a terme aquest projecte són necessàries diverses eines de software,
+la majoria d’elles gratuïtes.
+
+\begin{table}[!h]
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Producte}  & \textbf{Cost} & \textbf{Vida útil} & \textbf{Amortització total(5 mesos)}  \\ \hline
+Windows 7 &  0\euro &   - & 0\euro \\\hline
+Microssoft Office 2013 &  119\euro &  4 anys & 12,40\euro \\\hline
+Android Studio 1.5.1 &  0\euro &   - & 0\euro \\\hline
+Mozilla Firefox &  0\euro &   - & 0\euro \\\hline
+Google Drive &  0\euro &   - & 0\euro \\\hline
+Trello &  0\euro &   - & 0\euro \\\hline
+SmartSheet &  0\euro &   - & 0\euro \\\hline
+Adobe Photoshop &  12,09\euro/mes & 5 mesos & 60,45\euro \\\hline
+Adobe Reader IX &  0\euro &   - & 0\euro \\\hline
+Github &  0\euro &   - & 0\euro \\\hline
+\textbf{Total} &  &    & 72,85\euro \\\hline
+\end{tabular}
+\label{}
+\caption{Estimació cost recursos software}
+\end{table}
+
+\item{}\textbf{Hardware}
+
+\begin{table}[!h]
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Producte}  & \textbf{Cost} & \textbf{Vida útil} & \textbf{Amortització total(5 mesos)}  \\ \hline
+Ordinador portàtil &  600\euro/mes & 5 anys & 50\euro \\\hline
+Smartphone &  190\euro &  3 anys & 26,39\euro \\\hline
+\textbf{Total} &  &    & 76,39\euro \\\hline
+\end{tabular}
+\label{}
+\caption{Estimació cost recursos hardware}
+\end{table}
+
+\item{}\textbf{Despeses generals}\\
+En aquest apartat es tenen en compte les despeses associades a la realització del projecte com poden ser la energia elèctrica consumida o l’accés a internet.
+
+
+\begin{table}[!h]
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Producte}  & \textbf{Cost} & \textbf{Periode} & \textbf{Total estimat}  \\ \hline
+Energia elèctrica &  0,15\euro/kWh*0,15kW & 409 h & 9,20\euro \\\hline
+Llicència desenvolupador \textit{Android} &  19\euro &  Indefinit & 19\euro \\\hline
+Accés a internet &  25\euro &  5 mesos & 125\euro \\\hline
+\textbf{Total} &  &    & 153,2\euro \\\hline
+\end{tabular}
+\label{}
+\caption{Estimació cost despeses generals}
+\end{table}
+
+\item{}\textbf{Costos directes}\\
+En aquest apartat s’agrupen tots els costos directes que suposa el desenvolupament d’aquest projecte.
+
+\begin{table}[!h]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Concepte}  & \textbf{Cost} \\\hline
+Recursos humans & 13.700\euro \\\hline
+Software & 73\euro \\\hline
+Hardware & 77\euro \\\hline
+\textbf{Total} & 13.850\euro \\\hline
+\end{tabular}
+\label{}
+\caption{Estimació costos directes}
+\end{table}
+
+\item{}\textbf{Costos d’imprevistos}\\
+L’únic cost imprevist que podria sorgir és una fallada en l’ordinador o l’smartphone que s’utilitzen pel desenvolupament del projecte. En cas de fallada s’hauria d’afegir el cost de reparació, aproximadament uns 150 \euro en cas de l’ordinador i 60 \euro en cas del dispositiu Android. Durant el transcurs de la reparació s’utilitzaria un segon aparell per tal de no bloquejar el desenvolupament del projecte. La probabilitat d’error d’ambdós aparells és d’un 15 \%.
+
+\begin{table}[!h]
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Producte}  & \textbf{Cost Reparació} & \textbf{Probabilitat d'error} & \textbf{Total estimat}  \\ \hline
+Ordinador & 150\euro & 15\% & 22,5\euro \\\hline
+Dispositiu \textit{Android} &  60\euro &  15\% & 9\euro \\\hline
+\textbf{Total} & -  & -    & 31,5\euro \\\hline
+\end{tabular}
+\label{}
+\caption{Estimació cost d'imprevistos}
+\end{table}
+
+\item{}\textbf{Cost total del projecte}
+\begin{table}[!h]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Concepte}  & \textbf{Cost} \\\hline
+Costos directes & 13.850\euro \\\hline
+Despeses generals & 153,2\euro \\\hline
+Cost d'imprevistos & 31,5\euro \\\hline
+Contingències (5\%) & 701,7\euro \\\hline
+\textbf{Total} & 14.740\euro \\\hline
+\end{tabular}
+\label{}
+\caption{Estimació cost total del projecte}
+\end{table}
+
+\end{itemize}
+
+\section{Control de gestió}
+Per al control de gestió es planteja omplir unes taules amb les hores reals que dur a terme cadascun dels rols. Cada dia s’han d’actualitzar i d’aquesta manera es pot portar un control i veure possibles desviacions en la planificació.
+
+\begin{table}[!h]
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Dia}  & \textbf{Cap de Projecte} & \textbf{Analista} & \textbf{Dissenyador} & \textbf{Programador} & \textbf{Tester}  \\ \hline
+28/02/17 & 3h & - & - & - & - \\\hline
+\end{tabular}
+\label{}
+\caption{Control d'hores reals}
+\end{table}
+
+Al final del projecte es farà un recompte de les hores reals i es compararan amb les estimades, d’aquesta manera es podrà analitzar la precisió de l’estimació. Les dades es presentaran en una taula com la que es mostra a continuació.
+
+\begin{table}[!h]
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Rol}  & \textbf{Hores estimades} & \textbf{Cost estimat} & \textbf{Hores reals} & \textbf{Cost real}   \\ \hline
+Cap de projecte & 160h & 7.200\euro & 170h & 7.650\euro \\\hline
+Analista & 45h & 1.350\euro & 65h & 1.900\euro \\\hline
+\end{tabular} 
+\label{}
+\caption{Comparació cost estimat i cost real}
+\end{table}

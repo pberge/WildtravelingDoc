@@ -1,0 +1,232 @@
+% Chapter Template
+
+\chapter{Anàlisi Inicial} % Main chapter title
+
+\label{AnalisiInicial} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+En aquest apartat es descriu el procés realitzat durant la primera part del treball amb l’estudi de viabilitat, l’anàlisi de riscs, les funcions que s’han ideat per al sistema i una valoració i justificació de les tecnologies disponibles per a dur a terme el projecte.
+
+\section{Estudi de viabilitat}
+Per tal d’estudiar la viabilitat del projecte es necessari conèixer quines persones poden interaccionar amb el sistema i els termes legals associats per tal que la posada en funcionament del sistema compleixi amb la llei establerta.
+
+\subsection{Anàlisi de les parts interessades}
+En el cas concret de l’aplicació a desenvolupar es considera que només existeix
+un rol en la interacció. L’usuari pren el rol de viatger, que és qui interactua
+amb l’aplicació a l’hora d’introduir i consultar dades. Cal dir però que també
+existeixen dos tipus d’actors indirectes:
+
+\begin{itemize}
+\item{}Persona de contacte: és a qui es truca en cas de que l’usuari tingui alguna emergència. No interactua amb l’aplicació però en forma part indirectament.
+\item{}Viatger no usuari: són els companys de viatge de l’usuari en cas de que els tingui, no interactuen amb l’aplicació però se’ls envia avisos en cas de tenir deutes pendents amb l’usuari. A més, se’ls pot etiquetar en notes.
+\end{itemize}
+
+\subsection{Limitacions legals implicades}
+En la gestió i emmagatzematge de dades sensibles de l’usuari s’ha tingut en
+compte que, segons la Llei Orgànica de Protecció de Dades (LOPD) , les dades externes que guarda el projecte són dades de nivell baix de seguretat. La LOPD pretén garantir el dret a controlar què es fa amb les nostres dades, saber qui té informació sobre nosaltres, quina informació té, d’on l’ha obtingut, per a quina finalitat té les dades i si té intenció de facilitar-les a un tercer.\\
+
+Per complir amb la llei, abans de que el sistema es posi en funcionament caldrà realitzar una sèrie d’accions:
+\begin{itemize}
+\item{}Inscripció de fitxers: s’ha d’informar a l’Agència Espanyola de Protecció de Dades (AEPD) de l’existència dels fitxers que es van a utiltzar. La AEPD comprovarà si es compleixen els requisits i els incriurà.
+\item{}Elaboració document de seguretat: s’ha d’elaborar un document on es
+descriran les mesures de seguretat aplicades a cada fitxer. Ha de ser respectat obligatoriament per tot el personal i s’ha de mantenir actualitzat, afegint les modificacions pertinents en cas que el nivell de protecció de dades hagi de canviar.
+\item{}Deure d’informació: s’ha d’informar a l’usuari del tractament que se’n farà i dels destinataris a qui es farà arribar aquesta informació.
+\item{}Seguretat de les dades: s’ha de garantir que les dades no es perden, per aquest motiu, serà necessari crear còpies de seguretat.
+
+\end{itemize}
+
+\section{Anàlisi de riscs}
+
+En el capítol 2 hem vist l’apartat d’Obstacles on s’identifiquen una sèrie de
+riscs que té el projecte. En aquest punt es mostra estratègies per tal d’evitar-los
+i un pla per afrontar el problema provocat per si les estratègies anteriors fallen.
+
+\subsection{Estratègies de prevenció}
+Tenint en compte els riscs que podrien sofrir el sistema un cop en funcionament, és important fer una previsió de les accions que es duen a terme per tal d’evitar que els riscs es materialitzin en problemes reals.
+\begin{itemize}
+\item{}Nivell baix de bateria.\\
+L’usuari és l’encarregat d’activar les notificacions per nivell de bateria
+baix en el sistema operatiu del seu mòbil.
+\item{}Connexió a internet a l’estranger.\\
+Cada cop és més corrent tenir contractades dades fora del país de residèn-
+cia, tot i així, és l’usuari qui ha de buscar connexió a internet a través de xarxes d’internet gratuïtes o de pagament.
+\item{}Caiguda del servei web.\\
+Es buscaran serveis de qualitat amb una tassa de caigudes molt baixa.
+\item{}Caiguda de la base de dades.\\
+Es buscarà un proveïdor de base de dades al núvol que ofereixi un servei
+de qualitat i amb una tassa de caigudes molt baixa. A l’hora de efectuar el
+manteniment, es faran proves prèviament per tal de que quan s’apliquin
+els canvis no hi hagi problemes.
+\item{}Canvis en la legislació.\\
+Aquest és un risc que no es pot evitar.
+\item{}Desconfiguració de l’aplicació.\\
+A causa de canvis en el sistema operatiu del dispositiu mòbil o actualit-
+zacions de l’aplicació aquesta pot deixar de funcionar correctament.
+\item{}Canvis en la resposta del servei web.\\
+Es buscaran serveis web estables i amb una certa maduresa.
+
+\end{itemize}
+
+\subsection{Plans per afrontar obstacles}
+
+En el cas que sigui impossible evitar l’aparició de problemes, s’ha elaborat un pla d’actuació per afrontar aquests possibles obstacles i així minimitzar el problema un cop ha aparegut.
+
+\begin{itemize}
+
+\item{}Nivell baix de bateria.\\
+Es tasca de l’usuari tenir bateria al dispositiu mòbil, d’altra manera l’aplicació no pot funcinar.
+\item{}Connexió a internet a l’estranger.\\
+Es tasca de l’usuari obtenir connexió a internet a l’estranger. En cas de no tenir connexió, l’aplicació suggerirà a l’usuari a través d’un avís que es connecti a una xarxa wifi.
+\item{}Caiguda del servei web.\\
+En cas que un usuari accedeixi a un servei web no disponible, es bloquejarà la funcionalitat que l’utilitza i es notificarà a l’equip de manteniment.
+\item{}Caiguda de la base de dades.\\
+Si en el moment d’emmagatzemar o consultar dades la base dades no està
+operativa, es mostrarà un missatge d’error alertant a l’usuari. En aquest
+missatge s’inclourà informació per notificar l’error i tractar de solucionar-lo ràidament.
+\item{}Canvis en la legislació.\\
+Estudiar l’impacte que té sobre el sistema i fer les modificacions corres-
+ponents per a complir amb la nova llei establerta.
+\item{}Desconfiguració de l’aplicació.\\
+L’aplicació inclourà una secció d’ajuda on l’usuari pot trobar solució a
+problemes freqüents. Si el problema persisteix, l’usuari haurà de posar-se
+en contacte amb el servei tècnic.
+\item{}Canvis en la resposta del servei web.\\
+Si l’aplicació detecta problems a l’hora de llegir la informació aquesta bloquejarà la funcionalitat que afecta i notificarà a l’equip de manteniment.
+\end{itemize}
+
+\section{Visió global de les funcionalitats del sistema}
+Finalment, es llisten les funcionalitats que oferirà el sistema un cop completat el seu desenvolupament.
+
+\begin{itemize}
+
+\item{}\textbf{Gestió de despeses del viatge}\\
+La funcionalitat de gestió de despeses es basa en portar un control de les
+despeses del viatge. Es divideix en dos parts: el control de les despeses
+total i el control de deutes entre l’usuari i els altres viatgers. El control de despeses total es basa en anar afegint les despeses adjuntant-hi un motiu i una localització. D’altra banda, el control de deutes entre els viatges es basa en que si l’usuari paga alguna cosa a un altre viatger s’anota el deute i se li envia un correu electrònic al deutor.
+\item{}\textbf{Gestió de cerques de llocs d’interès i com arribar-hi}\\
+La funcionalitat de cerques de llocs d’interès es basa en que l’usuari pot
+llençar qualsevol cerca sobre el mapa i l’aplicació respondrà mostrant-li
+un conjunt de punts representats en el mapa ordenats segons les seves
+preferències a l’hora de viatjar.
+\item{}\textbf{Gestió d’emergències}\\
+La funcionaltiat de gestió d’emergències té diverses parts. La primera és
+l’opció de buscar l’hospital o farmàcia més propers mostrant la ruta sobre
+el mapa. També ofereix informació dels telèfons d’emergència més importants del país on es troba l’usuari i, per últim, ofereix l’opció de trucar
+fàcilment al telèfon de contacte que ha introduït l’usuari a l’inici del viatge.
+\item{}\textbf{Previsió metereològica}\\
+La funcionalitat de previsions metereològiques ofereix la previsió de la
+setmana del lloc on es viatja amb la possibilitat d’afegir noves localitzacions per tal de portar un control de la metereologia de diferents llocs.
+\item{}\textbf{Gestió de notes}\\
+La funcionalitat de gestió de notes pretén ser un suport a l’hora de guardar curiositats, anèctodes o fets rellevants que succeeixen durant el viatge.
+A més, l’aplicació dona l’opció de compartir la nota amb els participants del viatge.
+
+\end{itemize}
+
+\section{Anàlisi de les tecnologies candidates}
+
+\subsection{Plataforma}
+En ser una aplicació orientada al món viatger, es considera que la tecnologia més adequada és una que permeti mobilitat. A continuació es mostren els avantatges i inconvenients de la tecnologia candidata, el telèfon mòbil.\\
+\textbf{Avantatges:}
+\begin{itemize}
+\item{}Ofereix mobilitat a l’usuari, pot ser utilitzat en qualsevol lloc.
+\item{}Permet l’accés a internet.
+\item{}Permet fer trucades telefòniques.
+\item{}Gairebé la totalitat de la població disposa d’accés a aquesta tecnologia.
+\item{}Molt fàcil d’utilitzar i instal·lar.
+\end{itemize}
+
+\textbf{Inconvenients:}
+\begin{itemize}
+\item{}Necessita connexió permanent.
+\item{}El tamany de la pantalla és limitat.
+\item{}Introduir dades és incomode.
+\item{}Dependència de la bateria.
+\end{itemize}
+
+Per aquesta aplicació concerta, clarament pesen més els avantatges que els
+inconvenients. És dona molta importància al fet que el dispositiu mòbil
+està sempre aprop de l’usuari i aquest està molt acostumat a consultar
+informació o rebre notificacions a aquest tipus de dispositiu. Per tant, no
+hi ha dubte a l’hora de desenvolupar l’aplicació per a un dispositiu mòbil.
+
+\subsection{Serveis externs}
+
+En aquest apartat s’analitzen diferents alternatives a l’hora de seleccionar
+quins serveis externs són els més adients.
+\begin{itemize}
+\item[]\textbf{Serveis de localització}
+\begin{itemize}
+\item{}\textbf{Google Maps}\\
+Google Maps és l’aplicació més desenvolupada del sector i la que
+ofereix més serveis com:
+\begin{itemize}
+\item{}Conversió de coordenades geogràfiques a direccions.
+\item{}Dades d’elevació.
+\item{}Rutes de navegació GPS.
+\item{}Localització geogràfica.
+\item{}Càlcul de temps de viatge i distància entre diverses destinacions.
+\item{}Càlcul de les indicacions entre diverses destinacions.
+\item{}Informació sobre els llocs.
+\end{itemize}
+\item{}\textbf{Foursquare}
+\begin{itemize}
+\item{}Cerca de llocs d’interés en una àrea concreta.
+\item{}Conexió amb usuaris de l’aplicació.
+\item{}Control d’accés als punts.
+
+Aquesta aplicació retorna les dades en format JSON amb molts
+paràmetres que donen informació sobre el punt d’interés seleccionat. Entre aquests paràmetres n’hi ha un que és molt interessant
+ja que ens revela el nivell de preu de l’establiment.
+\end{itemize}
+Un cop fet l’anàlisi s’ha decidit que s’utilitzarà Foursquare per tal de
+fer les cerques de llocs d’interés, ja que la resposta en format JSON
+és perfecta per tal de obtenir la informació i poder filtrarla, i Google
+Maps per tal de contruir les rutes i per representar les dades al mapa
+ja que és l’aplicació que ofereix el servei de manera més intuïtiva i
+gairebé la totalitat dels usuaris estan habituats a utilitzar-la.
+
+\end{itemize}
+
+\item[]\textbf{Serveis de metereologia}
+\begin{itemize}
+\item{}\textbf{OpenWeatherMap}\\
+OpenWeatherMap ofereix gratuitament accés a la metereologia del
+moment, a la previsió fins a 5 dies, a més també ofereix informació
+sobre el mapa. Les ciutats poden ser identificades per nom, per id o
+per coordenades geogràfiques. A més, ofereix serveis com:
+\begin{itemize}
+\item{}Metereologia actual per un lloc concret.
+\item{}Previsió per 5 dies amb actualitzacions cada 3 hores.
+\item{}Mapes de precipitació, pressió, núvols i temperatura.
+\end{itemize}
+\item{}\textbf{DarkSky}\\
+DarkSky ofereix les primeres 1000 crides del dia gratuitament i ofereix informació sobre el clima a una setmana vista. Les següents crides del dia es paguen a \$0.0001 la crida. Ofereix la possibilitat d’obtenir la informació en molts idiomes inclosos tots els que vol oferir
+l’aplicació. Els serveis que ofereix són:
+\begin{itemize}
+\item{}Metereologia actual i previsió per una setmana.
+\item{}Dades històriques.
+\end{itemize}
+
+Després d’analitzar el funcionament i la documentació d’ambdues
+API es decideix utilitzar el servei d’OpenWeatherMap ja que la documentació és de més qualitat i ofereix grans facilitats en la connexió.
+
+\end{itemize}
+
+\item[]\textbf{Serveis telèfons d'emergència}
+\begin{itemize}
+\item{}\textbf{Emergency Number}\\
+Aquesta API ens ofereix com a resposta informació de telèfons d’emergència de diferents tipus del país que li indiquem. L’únic problema que hi ha es que el país s’ha d’indicar per codi. Per tal de transformar el nom del país en el codi pertinent s’utilitzat un altre servei web.\\
+
+El servei analitzat és un servei molt complert que té informació de
+garibé tots els racons del món, per aquest motiu és l’el·legit a l’hora
+d’aconseguir els telèfons d’emergència del païs que sigui necessari.
+
+\end{itemize}
+\end{itemize}
+
+\section{Conclusions de l'anàlisi inicial}
+
+Tenint un coneixement més ampli del sector i considerant com s’ha plantejat
+el projecte es considera que es pot tirar endavant amb garanties d’èxit tot i
+tenir en compte els possibles aspectes negatius que repercuteixen el projecte
+(accessibilitat a les dades, llei, etc).
+
