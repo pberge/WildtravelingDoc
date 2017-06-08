@@ -72,47 +72,152 @@ Firebase ofereix una base de dades en temps real com a servei. Aquest servei ofe
 
 \end{itemize}
 
+\clearpage
+
 \section{Capa de presentació}
 \begin{itemize}
 
 \item[]{\textbf{Iniciar sessió}}\\
-El procés d'identificació de l'usuari es dur a terme a través de Google, per tant, l'usuari no es registra al nostre sistema sinó que utilitza les credencials del seu compte de Google per tal d'identificar-se.\\
+El procés d'identificació de l'usuari es dur a terme a través de Google, per tant, l'usuari no es registra al nostre sistema sinó que utilitza les credencials del seu compte de Google per tal d'identificar-se.
+
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/initSesion.png}
+\includegraphics[scale=0.15]{Figures/TriarComte.png}
+\caption{Inici de sessió}
+\end{figure}
+
+
 
 \item[]{\textbf{Consultar llista de viatges}}\\
-A la pantalla de consultar viatges es mostra la llista de viatges de lúsuari. Si l'usuari selecciona qualsevol viatge l'aplicació el redigirà a la pantalla de consulta de viatge. També hi ha l'opció de crear un nou viatge.\\
+A la pantalla de consultar viatges es mostra la llista de viatges de lúsuari. Si l'usuari selecciona qualsevol viatge l'aplicació el redigirà a la pantalla de consulta de viatge. També hi ha l'opció de crear un nou viatge.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/initSesion.png}
+\caption{Inici de sessió}
+\end{figure}
 
 \item[]{\textbf{Crear viatge}}\\
-En aquesta pantalla és on s'introdueixen totes les dades d'un nou viatge com el nom, el destí, les dates i els participants. A més, el sistema li pregunta sobre el seu estil de viatjar i demana que li introdueixi les dades d'un contacte d'emergència. Un cop creat el viatge, l'aplicació redirigeix l'usuari a la pantalla de consultar viatge.\\
+En aquesta pantalla és on s'introdueixen totes les dades d'un nou viatge com el nom, el destí, les dates i els participants. A més, el sistema li pregunta sobre el seu estil de viatjar i demana que li introdueixi les dades d'un contacte d'emergència. Un cop creat el viatge, l'aplicació redirigeix l'usuari a la pantalla de consultar viatge.
+
+\clearpage
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/cerarViatge.png}
+\includegraphics[scale=0.15]{Figures/style.png}
+\includegraphics[scale=0.15]{Figures/emergencyContact.png}
+\caption{Crear viatge}
+\end{figure}
 
 \item[]{\textbf{Consultar viatge}}\\
-La pantalla on es mostra tota la informació del viatge: nom, destí, dates i participants. A més, és la pantalla des d'on es pot accedir a totes les funcionalitats nombrades en apartats anteriors i permet eliminar el viatge.\\
+La pantalla on es mostra tota la informació del viatge: nom, destí, dates i participants. A més, és la pantalla des d'on es pot accedir a totes les funcionalitats nombrades en apartats anteriors i permet eliminar el viatge.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/Drawer.png}
+\includegraphics[scale=0.15]{Figures/getTrip.png}
+\caption{Consultar viatge}
+\end{figure}
 
 \item[]{\textbf{Consultar llista de despeses}}\\
-La pantalla de consultar despeses és on es poden veure totes les despeses del viatge i la quantitat total gastada. Si l'usuari selecciona una despesa el sistema el redirigeix a la pantalla de consultar despesa. A més, l'usuari també té l'opció de crear-ne una de nova, fet que el portarà a la pantalla de crear despesa.\\
+La pantalla de consultar despeses és on es poden veure totes les despeses del viatge i la quantitat total gastada. Si l'usuari selecciona una despesa el sistema el redirigeix a la pantalla de consultar despesa. A més, l'usuari també té l'opció de crear-ne una de nova, fet que el portarà a la pantalla de crear despesa.
+
+\clearpage
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/llistaDespeses.png}
+\caption{Llista despeses}
+\end{figure}
 
 \item[]{\textbf{Crear despesa}}\\
-En la pantalla crear despesa l'usuari introdueix les dades de la nova despesa com el motiu, la quantitat a pagar, la localització i si ha pagat una part a un company de viatge. Un cop creada la despesa el sistema redirigeix l'usuari a la pantalla de consultar despesa.\\
+En la pantalla crear despesa l'usuari introdueix les dades de la nova despesa com el motiu, la quantitat a pagar, la localització i si ha pagat una part a un company de viatge. Un cop creada la despesa el sistema redirigeix l'usuari a la pantalla de consultar despesa.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/crearDespesa.png}
+\caption{Crear despesa}
+\end{figure}
 
 \item[]{\textbf{Consultar despesa}}\\
-En la pantalla de consultar despesa l'usuari pot veure tota la informació de les despeses i té l'opció de marcar un deute com a pagat, modificar la despesa o eliminar-la. En el cas que l'usuari seleccioni modificar despesa el sistema el redirigeix a la pantalla de modificació de despesa, per l'altra banda, si decideix eliminar la despesa, el sistema el redirigeix a la pantalla de consultar llista de despeses.\\
+En la pantalla de consultar despesa l'usuari pot veure tota la informació de les despeses i té l'opció de marcar un deute com a pagat, modificar la despesa o eliminar-la. En el cas que l'usuari seleccioni modificar despesa el sistema el redirigeix a la pantalla de modificació de despesa, per l'altra banda, si decideix eliminar la despesa, el sistema el redirigeix a la pantalla de consultar llista de despeses.
+
+\clearpage
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/consultarDespesa.png}
+\caption{Consultar despesa}
+\end{figure}
 
 \item[]{\textbf{Modificar despesa}}\\
-En la pantalla de modificar despesa l'usuari pot modificar totes les dades d'una despesa. Quan comfirma la modificació el sistema el redirigeix la pantalla de consultar despesa.\\
+En la pantalla de modificar despesa l'usuari pot modificar totes les dades d'una despesa. Quan comfirma la modificació el sistema el redirigeix la pantalla de consultar despesa.
+
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/modificarDespesa.png}
+\caption{Modificar despesa}
+\end{figure}
 
 \item[]{\textbf{Cerca lloc d'interés}}\\
-En la pantalla de cerca lloc d'interés l'usuari pot seleccionar què vol buscar d'entre les possibilitats proposades i a quin lloc ho vol buscar. Si el lloc on ho vol buscar queda buit, es cercaran els resultats tenint en compte la localització de l'usuari en el moment de la cerca. Si no es troben resultats o es necessita activar el GPS s'informarà a l'usuari, d'altra banda, si la cerca es dur a terme satisfactoriament el sistema redirigirà l'usuari a la pantalla de llista de resultats de cerca.\\
+En la pantalla de cerca lloc d'interés l'usuari pot seleccionar què vol buscar d'entre les possibilitats proposades i a quin lloc ho vol buscar. Si el lloc on ho vol buscar queda buit, es cercaran els resultats tenint en compte la localització de l'usuari en el moment de la cerca. Si no es troben resultats o es necessita activar el GPS s'informarà a l'usuari, d'altra banda, si la cerca es dur a terme satisfactoriament el sistema redirigirà l'usuari a la pantalla de llista de resultats de cerca.
+
+\clearpage
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/cerca.png}
+\caption{Cerca de llocs d'interès}
+\end{figure}
 
 \item[]{\textbf{Consultar llista de resultats de cerca}}\\
-És la pantalla on es veuen les resultats de la cerca, aquests estan ordenats per l'estil de viatjar de l'usuari. Per a cada item trobat es pot consultar el nom, la localització i, en cas que n'hi hagi, el nivell de preus de l'establiment. Quan l'usuari selecciona un resultat de la cerca el sistema el redirigeix a la pantalla de consultar ruta.\\
+És la pantalla on es veuen les resultats de la cerca, aquests estan ordenats per l'estil de viatjar de l'usuari. Per a cada item trobat es pot consultar el nom, la localització i, en cas que n'hi hagi, el nivell de preus de l'establiment. Quan l'usuari selecciona un resultat de la cerca el sistema el redirigeix a la pantalla de consultar ruta.
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/resultatsCerca.png}
+\caption{Resultats de cerca}
+\end{figure}
+
+
 
 \item[]{\textbf{Consultar ruta}}\\
-En la pantalla de consultar ruta, l'usuari pot veure diverses opcions de ruta des d'on s'ha fet la cerca fins al punt seleccionat. A més, pot consultar la ruta en cotxe, transport públic i a peu, per a cada modalitat es poden veure paràmetres com la distància en quilòmetres i el temps que tardarà en arribar-hi. Si l'usuari prem sobre una de les rutes, l'aplicació li dona l'opció de consultar la ruta exacta utilitzant, en el cas que l'usuari la tingui instalada, l'aplicació Google Maps. Per últim, l'usuari té l'opció de consultar la ruta inversa.\\
+En la pantalla de consultar ruta, l'usuari pot veure diverses opcions de ruta des d'on s'ha fet la cerca fins al punt seleccionat. A més, pot consultar la ruta en cotxe, transport públic i a peu, per a cada modalitat es poden veure paràmetres com la distància en quilòmetres i el temps que tardarà en arribar-hi. Si l'usuari prem sobre una de les rutes, l'aplicació li dona l'opció de consultar la ruta exacta utilitzant, en el cas que l'usuari la tingui instalada, l'aplicació Google Maps. Per últim, l'usuari té l'opció de consultar la ruta inversa.
+
+\clearpage
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/ruta.png}
+\caption{Consultar ruta}
+\end{figure}
 
 \item[]{\textbf{Consultar previsió metereològica}}\\
-En la pantalla de consultar previsió metereològica es pot veure la metereologia del dia actual amb paràmetre com la temperatura màxima i mínima, el percentatge de possibilitat de pluja, la velocitat del vent o la descripció del cel. A més, l'usuari també pot consultar la previsió fins a sis dies vista.\\
+En la pantalla de consultar previsió metereològica es pot veure la metereologia del dia actual amb paràmetre com la temperatura màxima i mínima, el percentatge de possibilitat de pluja, la velocitat del vent o la descripció del cel. A més, l'usuari també pot consultar la previsió fins a sis dies vista.
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/meteo.png}
+\caption{Previsió metereològica}
+\end{figure}
 
 \item[]{\textbf{Emergències}}\\
-En la pantalla d'emergències l'usuari té tres opcions. La primera és realitzar una trucada al telèfon d'emergències del país on estigui, si selecciona aquesta opció el sistema el redirigirà a la pantalla de trucades del seu dispositiu mòbil. La segona opció es tracta de realitzar una trucada al seu propi contacte d'emergències, en aquest cas també se'l redirigirà a la pantalla de trucades del seu dispositiu mòbil. Per últim, té l'opció de seleccionar l'opció d'obtenir la ruta a l'hospital més proper, en aquest cas se'l redirigirà a la pantalla de consultar ruta.\\
+En la pantalla d'emergències l'usuari té tres opcions. La primera és realitzar una trucada al telèfon d'emergències del país on estigui, si selecciona aquesta opció el sistema el redirigirà a la pantalla de trucades del seu dispositiu mòbil. La segona opció es tracta de realitzar una trucada al seu propi contacte d'emergències, en aquest cas també se'l redirigirà a la pantalla de trucades del seu dispositiu mòbil. Per últim, té l'opció de seleccionar l'opció d'obtenir la ruta a l'hospital més proper, en aquest cas se'l redirigirà a la pantalla de consultar ruta.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{Figures/emergencies.png}
+\includegraphics[scale=0.15]{Figures/hospital.png}
+\caption{Gestió d'emergències}
+\end{figure}
 
 \end{itemize}
 
@@ -133,7 +238,7 @@ Les dades del projecte es guarden en una direcció concreta, existeix un node pa
 \end{figure}
 
 
-Per a cada clau tenim un valor, aquest valor conté tots els atributs de l'entitat guardada. Per tal d'evitar emmagatzemar informació duplicada guardant altres entitats dins d'entitats, quan es necessita afrontar aquest cas el que es fa és guardar només la clau (figura 8.6).\\
+Per a cada clau tenim un valor, aquest valor conté tots els atributs de l'entitat guardada. Per tal d'evitar emmagatzemar informació duplicada guardant altres entitats dins d'entitats, quan es necessita afrontar aquest cas el que es fa és guardar només la clau (figura 8.6).
 
 
 \begin{figure}[!h]

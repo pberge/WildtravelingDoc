@@ -10,17 +10,149 @@
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.3]{Figures/UML.jpg}
-\caption{Resum de tasques a Toggl.}
+\caption{Esquema conceptual.}
 \end{figure}
 
 
 \subsection{Restricions textuals}
 \begin{itemize}
-\item{}El un deutor ha de ser participant del viatge al qual pertany el deute.
-
+\item{}El deutor ha de ser participant del viatge al qual pertany el deute.
+\item{}El viatger a qui se li comparteix una nota ha de ser participant del viatge al qual pertany la nota.
 \end{itemize}
 
+\clearpage
+
 \subsection{Descripció de les entitats}
+
+\newcolumntype{L}{>{\centering}m{4cm}}
+\newcolumntype{M}{m{4cm}}
+\newcolumntype{T}{m{7cm}}
+
+\begin{itemize}
+
+\item[]\textbf{Persona}\\
+Super classe que s'instància per obtenir una persona de contacte.
+\begin{table}[!h]
+\begin{tabular}{|M|T|}
+\hline
+\textbf{Atribut}  & \textbf{Descripció} \\\hline
+Nom &  Nom de la persona\\\hline
+Tlf &  Telèfon de la persona\\\hline
+Correu &  Correu electrònic de la persona\\\hline
+\end{tabular}
+\label{}
+\caption{Atributs de la classe Persona}
+\end{table}
+
+\item[]\textbf{Usuari}\\
+Té el rol d'usuari del sistema i és subclasse de Persona.
+\begin{table}[!h]
+\begin{tabular}{|M|T|}
+\hline
+\textbf{Atribut}  & \textbf{Descripció} \\\hline
+Nom &  Nom de l'usuari\\\hline
+Tlf &  Telèfon de l'usuari\\\hline
+Correu &  Correu electrònic de l'usuari\\\hline
+\end{tabular}
+\label{}
+\caption{Atributs de la classe Usuari}
+\end{table}
+
+\item[]\textbf{NoUsuari}\\
+Té el rol de participant del viatge però sense ser usuari, no interacciona directament amb l'aplicació.
+
+\begin{table}[!h]
+\begin{tabular}{|M|T|}
+\hline
+\textbf{Atribut}  & \textbf{Descripció} \\\hline
+Nom &  Nom del participant\\\hline
+Tlf &  Telèfon del participant\\\hline
+Correu &  Correu electrònic del participant\\\hline
+\end{tabular}
+\label{}
+\caption{Atributs de la classe NoUsuari}
+\end{table}
+
+\item[]\textbf{Viatge}\\
+Representa un viatge en concret, és el concepte base de l'aplicació.
+\begin{table}[!h]
+\begin{tabular}{|M|T|}
+\hline
+\textbf{Atribut}  & \textbf{Descripció} \\\hline
+Nom &  Nom del viatge\\\hline
+Destí &  Destí del viatge\\\hline
+Data inici &  Data d'inici del viatge\\\hline
+Data fi &  Data final del viatge\\\hline
+Estil &  Estil de viatjar seleccionat per l'usuari\\\hline
+\end{tabular}
+\label{}
+\caption{Atributs de la classe Viatge}
+\end{table}
+
+\clearpage
+
+\item[]\textbf{Despesa}\\
+Representa una despesa de l'usuari durant un viatge.
+
+\begin{table}[!h]
+\begin{tabular}{|M|T|}
+\hline
+\textbf{Atribut}  & \textbf{Descripció} \\\hline
+Motiu &  Motiu de la despesa\\\hline
+Quantitat &  Quantiat en euros de la despesa\\\hline
+Localització &  Lloc on s'ha generat la despesa\\\hline
+Data &  Data de creació de la despesa\\\hline
+\end{tabular}
+\label{}
+\caption{Atributs de la classe Despesa}
+\end{table}
+
+
+\item[]\textbf{Deute}\\
+Representa un deute d'un participant del viatge amb l'usuari.
+
+\begin{table}[!h]
+\begin{tabular}{|M|T|}
+\hline
+\textbf{Atribut}  & \textbf{Descripció} \\\hline
+Quantitat & Quantitat del deute en euros.\\\hline
+Pagat &  Indica si el deute ja ha estat pagat o no.\\\hline
+\end{tabular}
+\label{}
+\caption{Atributs de la classe Deute}
+\end{table}
+
+
+\item[]\textbf{Nota}\\
+Representa una nota escrita per l'usuari.
+
+\begin{table}[!h]
+\begin{tabular}{|M|T|}
+\hline
+\textbf{Atribut}  & \textbf{Descripció} \\\hline
+Títol & Títol de la nota\\\hline
+Text &  Text de la nota\\\hline
+Color & Color que ha seleccionat l'usuari pel fons de la nota.\\\hline
+\end{tabular}
+\label{}
+\caption{Atributs de la classe Nota}
+\end{table}
+
+\item[]\textbf{Cerca}
+
+\item[]\textbf{Servei Localització}
+
+\item[]\textbf{Resultat Cerca}
+
+\item[]\textbf{Punt d'interè}
+
+\item[]\textbf{Ruta}
+
+\item[]\textbf{Servei Meteorologia}
+
+
+
+\end{itemize}
 
 \section{Esquema del comportament}
 

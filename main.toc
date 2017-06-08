@@ -5,63 +5,63 @@
 \contentsline {section}{\numberline {1.1}Formulaci\IeC {\'o} del problema}{1}{section.3}
 \contentsline {section}{\numberline {1.2}Parts interessades}{2}{section.4}
 \contentsline {section}{\numberline {1.3}Estudi de mercat}{2}{section.5}
-\contentsline {section}{\numberline {1.4}Conclusions}{5}{section.6}
-\contentsline {chapter}{\numberline {2}Abast del projecte}{7}{chapter.7}
-\contentsline {section}{\numberline {2.1}Obstacles i riscs}{8}{section.8}
-\contentsline {section}{\numberline {2.2}Metodologia}{9}{section.9}
-\contentsline {section}{\numberline {2.3}Eines de seguiment}{9}{section.10}
-\contentsline {section}{\numberline {2.4}Adequaci\IeC {\'o} a Enginyeria del Software}{10}{section.12}
-\contentsline {subsection}{\numberline {2.4.1}Compet\IeC {\`e}ncies t\IeC {\`e}cniques del projecte}{10}{subsection.13}
-\contentsline {subsection}{\numberline {2.4.2}Coneixements Aplicats}{11}{subsection.14}
-\contentsline {chapter}{\numberline {3}Planificaci\IeC {\'o} temporal}{13}{chapter.15}
-\contentsline {section}{\numberline {3.1}Descripci\IeC {\'o} de les tasques}{13}{section.16}
-\contentsline {section}{\numberline {3.2}Diagrama de Gantt}{14}{section.17}
-\contentsline {section}{\numberline {3.3}Recursos humans}{15}{section.20}
-\contentsline {section}{\numberline {3.4}Recursos t\IeC {\`e}cnics}{15}{section.21}
-\contentsline {section}{\numberline {3.5}Valoraci\IeC {\'o} d'alternatives i pla d'acci\IeC {\'o}}{15}{section.23}
-\contentsline {chapter}{\numberline {4}Gesti\IeC {\'o} Econ\IeC {\`o}mical}{17}{chapter.24}
-\contentsline {section}{\numberline {4.1}Identificaci\IeC {\'o} i estimaci\IeC {\'o} dels costos}{17}{section.25}
-\contentsline {section}{\numberline {4.2}Control de gesti\IeC {\'o}}{19}{section.33}
-\contentsline {chapter}{\numberline {5}An\IeC {\`a}lisi Inicial}{21}{chapter.36}
-\contentsline {section}{\numberline {5.1}Estudi de viabilitat}{21}{section.37}
-\contentsline {subsection}{\numberline {5.1.1}An\IeC {\`a}lisi de les parts interessades}{21}{subsection.38}
-\contentsline {subsection}{\numberline {5.1.2}Limitacions legals implicades}{21}{subsection.39}
-\contentsline {section}{\numberline {5.2}An\IeC {\`a}lisi de riscs}{22}{section.40}
-\contentsline {subsection}{\numberline {5.2.1}Estrat\IeC {\`e}gies de prevenci\IeC {\'o}}{22}{subsection.41}
-\contentsline {subsection}{\numberline {5.2.2}Plans per afrontar obstacles}{23}{subsection.42}
-\contentsline {section}{\numberline {5.3}Visi\IeC {\'o} global de les funcionalitats del sistema}{23}{section.43}
-\contentsline {section}{\numberline {5.4}An\IeC {\`a}lisi de les tecnologies candidates}{24}{section.44}
-\contentsline {subsection}{\numberline {5.4.1}Plataforma}{24}{subsection.45}
-\contentsline {subsection}{\numberline {5.4.2}Serveis externs}{25}{subsection.46}
-\contentsline {section}{\numberline {5.5}Conclusions de l'an\IeC {\`a}lisi inicial}{26}{section.47}
-\contentsline {chapter}{\numberline {6}Requisits}{27}{chapter.48}
-\contentsline {section}{\numberline {6.1}Propietats i hip\IeC {\`o}tesis sobre el domini}{27}{section.49}
-\contentsline {section}{\numberline {6.2}Restriccions}{27}{section.50}
-\contentsline {section}{\numberline {6.3}Diagrama de casos d'\IeC {\'u}s}{28}{section.51}
-\contentsline {section}{\numberline {6.4}Casos d\IeC {\'u}s}{28}{section.53}
-\contentsline {section}{\numberline {6.5}Requisits no funcionals}{28}{section.54}
-\contentsline {chapter}{\numberline {7}Especificaci\IeC {\'o}}{29}{chapter.55}
-\contentsline {section}{\numberline {7.1}Esquema conceptual}{29}{section.56}
-\contentsline {subsection}{\numberline {7.1.1}Restricions textuals}{29}{subsection.58}
-\contentsline {subsection}{\numberline {7.1.2}Descripci\IeC {\'o} de les entitats}{29}{subsection.59}
-\contentsline {section}{\numberline {7.2}Esquema del comportament}{29}{section.60}
-\contentsline {chapter}{\numberline {8}Disseny}{31}{chapter.61}
-\contentsline {section}{\numberline {8.1}Arquitectura}{31}{section.62}
-\contentsline {subsection}{\numberline {8.1.1}Patrons}{34}{subsection.67}
-\contentsline {subsection}{\numberline {8.1.2}Tecnologies utilitzades}{34}{subsection.68}
-\contentsline {section}{\numberline {8.2}Capa de presentaci\IeC {\'o}}{34}{section.69}
-\contentsline {section}{\numberline {8.3}Diagrama de classes de disseny}{36}{section.70}
-\contentsline {section}{\numberline {8.4}Model de dades}{36}{section.71}
-\contentsline {section}{\numberline {8.5}Diagrames de seq\IeC {\@umlaut u}\IeC {\`e}ncia}{37}{section.74}
-\contentsline {chapter}{\numberline {9}Implementaci\IeC {\'o}}{39}{chapter.75}
-\contentsline {chapter}{\numberline {10}Proves}{41}{chapter.76}
-\contentsline {chapter}{\numberline {11}Informe de sostenibilitat}{43}{chapter.77}
-\contentsline {section}{\numberline {11.1}Dimensi\IeC {\'o} econ\IeC {\`o}mica}{43}{section.79}
-\contentsline {section}{\numberline {11.2}Dimensi\IeC {\'o} social}{43}{section.80}
-\contentsline {section}{\numberline {11.3}Dimensi\IeC {\'o} ambiental}{44}{section.81}
-\contentsline {chapter}{\numberline {12}Conclusions}{45}{chapter.82}
-\contentsline {section}{\numberline {12.1}Justificaci\IeC {\'o} del desenvolupament de les compet\IeC {\`e}ncies t\IeC {\`e}cniques}{45}{section.83}
-\contentsline {section}{\numberline {12.2}Desviacions en la planificaci\IeC {\'o} i el pressuposst}{46}{section.84}
-\contentsline {section}{\numberline {12.3}Gantt final}{48}{section.87}
-\contentsline {section}{\numberline {12.4}Limitacions i dificultats}{48}{section.88}
-\contentsline {section}{\numberline {12.5}Treball futur}{48}{section.89}
+\contentsline {section}{\numberline {1.4}Conclusions}{10}{section.16}
+\contentsline {chapter}{\numberline {2}Abast del projecte}{11}{chapter.17}
+\contentsline {section}{\numberline {2.1}Obstacles i riscs}{12}{section.18}
+\contentsline {section}{\numberline {2.2}Metodologia}{13}{section.19}
+\contentsline {section}{\numberline {2.3}Eines de seguiment}{13}{section.20}
+\contentsline {section}{\numberline {2.4}Adequaci\IeC {\'o} a Enginyeria del Software}{14}{section.22}
+\contentsline {subsection}{\numberline {2.4.1}Compet\IeC {\`e}ncies t\IeC {\`e}cniques del projecte}{14}{subsection.23}
+\contentsline {subsection}{\numberline {2.4.2}Coneixements Aplicats}{15}{subsection.24}
+\contentsline {chapter}{\numberline {3}Planificaci\IeC {\'o} temporal}{17}{chapter.25}
+\contentsline {section}{\numberline {3.1}Descripci\IeC {\'o} de les tasques}{17}{section.26}
+\contentsline {section}{\numberline {3.2}Diagrama de Gantt}{18}{section.27}
+\contentsline {section}{\numberline {3.3}Recursos humans}{19}{section.30}
+\contentsline {section}{\numberline {3.4}Recursos t\IeC {\`e}cnics}{20}{section.31}
+\contentsline {section}{\numberline {3.5}Valoraci\IeC {\'o} d'alternatives i pla d'acci\IeC {\'o}}{20}{section.33}
+\contentsline {chapter}{\numberline {4}Gesti\IeC {\'o} Econ\IeC {\`o}mical}{23}{chapter.34}
+\contentsline {section}{\numberline {4.1}Identificaci\IeC {\'o} i estimaci\IeC {\'o} dels costos}{23}{section.35}
+\contentsline {section}{\numberline {4.2}Control de gesti\IeC {\'o}}{25}{section.43}
+\contentsline {chapter}{\numberline {5}An\IeC {\`a}lisi Inicial}{27}{chapter.46}
+\contentsline {section}{\numberline {5.1}Estudi de viabilitat}{27}{section.47}
+\contentsline {subsection}{\numberline {5.1.1}An\IeC {\`a}lisi de les parts interessades}{27}{subsection.48}
+\contentsline {subsection}{\numberline {5.1.2}Limitacions legals implicades}{27}{subsection.49}
+\contentsline {section}{\numberline {5.2}An\IeC {\`a}lisi de riscs}{28}{section.50}
+\contentsline {subsection}{\numberline {5.2.1}Estrat\IeC {\`e}gies de prevenci\IeC {\'o}}{28}{subsection.51}
+\contentsline {subsection}{\numberline {5.2.2}Plans per afrontar obstacles}{29}{subsection.52}
+\contentsline {section}{\numberline {5.3}Visi\IeC {\'o} global de les funcionalitats del sistema}{29}{section.53}
+\contentsline {section}{\numberline {5.4}An\IeC {\`a}lisi de les tecnologies candidates}{30}{section.54}
+\contentsline {subsection}{\numberline {5.4.1}Plataforma}{30}{subsection.55}
+\contentsline {subsection}{\numberline {5.4.2}Serveis externs}{31}{subsection.56}
+\contentsline {section}{\numberline {5.5}Conclusions de l'an\IeC {\`a}lisi inicial}{32}{section.57}
+\contentsline {chapter}{\numberline {6}Requisits}{33}{chapter.58}
+\contentsline {section}{\numberline {6.1}Propietats i hip\IeC {\`o}tesis sobre el domini}{33}{section.59}
+\contentsline {section}{\numberline {6.2}Restriccions}{33}{section.60}
+\contentsline {section}{\numberline {6.3}Diagrama de casos d'\IeC {\'u}s}{34}{section.61}
+\contentsline {section}{\numberline {6.4}Casos d\IeC {\'u}s}{34}{section.63}
+\contentsline {section}{\numberline {6.5}Requisits no funcionals}{34}{section.64}
+\contentsline {chapter}{\numberline {7}Especificaci\IeC {\'o}}{35}{chapter.65}
+\contentsline {section}{\numberline {7.1}Esquema conceptual}{35}{section.66}
+\contentsline {subsection}{\numberline {7.1.1}Restricions textuals}{35}{subsection.68}
+\contentsline {subsection}{\numberline {7.1.2}Descripci\IeC {\'o} de les entitats}{36}{subsection.69}
+\contentsline {section}{\numberline {7.2}Esquema del comportament}{37}{section.77}
+\contentsline {chapter}{\numberline {8}Disseny}{39}{chapter.78}
+\contentsline {section}{\numberline {8.1}Arquitectura}{39}{section.79}
+\contentsline {subsection}{\numberline {8.1.1}Patrons}{42}{subsection.84}
+\contentsline {subsection}{\numberline {8.1.2}Tecnologies utilitzades}{42}{subsection.85}
+\contentsline {section}{\numberline {8.2}Capa de presentaci\IeC {\'o}}{43}{section.86}
+\contentsline {section}{\numberline {8.3}Diagrama de classes de disseny}{49}{section.100}
+\contentsline {section}{\numberline {8.4}Model de dades}{49}{section.101}
+\contentsline {section}{\numberline {8.5}Diagrames de seq\IeC {\@umlaut u}\IeC {\`e}ncia}{50}{section.104}
+\contentsline {chapter}{\numberline {9}Implementaci\IeC {\'o}}{51}{chapter.105}
+\contentsline {chapter}{\numberline {10}Proves}{53}{chapter.106}
+\contentsline {chapter}{\numberline {11}Informe de sostenibilitat}{55}{chapter.107}
+\contentsline {section}{\numberline {11.1}Dimensi\IeC {\'o} econ\IeC {\`o}mica}{55}{section.109}
+\contentsline {section}{\numberline {11.2}Dimensi\IeC {\'o} social}{55}{section.110}
+\contentsline {section}{\numberline {11.3}Dimensi\IeC {\'o} ambiental}{56}{section.111}
+\contentsline {chapter}{\numberline {12}Conclusions}{57}{chapter.112}
+\contentsline {section}{\numberline {12.1}Justificaci\IeC {\'o} del desenvolupament de les compet\IeC {\`e}ncies t\IeC {\`e}cniques}{57}{section.113}
+\contentsline {section}{\numberline {12.2}Desviacions en la planificaci\IeC {\'o} i el pressuposst}{58}{section.114}
+\contentsline {section}{\numberline {12.3}Gantt final}{60}{section.117}
+\contentsline {section}{\numberline {12.4}Limitacions i dificultats}{60}{section.118}
+\contentsline {section}{\numberline {12.5}Treball futur}{60}{section.119}
