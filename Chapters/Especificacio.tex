@@ -138,17 +138,51 @@ Color & Color que ha seleccionat l'usuari pel fons de la nota.\\\hline
 \caption{Atributs de la classe Nota}
 \end{table}
 
-\item[]\textbf{Cerca}
+\item[]\textbf{Cerca}\\
+Representa una cerca llençada per l'usuari al sistema.
 
-\item[]\textbf{Servei Localització}
+\begin{table}[!h]
+\begin{tabular}{|M|T|}
+\hline
+\textbf{Atribut}  & \textbf{Descripció} \\\hline
+Motiu & Tipus de cerca, aquest valor pot ser: menjar, begudes, arts, botigues o espais oberts\\\hline
+Localització &  Localització des d'on es vol realitzar la cerca\\\hline
+\end{tabular}
+\label{}
+\caption{Atributs de la classe Cerca}
+\end{table}
 
-\item[]\textbf{Resultat Cerca}
 
-\item[]\textbf{Punt d'interè}
+\item[]\textbf{Servei Localització}\\
+Representa el servei extern amb qui es comunica el sistema per obtenir resultats en la cerca.
 
-\item[]\textbf{Ruta}
 
-\item[]\textbf{Servei Meteorologia}
+\item[]\textbf{Resultat Cerca}\\
+Representa els resultats d'una cerca en concret.
+
+\item[]\textbf{Punt d'interés}\\
+Representa un item concret del resultat de la cerca.
+
+\begin{table}[!h]
+\begin{tabular}{|M|T|}
+\hline
+\textbf{Atribut}  & \textbf{Descripció} \\\hline
+Nom & Nom del punt d'interés\\\hline
+Adreça &  Adreça del punt d'interés\\\hline
+Preu & Nivell de preus del punt d'interés\\\hline
+Latitut & Valor de latitut en la localització del punt d'interés\\\hline
+Longitut & Valor de longitut en la localització del punt d'interés\\\hline
+\end{tabular}
+\label{}
+\caption{Atributs de la classe Punt d'interés}
+\end{table}
+
+
+\item[]\textbf{Servei Ruta}\\
+Representa el servei extern amb qui es comunica el sistema per tal d'obtenir una ruta entre dos punts.
+
+\item[]\textbf{Servei Meteorologia}\\
+Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la previsió metereològica.
 
 
 
