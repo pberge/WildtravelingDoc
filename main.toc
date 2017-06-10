@@ -53,23 +53,23 @@
 \contentsline {subsection}{\numberline {7.1.1}Restricions textuals}{49}{subsection.119}
 \contentsline {subsection}{\numberline {7.1.2}Descripci\IeC {\'o} de les entitats}{50}{subsection.120}
 \contentsline {section}{\numberline {7.2}Esquema del comportament}{52}{section.130}
-\contentsline {chapter}{\numberline {8}Disseny}{53}{chapter.131}
-\contentsline {section}{\numberline {8.1}Arquitectura}{53}{section.132}
-\contentsline {subsection}{\numberline {8.1.1}Patrons}{56}{subsection.137}
-\contentsline {subsection}{\numberline {8.1.2}Tecnologies utilitzades}{56}{subsection.138}
-\contentsline {section}{\numberline {8.2}Capa de presentaci\IeC {\'o}}{57}{section.139}
-\contentsline {section}{\numberline {8.3}Diagrama de classes de disseny}{64}{section.156}
-\contentsline {section}{\numberline {8.4}Model de dades}{64}{section.157}
-\contentsline {section}{\numberline {8.5}Diagrames de seq\IeC {\@umlaut u}\IeC {\`e}ncia}{65}{section.160}
-\contentsline {chapter}{\numberline {9}Implementaci\IeC {\'o}}{67}{chapter.161}
-\contentsline {chapter}{\numberline {10}Proves}{69}{chapter.162}
-\contentsline {chapter}{\numberline {11}Informe de sostenibilitat}{71}{chapter.163}
-\contentsline {section}{\numberline {11.1}Dimensi\IeC {\'o} econ\IeC {\`o}mica}{71}{section.165}
-\contentsline {section}{\numberline {11.2}Dimensi\IeC {\'o} social}{71}{section.166}
-\contentsline {section}{\numberline {11.3}Dimensi\IeC {\'o} ambiental}{72}{section.167}
-\contentsline {chapter}{\numberline {12}Conclusions}{73}{chapter.168}
-\contentsline {section}{\numberline {12.1}Justificaci\IeC {\'o} del desenvolupament de les compet\IeC {\`e}ncies t\IeC {\`e}cniques}{73}{section.169}
-\contentsline {section}{\numberline {12.2}Desviacions en la planificaci\IeC {\'o} i el pressuposst}{74}{section.170}
-\contentsline {section}{\numberline {12.3}Gantt final}{76}{section.173}
-\contentsline {section}{\numberline {12.4}Limitacions i dificultats}{76}{section.174}
-\contentsline {section}{\numberline {12.5}Treball futur}{76}{section.175}
+\contentsline {chapter}{\numberline {8}Disseny}{63}{chapter.175}
+\contentsline {section}{\numberline {8.1}Arquitectura}{63}{section.176}
+\contentsline {subsection}{\numberline {8.1.1}Patrons}{66}{subsection.181}
+\contentsline {subsection}{\numberline {8.1.2}Tecnologies utilitzades}{66}{subsection.182}
+\contentsline {section}{\numberline {8.2}Capa de presentaci\IeC {\'o}}{67}{section.183}
+\contentsline {section}{\numberline {8.3}Diagrama de classes de disseny}{74}{section.200}
+\contentsline {section}{\numberline {8.4}Model de dades}{74}{section.201}
+\contentsline {section}{\numberline {8.5}Diagrames de seq\IeC {\@umlaut u}\IeC {\`e}ncia}{75}{section.204}
+\contentsline {chapter}{\numberline {9}Implementaci\IeC {\'o}}{77}{chapter.205}
+\contentsline {chapter}{\numberline {10}Proves}{79}{chapter.206}
+\contentsline {chapter}{\numberline {11}Informe de sostenibilitat}{81}{chapter.207}
+\contentsline {section}{\numberline {11.1}Dimensi\IeC {\'o} econ\IeC {\`o}mica}{81}{section.209}
+\contentsline {section}{\numberline {11.2}Dimensi\IeC {\'o} social}{81}{section.210}
+\contentsline {section}{\numberline {11.3}Dimensi\IeC {\'o} ambiental}{82}{section.211}
+\contentsline {chapter}{\numberline {12}Conclusions}{83}{chapter.212}
+\contentsline {section}{\numberline {12.1}Justificaci\IeC {\'o} del desenvolupament de les compet\IeC {\`e}ncies t\IeC {\`e}cniques}{83}{section.213}
+\contentsline {section}{\numberline {12.2}Desviacions en la planificaci\IeC {\'o} i el pressuposst}{84}{section.214}
+\contentsline {section}{\numberline {12.3}Gantt final}{86}{section.217}
+\contentsline {section}{\numberline {12.4}Limitacions i dificultats}{86}{section.218}
+\contentsline {section}{\numberline {12.5}Treball futur}{86}{section.219}

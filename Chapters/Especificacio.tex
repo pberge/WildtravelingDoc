@@ -190,3 +190,389 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 
 \section{Esquema del comportament}
 
+\newcolumntype{C}{m{10cm}}
+
+\begin{itemize}
+\item[]{\textbf{Inici sessió}}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/IniciSessioEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::IniciSessió(email:string, contrassenya:string) \\
+\textbf{Pre} & email no és buit\\
+ & contrassenya no es buida\\
+\textbf{Post} &  Si les credencials són correctes l'usuari veu la pantalla de llista dels seus viatges\\
+\end{tabular}
+\label{}
+\end{table}
+
+\clearpage
+
+\item[]{\textbf{Tancar sessió}}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/TancarSessioEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::TancarSessio() \\
+\textbf{Pre} & L'usuari ha iniciat sessió\\
+\textbf{Post} &  L'usuari veu la pantalla d'inici de sessió\\
+\end{tabular}
+\label{}
+\end{table}
+
+\item[]\textbf{Consultar viatge}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/ConsultarViatgeEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::ConsultarViatge():TupleType(NomViatge, LocViatge, dataIn, dataFi,:Set(TupleType(nomPart, emailPart)) \\
+\textbf{Pre} & L'usuari ha iniciat sessió\\
+\textbf{Post} &  L'usuari veu la pantalla i les dades del viatge\\
+\end{tabular}
+\label{}
+\end{table}
+
+\clearpage
+
+\item[]\textbf{Crear viatge}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/CrearViatgeEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::CrearViatge(nomViatge, LocViatge, dataIn, dataFi, :Set(nomPart, emailPart)) \\
+\textbf{Pre} & L'usuari ha iniciat sessió\\
+\textbf{Post} &  L'usuari veu la pantalla de seleccionar preferencies de viatge\\
+\end{tabular}
+\label{}
+\end{table}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::SetPreferencies(estil) \\
+\textbf{Pre} & L'usuari ha començat la creació d'un viatge\\
+\textbf{Post} &  L'usuari veu la pantalla d'introduir les dades del contacte d'emergència\\
+\end{tabular}
+\label{}
+\end{table}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::SetContactesEmergencia(nom, email, tlf) \\
+\textbf{Pre} & L'usuari ha seleccionat les preferencies del viatge\\
+\textbf{Post} &  S'ha creat el viatge amb totes les dades introduides\\
+\end{tabular}
+\label{}
+\end{table}
+
+\item[]\textbf{Eliminar viatge}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/EliminarViatgeEC.png}
+\end{figure}
+
+\clearpage
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::EliminarViatge() \\
+\textbf{Pre} & L'usuari ha creat un viatge\\
+\textbf{Post} &  S'elimina el viatge amb totes les dades associades\\
+\end{tabular}
+\label{}
+\end{table}
+
+
+
+\item[]\textbf{Consultar llista de despeses}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/ConsultarLlistaDespesesEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::ConsultarLlistaDespeses():TupleType(despesaTotal,Set(TupleType(qtt, motiu, lloc, data)) \\
+\textbf{Pre} & Ha accedit a consultar un viatge\\
+\textbf{Post} &  L'usuari veu la pantalla amb la informació de totes les despeses del viatge\\
+\end{tabular}
+\label{}
+\end{table}
+
+\item[]\textbf{Crear despesa}
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/CrearDespesaEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::CrearDespesa(qtt, motiu, lloc, Set(qtt)) \\
+\textbf{Pre} & Ha accedit a consultar la llista de despeses\\
+\textbf{Post} & Es crea una instància de despesa amb les dades introduides\\
+\end{tabular}
+\label{}
+\end{table}
+
+\clearpage
+
+\item[]\textbf{Consultar despesa}
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/ConsultarDespesaEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::ConsultarDespesa()::TupleType(qtt, lloc, data, Set(TupleType(nom, qtt, cobrat))) \\
+\textbf{Pre} & L'usuari ha creat una despesa\\
+\textbf{Post} & L'usuari veu la pantalla de consultar despesa amb totes les dades d'aquesta\\
+\end{tabular}
+\label{}
+\end{table}
+
+\item[]\textbf{Cobrar deute}
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/CobrarDeuteEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::CobrarDeute() \\
+\textbf{Pre} & L'usuari ha creat una despesa i té un deute pendent de cobrar\\
+\textbf{Post} & El sistema enregistra el deute com a cobrat\\
+\end{tabular}
+\label{}
+\end{table}
+
+\clearpage
+
+\item[]\textbf{Eliminar despesa}
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/EliminarDespesaEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::EliminarDespesa() \\
+\textbf{Pre} & L'usuari ha creat una despesa\\
+\textbf{Post} & El sistema elimina la despesa i tots els deutes associats\\
+\end{tabular}
+\label{}
+\end{table}
+
+\item[]\textbf{Modificar despesa}
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/ModificarDespesaEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::ModificarDespesa(qtt, motiu, lloc, Set(qtt)) \\
+\textbf{Pre} & L'usuari ha creat una despesa\\
+\textbf{Post} & El sistema modifica la despesa amb els nous paràmetres introduits\\
+\end{tabular}
+\label{}
+\end{table}
+
+\clearpage
+
+\item[]\textbf{Cerca}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/CercaEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::Cerca(concepte, localització):Set(TupleType(nom, nivellPreu, localitzacio)) \\
+\textbf{Pre} & L'usuari ha accedit a consultar un viatge\\
+\textbf{Post} & L'usuari veu la llista de resultats de la cerca\\
+\end{tabular}
+\label{}
+\end{table}
+
+\item[]\textbf{Consultar ruta}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/ConsultarRutaEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::ConsultarRuta():TupleType(temps, distancia, inici, final, ruta) \\
+\textbf{Pre} & L'usuari ha realitzat una cerca\\
+\textbf{Post} & L'usuari veu la pantalla de consultar ruta amb tota la informació de la ruta\\
+\end{tabular}
+\label{}
+\end{table}
+
+\clearpage
+
+\item[]\textbf{Consultar Meteorologia}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/ConsultarMeteoEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::ConsultarMeteo():TupleType(data, desc, tempMax, tempMin, pluja, vent)\\
+\textbf{Pre} & L'usuari ha accedit a consultar un viatge\\
+\textbf{Post} & L'usuari veu la pantalla de consultar metereologia amb tota la informació de la previsió metereològica\\
+\end{tabular}
+\label{}
+\end{table}
+
+\item[]\textbf{Consultar ruta a l'hospital}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/ConsultarRutaHospitalEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::ConsultarRutaHospital():TupleType(temps, distancia, inici, final, ruta)\\
+\textbf{Pre} & L'usuari ha accedit a la funcionalitat de gestionar emergències\\
+\textbf{Post} & L'usuari veu a la pantalla la ruta fins l'hospital més proper i tota la informació adicional\\
+\end{tabular}
+\label{}
+\end{table}
+
+\clearpage
+
+\item[]\textbf{Trucar telèfon d'emergències}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/TrucadaEmergenciesEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::TrucadaEmergencies()\\
+\textbf{Pre} & L'usuari ha accedit a la funcionalitat de gestionar emergències\\
+\textbf{Post} & El sistema realitza una trucada al telèfon d'emergències del país on es troba l'usuari\\
+\end{tabular}
+\label{}
+\end{table}
+
+\item[]\textbf{Trucar telèfon de contacte}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/TrucadaContacteEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::TrucadaContacte()\\
+\textbf{Pre} & L'usuari ha accedit a la funcionalitat de gestionar emergències\\
+\textbf{Post} & El sistema realitza una trucada al telèfon de contacte introduit per l'usuari\\
+\end{tabular}
+\label{}
+\end{table}
+
+\clearpage
+
+\item[]\textbf{Consultar llista de notes}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/ConsultarLlistaNotesEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::ConsultarLlistaNotes():Set(TupleType(titol, text, color))\\
+\textbf{Pre} & L'usuari ha accedit a consultar un viatge\\
+\textbf{Post} & L'usuari veu la pantalla amb totes les notes del viatge\\
+\end{tabular}
+\label{}
+\end{table}
+
+\item[]\textbf{Consultar nota}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/ConsultarNotaEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::ConsultarNota():TupleType(titol, text, color, Set(TupleType(nom, email)))\\
+\textbf{Pre} & L'usuari ha consultar la llista de notes\\
+\textbf{Post} & L'usuari veu la pantalla de consultar nota amb tota la informació d'aquesta\\
+\end{tabular}
+\label{}
+\end{table}
+
+\clearpage
+
+\item[]\textbf{Crear nota}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/CrearNotaEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::CrearNota(titol, text, color)\\
+\textbf{Pre} & L'usuari ha accedit a consultar la llista de notes\\
+\textbf{Post} & El sistema crea una instància de nota amb les dades introduides i l'usuari veu la pantalla de consultar nota\\
+\end{tabular}
+\label{}
+\end{table}
+
+\item[]\textbf{Eliminar nota}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.8]{Figures/EliminarNotaEC.png}
+\end{figure}
+
+\begin{table}[!h]
+\begin{tabular}{l C}
+\textbf{Context}  & Sistema::EliminarNota()\\
+\textbf{Pre} & L'usuari ha accedit a consultar una nota\\
+\textbf{Post} & El sistema elimina la nota\\
+\end{tabular}
+\label{}
+\end{table}
+
+\end{itemize}

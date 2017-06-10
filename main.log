@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.23)  9 JUN 2017 12:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.23)  10 JUN 2017 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2682,6 +2682,72 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 ) (./Chapters/Disseny.aux) (./Chapters/Implementacio.aux)
 (./Chapters/Proves.aux) (./Chapters/InformeSostenibilitat.aux
 
@@ -3710,7 +3776,212 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [51
 
-]) [52]
+] <Figures/IniciSessioEC.png, id=725, 461.47406pt x 196.48407pt>
+File: Figures/IniciSessioEC.png Graphic file (type png)
+
+<use Figures/IniciSessioEC.png>
+Package pdftex.def Info: Figures/IniciSessioEC.png used on input line 200.
+(pdftex.def)             Requested size: 369.17973pt x 157.18745pt.
+ [52 <./Figures/IniciSessioEC.png>]
+<Figures/TancarSessioEC.png, id=733, 461.47406pt x 199.49532pt>
+File: Figures/TancarSessioEC.png Graphic file (type png)
+
+<use Figures/TancarSessioEC.png>
+Package pdftex.def Info: Figures/TancarSessioEC.png used on input line 219.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+
+<Figures/ConsultarViatgeEC.png, id=734, 461.47406pt x 196.48407pt>
+File: Figures/ConsultarViatgeEC.png Graphic file (type png)
+
+<use Figures/ConsultarViatgeEC.png>
+Package pdftex.def Info: Figures/ConsultarViatgeEC.png used on input line 235.
+(pdftex.def)             Requested size: 369.17973pt x 157.18745pt.
+
+Underfull \hbox (badness 1735) in paragraph at lines 240--241
+[]|\T1/ppl/m/n/10.95 Sistema::ConsultarViatge():TupleType(NomViatge, Loc-Vi-
+ []
+
+[53
+
+ <./Figures/TancarSessioEC.png> <./Figures/ConsultarViatgeEC.png>]
+<Figures/CrearViatgeEC.png, id=743, 461.47406pt x 250.68657pt>
+File: Figures/CrearViatgeEC.png Graphic file (type png)
+
+<use Figures/CrearViatgeEC.png>
+Package pdftex.def Info: Figures/CrearViatgeEC.png used on input line 253.
+(pdftex.def)             Requested size: 369.17973pt x 200.54951pt.
+
+<Figures/EliminarViatgeEC.png, id=744, 461.47406pt x 199.49532pt>
+File: Figures/EliminarViatgeEC.png Graphic file (type png)
+
+<use Figures/EliminarViatgeEC.png>
+Package pdftex.def Info: Figures/EliminarViatgeEC.png used on input line 287.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+ [54
+
+ <./Figures/CrearViatgeEC.png> <./Figures/EliminarViatgeEC.png>]
+<Figures/ConsultarLlistaDespesesEC.png, id=754, 461.47406pt x 199.49532pt>
+File: Figures/ConsultarLlistaDespesesEC.png Graphic file (type png)
+
+<use Figures/ConsultarLlistaDespesesEC.png>
+Package pdftex.def Info: Figures/ConsultarLlistaDespesesEC.png used on input li
+ne 307.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+
+Overfull \hbox (96.54926pt too wide) in paragraph at lines 312--313
+[]|\T1/ppl/m/n/10.95 Sistema::ConsultarLlistaDespeses():TupleType(despesaTotal,
+Set(TupleType(qtt,
+ []
+
+<Figures/CrearDespesaEC.png, id=755, 461.47406pt x 199.49532pt>
+File: Figures/CrearDespesaEC.png Graphic file (type png)
+
+<use Figures/CrearDespesaEC.png>
+Package pdftex.def Info: Figures/CrearDespesaEC.png used on input line 324.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+ [55
+
+ <./Figures/ConsultarLlistaDespesesEC.png> <./Figures/CrearDespesaEC.png>]
+<Figures/ConsultarDespesaEC.png, id=766, 461.47406pt x 199.49532pt>
+File: Figures/ConsultarDespesaEC.png Graphic file (type png)
+
+<use Figures/ConsultarDespesaEC.png>
+Package pdftex.def Info: Figures/ConsultarDespesaEC.png used on input line 343.
+
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+[]|\T1/ppl/m/n/10.95 Sistema::ConsultarDespesa()::TupleType(qtt, lloc, da-ta,
+ []
+
+<Figures/CobrarDeuteEC.png, id=767, 461.47406pt x 199.49532pt>
+File: Figures/CobrarDeuteEC.png Graphic file (type png)
+
+<use Figures/CobrarDeuteEC.png>
+Package pdftex.def Info: Figures/CobrarDeuteEC.png used on input line 360.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+ [56
+
+ <./Figures/ConsultarDespesaEC.png> <./Figures/CobrarDeuteEC.png>]
+<Figures/EliminarDespesaEC.png, id=776, 461.47406pt x 199.49532pt>
+File: Figures/EliminarDespesaEC.png Graphic file (type png)
+
+<use Figures/EliminarDespesaEC.png>
+Package pdftex.def Info: Figures/EliminarDespesaEC.png used on input line 379.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+
+<Figures/ModificarDespesaEC.png, id=777, 461.47406pt x 199.49532pt>
+File: Figures/ModificarDespesaEC.png Graphic file (type png)
+
+<use Figures/ModificarDespesaEC.png>
+Package pdftex.def Info: Figures/ModificarDespesaEC.png used on input line 396.
+
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+ [57
+
+ <./Figures/EliminarDespesaEC.png> <./Figures/ModificarDespesaEC.png>]
+<Figures/CercaEC.png, id=786, 461.47406pt x 199.49532pt>
+File: Figures/CercaEC.png Graphic file (type png)
+
+<use Figures/CercaEC.png>
+Package pdftex.def Info: Figures/CercaEC.png used on input line 414.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+
+<Figures/ConsultarRutaEC.png, id=787, 461.47406pt x 199.49532pt>
+File: Figures/ConsultarRutaEC.png Graphic file (type png)
+
+<use Figures/ConsultarRutaEC.png>
+Package pdftex.def Info: Figures/ConsultarRutaEC.png used on input line 430.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+ [58
+
+ <./Figures/CercaEC.png> <./Figures/ConsultarRutaEC.png>]
+<Figures/ConsultarMeteoEC.png, id=796, 461.47406pt x 199.49532pt>
+File: Figures/ConsultarMeteoEC.png Graphic file (type png)
+
+<use Figures/ConsultarMeteoEC.png>
+Package pdftex.def Info: Figures/ConsultarMeteoEC.png used on input line 448.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+
+Underfull \hbox (badness 6173) in paragraph at lines 453--454
+[]|\T1/ppl/m/n/10.95 Sistema::ConsultarMeteo():TupleType(data, desc, temp-
+ []
+
+<Figures/ConsultarRutaHospitalEC.png, id=797, 461.47406pt x 199.49532pt>
+File: Figures/ConsultarRutaHospitalEC.png Graphic file (type png)
+
+<use Figures/ConsultarRutaHospitalEC.png>
+Package pdftex.def Info: Figures/ConsultarRutaHospitalEC.png used on input line
+ 464.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
+[]|\T1/ppl/m/n/10.95 Sistema::ConsultarRutaHospital():TupleType(temps, dis-
+ []
+
+[59
+
+ <./Figures/ConsultarMeteoEC.png> <./Figures/ConsultarRutaHospitalEC.png>]
+<Figures/TrucadaEmergenciesEC.png, id=806, 461.47406pt x 199.49532pt>
+File: Figures/TrucadaEmergenciesEC.png Graphic file (type png)
+
+<use Figures/TrucadaEmergenciesEC.png>
+Package pdftex.def Info: Figures/TrucadaEmergenciesEC.png used on input line 48
+2.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+
+<Figures/TrucadaContacteEC.png, id=807, 461.47406pt x 199.49532pt>
+File: Figures/TrucadaContacteEC.png Graphic file (type png)
+
+<use Figures/TrucadaContacteEC.png>
+Package pdftex.def Info: Figures/TrucadaContacteEC.png used on input line 498.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+ [60
+
+ <./Figures/TrucadaEmergenciesEC.png> <./Figures/TrucadaContacteEC.png>]
+<Figures/ConsultarLlistaNotesEC.png, id=816, 461.47406pt x 199.49532pt>
+File: Figures/ConsultarLlistaNotesEC.png Graphic file (type png)
+
+<use Figures/ConsultarLlistaNotesEC.png>
+Package pdftex.def Info: Figures/ConsultarLlistaNotesEC.png used on input line 
+516.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+[]|\T1/ppl/m/n/10.95 Sistema::ConsultarLlistaNotes():Set(TupleType(titol, text,
+
+ []
+
+<Figures/ConsultarNotaEC.png, id=817, 461.47406pt x 199.49532pt>
+File: Figures/ConsultarNotaEC.png Graphic file (type png)
+
+<use Figures/ConsultarNotaEC.png>
+Package pdftex.def Info: Figures/ConsultarNotaEC.png used on input line 532.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
+[]|\T1/ppl/m/n/10.95 Sistema::ConsultarNota():TupleType(titol, text, co-lor,
+ []
+
+[61
+
+ <./Figures/ConsultarLlistaNotesEC.png> <./Figures/ConsultarNotaEC.png>]
+<Figures/CrearNotaEC.png, id=827, 461.47406pt x 199.49532pt>
+File: Figures/CrearNotaEC.png Graphic file (type png)
+
+<use Figures/CrearNotaEC.png>
+Package pdftex.def Info: Figures/CrearNotaEC.png used on input line 550.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+
+<Figures/EliminarNotaEC.png, id=828, 461.47406pt x 199.49532pt>
+File: Figures/EliminarNotaEC.png Graphic file (type png)
+
+<use Figures/EliminarNotaEC.png>
+Package pdftex.def Info: Figures/EliminarNotaEC.png used on input line 566.
+(pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
+) [62
+
+ <./Figures/CrearNotaEC.png> <./Figures/EliminarNotaEC.png>]
 \openout2 = `Chapters/Disseny.aux'.
 
  (./Chapters/Disseny.tex
@@ -3720,7 +3991,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<Figures/ArquitecturaSistema.jpg, id=730, 392.21532pt x 234.1247pt>
+<Figures/ArquitecturaSistema.jpg, id=837, 392.21532pt x 234.1247pt>
 File: Figures/ArquitecturaSistema.jpg Graphic file (type jpg)
 
 <use Figures/ArquitecturaSistema.jpg>
@@ -3733,12 +4004,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
  []
 
 1: section
-[53
+[63
 
 
 
  <./Figures/ArquitecturaSistema.jpg>]
-<Figures/EstructuraServeis.jpg, id=736, 624.83438pt x 275.52937pt>
+<Figures/EstructuraServeis.jpg, id=846, 624.83438pt x 275.52937pt>
 File: Figures/EstructuraServeis.jpg Graphic file (type jpg)
 
 <use Figures/EstructuraServeis.jpg>
@@ -3749,7 +4020,7 @@ Overfull \hbox (33.352pt too wide) in paragraph at lines 31--32
  [][] 
  []
 
-<Figures/AccesBD.jpg, id=737, 298.86656pt x 316.93407pt>
+<Figures/AccesBD.jpg, id=847, 298.86656pt x 316.93407pt>
 File: Figures/AccesBD.jpg Graphic file (type jpg)
 
 <use Figures/AccesBD.jpg>
@@ -3759,7 +4030,7 @@ Package pdftex.def Info: Figures/AccesBD.jpg used on input line 43.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/AccesAPI.jpg, id=738, 279.29344pt x 239.39438pt>
+<Figures/AccesAPI.jpg, id=848, 279.29344pt x 239.39438pt>
 File: Figures/AccesAPI.jpg Graphic file (type jpg)
 
 <use Figures/AccesAPI.jpg>
@@ -3769,7 +4040,7 @@ Package pdftex.def Info: Figures/AccesAPI.jpg used on input line 49.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[54 <./Figures/EstructuraServeis.jpg>] [55 <./Figures/AccesBD.jpg> <./Figures/A
+[64 <./Figures/EstructuraServeis.jpg>] [65 <./Figures/AccesBD.jpg> <./Figures/A
 ccesAPI.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
@@ -3780,183 +4051,183 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
-[56
+[66
 
-] <Figures/initSesion.png, id=755, 722.7pt x 1284.8pt>
+] <Figures/initSesion.png, id=866, 722.7pt x 1284.8pt>
 File: Figures/initSesion.png Graphic file (type png)
 
 <use Figures/initSesion.png>
 Package pdftex.def Info: Figures/initSesion.png used on input line 87.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/TriarComte.png, id=756, 722.7pt x 1284.8pt>
+<Figures/TriarComte.png, id=867, 722.7pt x 1284.8pt>
 File: Figures/TriarComte.png Graphic file (type png)
 
 <use Figures/TriarComte.png>
 Package pdftex.def Info: Figures/TriarComte.png used on input line 88.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/llistaViatges.png, id=757, 542.025pt x 963.6pt>
+<Figures/llistaViatges.png, id=868, 542.025pt x 963.6pt>
 File: Figures/llistaViatges.png Graphic file (type png)
 
 <use Figures/llistaViatges.png>
 Package pdftex.def Info: Figures/llistaViatges.png used on input line 99.
 (pdftex.def)             Requested size: 108.40308pt x 192.71658pt.
- [57
+ [67
 
  <./Figures/initSesion.png> <./Figures/TriarComte.png> <./Figures/llistaViatges
 .png>]
-<Figures/cerarViatge.png, id=764, 722.7pt x 1284.8pt>
+<Figures/cerarViatge.png, id=877, 722.7pt x 1284.8pt>
 File: Figures/cerarViatge.png Graphic file (type png)
 
 <use Figures/cerarViatge.png>
 Package pdftex.def Info: Figures/cerarViatge.png used on input line 112.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
- <Figures/style.png, id=765, 722.7pt x 1284.8pt>
+ <Figures/style.png, id=878, 722.7pt x 1284.8pt>
 File: Figures/style.png Graphic file (type png)
 
 <use Figures/style.png>
 Package pdftex.def Info: Figures/style.png used on input line 113.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/emergencyContact.png, id=766, 722.7pt x 1284.8pt>
+<Figures/emergencyContact.png, id=879, 722.7pt x 1284.8pt>
 File: Figures/emergencyContact.png Graphic file (type png)
 
 <use Figures/emergencyContact.png>
 Package pdftex.def Info: Figures/emergencyContact.png used on input line 114.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/Drawer.png, id=767, 722.7pt x 1284.8pt>
+<Figures/Drawer.png, id=880, 722.7pt x 1284.8pt>
 File: Figures/Drawer.png Graphic file (type png)
  <use Figures/Drawer.png>
 Package pdftex.def Info: Figures/Drawer.png used on input line 123.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/getTrip.png, id=768, 722.7pt x 1284.8pt>
+<Figures/getTrip.png, id=881, 722.7pt x 1284.8pt>
 File: Figures/getTrip.png Graphic file (type png)
  <use Figures/getTrip.png>
 Package pdftex.def Info: Figures/getTrip.png used on input line 124.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-[58
+[68
 
  <./Figures/cerarViatge.png> <./Figures/style.png> <./Figures/emergencyContact.
 png> <./Figures/Drawer.png> <./Figures/getTrip.png>]
-<Figures/llistaDespeses.png, id=775, 722.7pt x 1284.8pt>
+<Figures/llistaDespeses.png, id=888, 722.7pt x 1284.8pt>
 File: Figures/llistaDespeses.png Graphic file (type png)
 
 <use Figures/llistaDespeses.png>
 Package pdftex.def Info: Figures/llistaDespeses.png used on input line 135.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/crearDespesa.png, id=776, 722.7pt x 1284.8pt>
+<Figures/crearDespesa.png, id=889, 722.7pt x 1284.8pt>
 File: Figures/crearDespesa.png Graphic file (type png)
 
 <use Figures/crearDespesa.png>
 Package pdftex.def Info: Figures/crearDespesa.png used on input line 144.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
- [59
+ [69
 
  <./Figures/llistaDespeses.png> <./Figures/crearDespesa.png>] <Figures/consulta
-rDespesa.png, id=783, 722.7pt x 1284.8pt>
+rDespesa.png, id=896, 722.7pt x 1284.8pt>
 File: Figures/consultarDespesa.png Graphic file (type png)
 
 <use Figures/consultarDespesa.png>
 Package pdftex.def Info: Figures/consultarDespesa.png used on input line 155.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/modificarDespesa.png, id=784, 722.7pt x 1284.8pt>
+<Figures/modificarDespesa.png, id=897, 722.7pt x 1284.8pt>
 File: Figures/modificarDespesa.png Graphic file (type png)
 
 <use Figures/modificarDespesa.png>
 Package pdftex.def Info: Figures/modificarDespesa.png used on input line 166.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
- [60
+ [70
 
  <./Figures/consultarDespesa.png> <./Figures/modificarDespesa.png>] <Figures/ce
-rca.png, id=791, 722.7pt x 1284.8pt>
+rca.png, id=904, 722.7pt x 1284.8pt>
 File: Figures/cerca.png Graphic file (type png)
 
 <use Figures/cerca.png>
 Package pdftex.def Info: Figures/cerca.png used on input line 178.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/resultatsCerca.png, id=792, 722.7pt x 1284.8pt>
+<Figures/resultatsCerca.png, id=905, 722.7pt x 1284.8pt>
 File: Figures/resultatsCerca.png Graphic file (type png)
 
 <use Figures/resultatsCerca.png>
 Package pdftex.def Info: Figures/resultatsCerca.png used on input line 188.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
- [61
+ [71
 
- <./Figures/cerca.png> <./Figures/resultatsCerca.png>] <Figures/ruta.png, id=80
-0, 722.7pt x 1284.8pt>
+ <./Figures/cerca.png> <./Figures/resultatsCerca.png>] <Figures/ruta.png, id=91
+2, 722.7pt x 1284.8pt>
 File: Figures/ruta.png Graphic file (type png)
 
 <use Figures/ruta.png>
 Package pdftex.def Info: Figures/ruta.png used on input line 201.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
- <Figures/meteo.png, id=801, 722.7pt x 1284.8pt>
+ <Figures/meteo.png, id=913, 722.7pt x 1284.8pt>
 File: Figures/meteo.png Graphic file (type png)
 
 <use Figures/meteo.png>
 Package pdftex.def Info: Figures/meteo.png used on input line 211.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
- [62
+ [72
 
  <./Figures/ruta.png> <./Figures/meteo.png>]
-<Figures/emergencies.png, id=808, 722.7pt x 1284.8pt>
+<Figures/emergencies.png, id=920, 722.7pt x 1284.8pt>
 File: Figures/emergencies.png Graphic file (type png)
 
 <use Figures/emergencies.png>
 Package pdftex.def Info: Figures/emergencies.png used on input line 222.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/hospital.png, id=809, 722.7pt x 1284.8pt>
+<Figures/hospital.png, id=921, 722.7pt x 1284.8pt>
 File: Figures/hospital.png Graphic file (type png)
  <use Figures/hospital.png>
 Package pdftex.def Info: Figures/hospital.png used on input line 223.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/llistaNotes.png, id=810, 722.7pt x 1284.8pt>
+<Figures/llistaNotes.png, id=922, 722.7pt x 1284.8pt>
 File: Figures/llistaNotes.png Graphic file (type png)
 
 <use Figures/llistaNotes.png>
 Package pdftex.def Info: Figures/llistaNotes.png used on input line 232.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
- [63
+ [73
 
  <./Figures/emergencies.png> <./Figures/hospital.png> <./Figures/llistaNotes.pn
 g>]
-<Figures/crearNota1.png, id=817, 722.7pt x 1284.8pt>
+<Figures/crearNota1.png, id=930, 722.7pt x 1284.8pt>
 File: Figures/crearNota1.png Graphic file (type png)
 
 <use Figures/crearNota1.png>
 Package pdftex.def Info: Figures/crearNota1.png used on input line 243.
 (pdftex.def)             Requested size: 86.72025pt x 154.16934pt.
 
-<Figures/crearNota2.png, id=818, 722.7pt x 1284.8pt>
+<Figures/crearNota2.png, id=931, 722.7pt x 1284.8pt>
 File: Figures/crearNota2.png Graphic file (type png)
 
 <use Figures/crearNota2.png>
 Package pdftex.def Info: Figures/crearNota2.png used on input line 244.
 (pdftex.def)             Requested size: 86.72025pt x 154.16934pt.
 
-<Figures/crearNota3.png, id=819, 722.7pt x 1284.8pt>
+<Figures/crearNota3.png, id=932, 722.7pt x 1284.8pt>
 File: Figures/crearNota3.png Graphic file (type png)
 
 <use Figures/crearNota3.png>
 Package pdftex.def Info: Figures/crearNota3.png used on input line 245.
 (pdftex.def)             Requested size: 86.72025pt x 154.16934pt.
 
-<Figures/crearNota4.png, id=820, 722.7pt x 1284.8pt>
+<Figures/crearNota4.png, id=933, 722.7pt x 1284.8pt>
 File: Figures/crearNota4.png Graphic file (type png)
 
 <use Figures/crearNota4.png>
 Package pdftex.def Info: Figures/crearNota4.png used on input line 246.
 (pdftex.def)             Requested size: 86.72025pt x 154.16934pt.
 
-<Figures/consultarNota.png, id=821, 722.7pt x 1284.8pt>
+<Figures/consultarNota.png, id=934, 722.7pt x 1284.8pt>
 File: Figures/consultarNota.png Graphic file (type png)
 
 <use Figures/consultarNota.png>
@@ -3972,28 +4243,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
-[64
+[74
 
  <./Figures/crearNota1.png> <./Figures/crearNota2.png> <./Figures/crearNota3.pn
 g> <./Figures/crearNota4.png> <./Figures/consultarNota.png>]
-<Figures/EstructuraBD.jpg, id=828, 283.0575pt x 196.48407pt>
+<Figures/EstructuraBD.jpg, id=943, 283.0575pt x 196.48407pt>
 File: Figures/EstructuraBD.jpg Graphic file (type jpg)
 
 <use Figures/EstructuraBD.jpg>
 Package pdftex.def Info: Figures/EstructuraBD.jpg used on input line 274.
 (pdftex.def)             Requested size: 283.0568pt x 196.48358pt.
 
-<Figures/DebtBD.jpg, id=829, 314.67563pt x 168.63pt>
+<Figures/DebtBD.jpg, id=944, 314.67563pt x 168.63pt>
 File: Figures/DebtBD.jpg Graphic file (type jpg)
  <use Figures/DebtBD.jpg>
 Package pdftex.def Info: Figures/DebtBD.jpg used on input line 284.
 (pdftex.def)             Requested size: 314.67485pt x 168.62958pt.
 )
-[65 <./Figures/EstructuraBD.jpg> <./Figures/DebtBD.jpg>]
+[75 <./Figures/EstructuraBD.jpg> <./Figures/DebtBD.jpg>]
 \openout2 = `Chapters/Implementacio.aux'.
 
 
-(./Chapters/Implementacio.tex [66
+(./Chapters/Implementacio.tex [76
 
 
 
@@ -4001,10 +4272,10 @@ Package pdftex.def Info: Figures/DebtBD.jpg used on input line 284.
 Cap\'{\i }tol 9.
 )
 1: section
-[67]
+[77]
 \openout2 = `Chapters/Proves.aux'.
 
- (./Chapters/Proves.tex [68
+ (./Chapters/Proves.tex [78
 
 
 
@@ -4012,10 +4283,10 @@ Cap\'{\i }tol 9.
 Cap\'{\i }tol 10.
 )
 1: section
-[69]
+[79]
 \openout2 = `Chapters/InformeSostenibilitat.aux'.
 
- (./Chapters/InformeSostenibilitat.tex [70
+ (./Chapters/InformeSostenibilitat.tex [80
 
 
 
@@ -4027,12 +4298,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--9
  []
 
 1: section
-[71]
+[81]
 Underfull \hbox (badness 10000) in paragraph at lines 44--49
 
  []
 
-) [72
+) [82
 
 ]
 \openout2 = `Chapters/Conclusions.aux'.
@@ -4040,7 +4311,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--49
  (./Chapters/Conclusions.tex
 Cap\'{\i }tol 12.
 1: section
-[73
+[83
 
 
 
@@ -4054,7 +4325,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--53
 
  []
 
-[74]
+[84]
 Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
@@ -4069,7 +4340,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
-) [75] [76]
+) [85] [86]
 
 LaTeX Warning: Empty bibliography on input line 187.
 
@@ -4083,9 +4354,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
 (./Chapters/InformeSostenibilitat.aux) (./Chapters/Conclusions.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BAB97954A038D21929A64522AC00B13E;12300.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 47A310D7C318380FC7A94A7DC0C6AADA;12300
+(rerunfilecheck)             After:  10A720306269975F9EAD6287A0BADB90;12300.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -4094,26 +4371,74 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30076 strings out of 494966
- 611974 string characters out of 6179559
+ 30253 strings out of 494966
+ 616197 string characters out of 6179559
  992192 words of memory out of 5000000
- 32568 multiletter control sequences out of 15000+600000
+ 32654 multiletter control sequences out of 15000+600000
  42391 words of font info for 72 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  58i,20n,77p,10402b,2201s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/pere/.texm
-f-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/eurosym/feybr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eu
-rosym/feymr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (82 pages, 3425721 bytes).
+pdfTeX warning (dest): name{section.216} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.215} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.212} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.210} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.208} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.207} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.204} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.203} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.202} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.199} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.198} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.181} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.180} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.179} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.174} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.173} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/pere/.texmf-
+var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/eurosym/feybr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/euro
+sym/feymr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (92 pages, 3579841 bytes).
 PDF statistics:
- 995 PDF objects out of 1000 (max. 8388607)
- 818 compressed objects within 9 object streams
- 257 named destinations out of 1000 (max. 500000)
- 872 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1133 PDF objects out of 1200 (max. 8388607)
+ 924 compressed objects within 10 object streams
+ 327 named destinations out of 1000 (max. 500000)
+ 977 words of extra memory for PDF output out of 10000 (max. 10000000)
 
