@@ -223,6 +223,23 @@ d’aconseguir els telèfons d’emergència del païs que sigui necessari.
 \end{itemize}
 \end{itemize}
 
+\subsection{Base de dades}
+
+En aquest apartat s'explica el resum de l'anàlisi de diferents possibilitats a l'hora d'emmagatzemar les dades del sistema.\\
+
+Com s'ha vist en apartats anteriors, l'aplicació vol estar preparada per tal d'acollir noves funcionalitats. Aquest aspecte fa que sigui molt adequat l'ús d'una base de dades no relacional ja que entre les seves característiques destaca el fet de no haver de definir un esquema previ.\\
+
+Dins el món de les bases de dades no relacionals existeixen diversos tipus de bases de dades. Un cop estudiades totes les possibilitats es decideix que el tipus més adequat per al projecte és una base de dades clau-valor. Les bases de dades clau-valor és caracteritzen per ser molt eficients, fàcils d'utilitzar i, normalment, molt escalables. El fet que escalin fàcilment és un punt molt important també tenint en compte els objectius del projecte.\\
+
+Un altre aspecte que s'estudia és treballar sobre una base de dades al núvol. Es decideix que és la millor opció ja que, un cop més, com l'aplicació pretén ser fàcilment escalable, tenir les dades al núvol permetria comunicació entre dispositius facilitant així molt la feina.\\
+
+Un cop fet aquest estudi es busquen diferents tecnologies que permetin l'emmagatzematge de dades al núvol amb una base de dades clau-valor. La tecnologia que més s'acosta a les necessitats del projecte és \textit{Firebase}. Firebase és un servei que proporciona al desenvolupador una base de dades al núvol amb llibreries per accedir a ella des d'aplicacions web, iOS i Android. A més, aquesta tecnologia ofereix suport per a la gestió d'usuaris, documentació de molta qualitat i, sobretot, una gran facilitat per integrar-la en Android.
+
+
+
+\clearpage
+
+
 \section{Conclusions de l'anàlisi inicial}
 
 Tenint un coneixement més ampli del sector i considerant com s’ha plantejat

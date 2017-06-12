@@ -9,7 +9,7 @@
 
 \begin{figure}[!h]
 \centering
-\includegraphics[scale=0.3]{Figures/UML.jpg}
+\includegraphics[scale=1]{Figures/UML.png}
 \caption{Esquema conceptual.}
 \end{figure}
 
@@ -33,6 +33,7 @@
 \item[]\textbf{Persona}\\
 Super classe que s'instància per obtenir una persona de contacte.
 \begin{table}[!h]
+\centering
 \begin{tabular}{|M|T|}
 \hline
 \textbf{Atribut}  & \textbf{Descripció} \\\hline
@@ -47,6 +48,7 @@ Correu &  Correu electrònic de la persona\\\hline
 \item[]\textbf{Usuari}\\
 Té el rol d'usuari del sistema i és subclasse de Persona.
 \begin{table}[!h]
+\centering
 \begin{tabular}{|M|T|}
 \hline
 \textbf{Atribut}  & \textbf{Descripció} \\\hline
@@ -62,6 +64,7 @@ Correu &  Correu electrònic de l'usuari\\\hline
 Té el rol de participant del viatge però sense ser usuari, no interacciona directament amb l'aplicació.
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{|M|T|}
 \hline
 \textbf{Atribut}  & \textbf{Descripció} \\\hline
@@ -76,6 +79,7 @@ Correu &  Correu electrònic del participant\\\hline
 \item[]\textbf{Viatge}\\
 Representa un viatge en concret, és el concepte base de l'aplicació.
 \begin{table}[!h]
+\centering
 \begin{tabular}{|M|T|}
 \hline
 \textbf{Atribut}  & \textbf{Descripció} \\\hline
@@ -95,6 +99,7 @@ Estil &  Estil de viatjar seleccionat per l'usuari\\\hline
 Representa una despesa de l'usuari durant un viatge.
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{|M|T|}
 \hline
 \textbf{Atribut}  & \textbf{Descripció} \\\hline
@@ -112,6 +117,7 @@ Data &  Data de creació de la despesa\\\hline
 Representa un deute d'un participant del viatge amb l'usuari.
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{|M|T|}
 \hline
 \textbf{Atribut}  & \textbf{Descripció} \\\hline
@@ -127,6 +133,7 @@ Pagat &  Indica si el deute ja ha estat pagat o no.\\\hline
 Representa una nota escrita per l'usuari.
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{|M|T|}
 \hline
 \textbf{Atribut}  & \textbf{Descripció} \\\hline
@@ -142,6 +149,7 @@ Color & Color que ha seleccionat l'usuari pel fons de la nota.\\\hline
 Representa una cerca llençada per l'usuari al sistema.
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{|M|T|}
 \hline
 \textbf{Atribut}  & \textbf{Descripció} \\\hline
@@ -164,6 +172,7 @@ Representa els resultats d'una cerca en concret.
 Representa un item concret del resultat de la cerca.
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{|M|T|}
 \hline
 \textbf{Atribut}  & \textbf{Descripció} \\\hline
@@ -201,6 +210,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::IniciSessió(email:string, contrassenya:string) \\
 \textbf{Pre} & email no és buit\\
@@ -220,6 +230,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::TancarSessio() \\
 \textbf{Pre} & L'usuari ha iniciat sessió\\
@@ -236,6 +247,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::ConsultarViatge():TupleType(NomViatge, LocViatge, dataIn, dataFi,:Set(TupleType(nomPart, emailPart)) \\
 \textbf{Pre} & L'usuari ha iniciat sessió\\
@@ -254,6 +266,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::CrearViatge(nomViatge, LocViatge, dataIn, dataFi, :Set(nomPart, emailPart)) \\
 \textbf{Pre} & L'usuari ha iniciat sessió\\
@@ -263,6 +276,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{table}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::SetPreferencies(estil) \\
 \textbf{Pre} & L'usuari ha començat la creació d'un viatge\\
@@ -272,6 +286,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{table}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::SetContactesEmergencia(nom, email, tlf) \\
 \textbf{Pre} & L'usuari ha seleccionat les preferencies del viatge\\
@@ -290,6 +305,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \clearpage
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::EliminarViatge() \\
 \textbf{Pre} & L'usuari ha creat un viatge\\
@@ -308,6 +324,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::ConsultarLlistaDespeses():TupleType(despesaTotal,Set(TupleType(qtt, motiu, lloc, data)) \\
 \textbf{Pre} & Ha accedit a consultar un viatge\\
@@ -325,6 +342,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::CrearDespesa(qtt, motiu, lloc, Set(qtt)) \\
 \textbf{Pre} & Ha accedit a consultar la llista de despeses\\
@@ -344,6 +362,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::ConsultarDespesa()::TupleType(qtt, lloc, data, Set(TupleType(nom, qtt, cobrat))) \\
 \textbf{Pre} & L'usuari ha creat una despesa\\
@@ -361,6 +380,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::CobrarDeute() \\
 \textbf{Pre} & L'usuari ha creat una despesa i té un deute pendent de cobrar\\
@@ -380,6 +400,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::EliminarDespesa() \\
 \textbf{Pre} & L'usuari ha creat una despesa\\
@@ -397,6 +418,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::ModificarDespesa(qtt, motiu, lloc, Set(qtt)) \\
 \textbf{Pre} & L'usuari ha creat una despesa\\
@@ -415,6 +437,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::Cerca(concepte, localització):Set(TupleType(nom, nivellPreu, localitzacio)) \\
 \textbf{Pre} & L'usuari ha accedit a consultar un viatge\\
@@ -431,6 +454,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::ConsultarRuta():TupleType(temps, distancia, inici, final, ruta) \\
 \textbf{Pre} & L'usuari ha realitzat una cerca\\
@@ -449,6 +473,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::ConsultarMeteo():TupleType(data, desc, tempMax, tempMin, pluja, vent)\\
 \textbf{Pre} & L'usuari ha accedit a consultar un viatge\\
@@ -465,6 +490,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::ConsultarRutaHospital():TupleType(temps, distancia, inici, final, ruta)\\
 \textbf{Pre} & L'usuari ha accedit a la funcionalitat de gestionar emergències\\
@@ -483,6 +509,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::TrucadaEmergencies()\\
 \textbf{Pre} & L'usuari ha accedit a la funcionalitat de gestionar emergències\\
@@ -499,6 +526,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::TrucadaContacte()\\
 \textbf{Pre} & L'usuari ha accedit a la funcionalitat de gestionar emergències\\
@@ -517,6 +545,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::ConsultarLlistaNotes():Set(TupleType(titol, text, color))\\
 \textbf{Pre} & L'usuari ha accedit a consultar un viatge\\
@@ -533,6 +562,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::ConsultarNota():TupleType(titol, text, color, Set(TupleType(nom, email)))\\
 \textbf{Pre} & L'usuari ha consultar la llista de notes\\
@@ -551,6 +581,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::CrearNota(titol, text, color)\\
 \textbf{Pre} & L'usuari ha accedit a consultar la llista de notes\\
@@ -567,6 +598,7 @@ Representa el servei extern amb qui es comunica el sistema per tal d'obtenir la 
 \end{figure}
 
 \begin{table}[!h]
+\centering
 \begin{tabular}{l C}
 \textbf{Context}  & Sistema::EliminarNota()\\
 \textbf{Pre} & L'usuari ha accedit a consultar una nota\\

@@ -55,9 +55,49 @@ Pel que fa a les consultes a serveis externs no s'utilitzen respositoris, des de
 \end{itemize}
 
 
-\subsection{Patrons}
+\subsection{Patrons de disseny}
 
-Es va tenir en compte l'arquitectura Model-View-Controller però això provoca que s'hagi de trencar el gran acomplament que ofereix la plataforma Android entre el controlador i la vista. Per aquest motiu es va decidir decantar el disseny de l'arquitectura del projecte cap a l'estructura explicada en l'apartat anterior. 
+En aquest apartat es descriuen els patrons utilitzats en el disseny del software. Com a primer plantejament, es va tenir en compte el patró Model-Vista-Controlador però això provoca que s'hagi de trencar el gran acoblament que ofereix la plataforma \textit{Android} entre el controlador i la vista. Per aquest motiu es va decidir decantar el disseny de l'arquitectura del projecte cap a l'estructura explicada en l'apartat anterior. Els patrons que es treballen en el projecte són els següents:
+\begin{itemize}
+\item{\textbf{Patró factoria}}\\
+En el disseny de l'aplicació, s'utilitza el patró factoria per tal d'aconseguir els diferents tipus de servei. A més, això permet que en tot el sistema només existeixi una instància de cada servei i, per tant, a l'hora d'instanciar qualsevol servei s'ha de fer a través de la factoria.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.75]{Figures/patroFactoria.png}
+\caption{Patró factoria.}
+\end{figure}
+
+\item{\textbf{Patró adaptador}}\\
+Per tal de cridar als serveis externs s'utilitza el patró adaptador, que fa de pont entre el servei i el sistema. Des de l'\textit{Activity} es crida a l'adaptador, i és l'adaptador qui es comunica amb el servei extern desitjat. D'aquesta manera aconseguim una capa d'abastracció que ens permetria canviar el servei extern i no haver de modificar res en l'\textit{Activity}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.75]{Figures/patroAdaptador.png}
+\caption{Patró adaptador.}
+\end{figure}
+
+\clearpage
+
+\item{\textbf{Patró repositori}}\\
+S'utilitza per tal d'evitar l'accés directe a les dades i d'aquesta manera desacoblar al màxim l'accés a \textit{Firebase}. Per qualsevol classe que resulti un objecte emmagatzemat a la base de dades es definirà una interficie \textit{Repository} parametritzada, sobre la qual s'haurà de defnir una classe \textit{RepositoryXXXX} que la implementi.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.75]{Figures/patroRepositori.png}
+\caption{Patró repositori.}
+\end{figure}
+
+\item{\textbf{Patró servei}}\\
+S'utilitza per crear una capa d'abstracció sobre els repositoris prèviament mencionats, cosa que permet desenvolupar en aquestes noves classes la lògica de l'aplicació sense accedir directament als repositoris. Aquests serveis contenen una instància única del repositori.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.75]{Figures/patroServei.png}
+\caption{Patró servei.}
+\end{figure}
+
+\end{itemize}
 
 \subsection{Tecnologies utilitzades}
 \begin{itemize}
@@ -72,7 +112,7 @@ Firebase ofereix una base de dades en temps real com a servei. Aquest servei ofe
 
 \end{itemize}
 
-\clearpage
+
 
 \section{Capa de presentació}
 \begin{itemize}
@@ -89,10 +129,10 @@ El procés d'identificació de l'usuari es dur a terme a través de Google, per 
 \caption{Inici de sessió}
 \end{figure}
 
-
-
 \item[]{\textbf{Consultar llista de viatges}}\\
 A la pantalla de consultar viatges es mostra la llista de viatges de lúsuari. Si l'usuari selecciona qualsevol viatge l'aplicació el redigirà a la pantalla de consulta de viatge. També hi ha l'opció de crear un nou viatge. Des d'aquesta pantalla l'usuari pot tancar la sessió.
+
+\clearpage
 
 \begin{figure}[!h]
 \centering
@@ -100,7 +140,7 @@ A la pantalla de consultar viatges es mostra la llista de viatges de lúsuari. S
 \caption{Inici de sessió}
 \end{figure}
 
-\clearpage
+
 
 \item[]{\textbf{Crear viatge}}\\
 En aquesta pantalla és on s'introdueixen totes les dades d'un nou viatge com el nom, el destí, les dates i els participants. A més, el sistema li pregunta sobre el seu estil de viatjar i demana que li introdueixi les dades d'un contacte d'emergència. Un cop creat el viatge, l'aplicació redirigeix l'usuari a la pantalla de consultar viatge.
@@ -118,6 +158,8 @@ En aquesta pantalla és on s'introdueixen totes les dades d'un nou viatge com el
 \item[]{\textbf{Consultar viatge}}\\
 La pantalla on es mostra tota la informació del viatge: nom, destí, dates i participants. A més, és la pantalla des d'on es pot accedir a totes les funcionalitats nombrades en apartats anteriors i permet eliminar el viatge.
 
+\clearpage
+
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.15]{Figures/Drawer.png}
@@ -128,7 +170,7 @@ La pantalla on es mostra tota la informació del viatge: nom, destí, dates i pa
 \item[]{\textbf{Consultar llista de despeses}}\\
 La pantalla de consultar despeses és on es poden veure totes les despeses del viatge i la quantitat total gastada. Si l'usuari selecciona una despesa el sistema el redirigeix a la pantalla de consultar despesa. A més, l'usuari també té l'opció de crear-ne una de nova, fet que el portarà a la pantalla de crear despesa.
 
-\clearpage
+
 
 \begin{figure}[!h]
 \centering
@@ -139,6 +181,8 @@ La pantalla de consultar despeses és on es poden veure totes les despeses del v
 \item[]{\textbf{Crear despesa}}\\
 En la pantalla crear despesa l'usuari introdueix les dades de la nova despesa com el motiu, la quantitat a pagar, la localització i si ha pagat una part a un company de viatge. Un cop creada la despesa el sistema redirigeix l'usuari a la pantalla de consultar despesa.
 
+\clearpage
+
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.15]{Figures/crearDespesa.png}
@@ -148,7 +192,7 @@ En la pantalla crear despesa l'usuari introdueix les dades de la nova despesa co
 \item[]{\textbf{Consultar despesa}}\\
 En la pantalla de consultar despesa l'usuari pot veure tota la informació de les despeses i té l'opció de marcar un deute com a pagat, modificar la despesa o eliminar-la. En el cas que l'usuari seleccioni modificar despesa el sistema el redirigeix a la pantalla de modificació de despesa, per l'altra banda, si decideix eliminar la despesa, el sistema el redirigeix a la pantalla de consultar llista de despeses.
 
-\clearpage
+
 
 \begin{figure}[!h]
 \centering
@@ -156,10 +200,12 @@ En la pantalla de consultar despesa l'usuari pot veure tota la informació de le
 \caption{Consultar despesa}
 \end{figure}
 
+
+
 \item[]{\textbf{Modificar despesa}}\\
 En la pantalla de modificar despesa l'usuari pot modificar totes les dades d'una despesa. Quan comfirma la modificació el sistema el redirigeix la pantalla de consultar despesa.
 
-
+\clearpage
 
 \begin{figure}[!h]
 \centering
@@ -168,10 +214,10 @@ En la pantalla de modificar despesa l'usuari pot modificar totes les dades d'una
 \end{figure}
 
 
-\item[]{\textbf{Cerca lloc d'interés}}\\
+\item[]{\textbf{Cerca llocs d'interés}}\\
 En la pantalla de cerca lloc d'interés l'usuari pot seleccionar què vol buscar d'entre les possibilitats proposades i a quin lloc ho vol buscar. Si el lloc on ho vol buscar queda buit, es cercaran els resultats tenint en compte la localització de l'usuari en el moment de la cerca. Si no es troben resultats o es necessita activar el GPS s'informarà a l'usuari, d'altra banda, si la cerca es dur a terme satisfactoriament el sistema redirigirà l'usuari a la pantalla de llista de resultats de cerca.
 
-\clearpage
+
 
 \begin{figure}[!h]
 \centering
@@ -179,9 +225,12 @@ En la pantalla de cerca lloc d'interés l'usuari pot seleccionar què vol buscar
 \caption{Cerca de llocs d'interès}
 \end{figure}
 
+
+
 \item[]{\textbf{Consultar llista de resultats de cerca}}\\
 És la pantalla on es veuen les resultats de la cerca, aquests estan ordenats per l'estil de viatjar de l'usuari. Per a cada item trobat es pot consultar el nom, la localització i, en cas que n'hi hagi, el nivell de preus de l'establiment. Quan l'usuari selecciona un resultat de la cerca el sistema el redirigeix a la pantalla de consultar ruta.
 
+\clearpage
 
 \begin{figure}[!h]
 \centering
@@ -194,7 +243,7 @@ En la pantalla de cerca lloc d'interés l'usuari pot seleccionar què vol buscar
 \item[]{\textbf{Consultar ruta}}\\
 En la pantalla de consultar ruta, l'usuari pot veure diverses opcions de ruta des d'on s'ha fet la cerca fins al punt seleccionat. A més, pot consultar la ruta en cotxe, transport públic i a peu, per a cada modalitat es poden veure paràmetres com la distància en quilòmetres i el temps que tardarà en arribar-hi. Si l'usuari prem sobre una de les rutes, l'aplicació li dona l'opció de consultar la ruta exacta utilitzant, en el cas que l'usuari la tingui instalada, l'aplicació Google Maps. Per últim, l'usuari té l'opció de consultar la ruta inversa.
 
-\clearpage
+
 
 \begin{figure}[!h]
 \centering
@@ -202,9 +251,12 @@ En la pantalla de consultar ruta, l'usuari pot veure diverses opcions de ruta de
 \caption{Consultar ruta}
 \end{figure}
 
+
+
 \item[]{\textbf{Consultar previsió metereològica}}\\
 En la pantalla de consultar previsió metereològica es pot veure la metereologia del dia actual amb paràmetre com la temperatura màxima i mínima, el percentatge de possibilitat de pluja, la velocitat del vent o la descripció del cel. A més, l'usuari també pot consultar la previsió fins a sis dies vista.
 
+\clearpage
 
 \begin{figure}[!h]
 \centering
@@ -215,14 +267,14 @@ En la pantalla de consultar previsió metereològica es pot veure la metereologi
 \item[]{\textbf{Emergències}}\\
 En la pantalla d'emergències l'usuari té tres opcions. La primera és realitzar una trucada al telèfon d'emergències del país on estigui, si selecciona aquesta opció el sistema el redirigirà a la pantalla de trucades del seu dispositiu mòbil. La segona opció es tracta de realitzar una trucada al seu propi contacte d'emergències, en aquest cas també se'l redirigirà a la pantalla de trucades del seu dispositiu mòbil. Per últim, té l'opció de seleccionar l'opció d'obtenir la ruta a l'hospital més proper, en aquest cas se'l redirigirà a la pantalla de consultar ruta.
 
-\clearpage
-
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.15]{Figures/emergencies.png}
 \includegraphics[scale=0.15]{Figures/hospital.png}
 \caption{Gestió d'emergències}
 \end{figure}
+
+\clearpage
 
 \item[]{\textbf{Consultar llista de notes}}\\
 En aquesta pantalla l'usuari pot consultar la llista de notes que té el viatge. Des d'aquesta pantalla pot accedir a consultar una nota en concret o crear-ne una de nova.
@@ -236,7 +288,6 @@ En aquesta pantalla l'usuari pot consultar la llista de notes que té el viatge.
 \item[]{\textbf{Crear nota}}\\
 En la pantalla de crear nota, l'usuari pot introduir el títol i el text de la nota i pot seleccionar un color per tal de canviar el fons d'aquesta. També pot seleccionar els participants del viatge amb qui vol compartir la nota a través de correu electrònic.
 
-\clearpage
 
 \begin{figure}[!h]
 \centering
@@ -247,8 +298,12 @@ En la pantalla de crear nota, l'usuari pot introduir el títol i el text de la n
 \caption{Crear nota}
 \end{figure}
 
+
+
 \item[]{\textbf{Consultar nota}}\\
 En la pantalla de consultar nota l'usuari pot veure la nota seleccionada i té informació de amb qui l'ha compartit. A més, sempre pot canviar el color del fons de la nota.
+
+\clearpage
 
 \begin{figure}[!h]
 \centering
@@ -267,7 +322,7 @@ En la pantalla de consultar nota l'usuari pot veure la nota seleccionada i té i
 
 En aquest apartat s'explica el model de dades utilitzat per desenvolupar el projecte. La base de dades que s'ha utilitzat és un base de dades no relacional de tipus \textit{key-value}. Per tal de modelar les dades, s'han seguit les bones pràctiques de la tecnologia utilitzada \textit{Firebase}.\\
 
-Les dades del projecte es guarden en una direcció concreta, existeix un node pare del projecte des d'on pengen totes les dades. A partir d'aquest node pare es creen nodes per a cada tipus de dades diferent a guardar. D'aquests subnodes en pengen llistes clau-valor amb totes les dades emmagatzemades d'aquell tipus concret (figura 8.5). En els manuals de \textit{Firebase} es dona molta importància a l'organització de la base de dades tal com s'ha explicat en aquest paràgraf.\\
+Les dades del projecte es guarden en una direcció concreta que proporciona \textit{Firebase}. En aquesta direcció existeix un node pare del projecte des d'on pengen totes les dades. Des d'aquest node pare pengen llistes clau-valor, per cada tipus de dades diferent, amb totes les dades emmagatzemades d'aquell tipus concret (figura 8.25). El fet que es guardin les dades per tipus de d'entitat és degut a que els manuals de \textit{Firebase} defineixen que per tal d'obtenir un bon resultat és el camí que s'ha de seguir.
 
 \begin{figure}[!h]
 \centering
@@ -276,7 +331,7 @@ Les dades del projecte es guarden en una direcció concreta, existeix un node pa
 \end{figure}
 
 
-Per a cada clau tenim un valor, aquest valor conté tots els atributs de l'entitat guardada. Per tal d'evitar emmagatzemar informació duplicada guardant altres entitats dins d'entitats, quan es necessita afrontar aquest cas el que es fa és guardar només la clau (figura 8.6).
+En la llista d'una entitat en concret, per a cada clau tenim un valor, i aquest valor conté tots els atributs de l'entitat guardada. En tenir llistes separades per cada entitat, quan es necessita referenciar un altre objecte guardat en la base de dades, s'utilitza la clau. Per tant, un deute no s'emmagatzema dins la despesa a la qual pertany sinnó que es guarda en la llista de deutes i es guarda un atribut amb la clau de la despesa (figura 8.26).
 
 
 \begin{figure}[!h]
@@ -285,6 +340,5 @@ Per a cada clau tenim un valor, aquest valor conté tots els atributs de l'entit
 \caption{Solució per no duplicar informació.}
 \end{figure}
 
-Aquest sistema, per tal de ser el màxim eficient, utilitza índexs a l'hora d'accedir a un valor a través de la seva clau.
 
 \section{Diagrames de seqüència}
