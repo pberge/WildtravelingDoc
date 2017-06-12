@@ -77,12 +77,13 @@ headsepline, % Uncomment to get a line under the header
 
 \subject{Biological Sciences} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
 \keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
-\university{\href{http://www.upc.edu}{Universitat Politècnica de Catalunya}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
-\department{\href{https://www.fib.upc.edu/}{Enginyeria del Software i Sistemes d'Informació}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+\university{\textbf{Universitat Politècnica de Catalunya}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\department{Enginyeria del Software i Sistemes d'Informació} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
 \group{\href{http://researchgroup.university.com}{Research Group Name}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
-\faculty{\href{https://www.fib.upc.edu/}{Facultat d'informàtica de Catalunya}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
+\faculty{\textbf{Facultat d'informàtica de Catalunya}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
 
 \AtBeginDocument{
+\hypersetup{linkcolor=black}
 \hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
 \hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
 \hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
@@ -101,6 +102,9 @@ headsepline, % Uncomment to get a line under the header
 \begin{titlepage}
 \begin{center}
 
+
+\includegraphics[scale=0.3]{Figures/logo.png}
+
 \vspace*{.06\textheight}
 {\scshape\LARGE \univname\par}\vspace{1.5cm} % University name
 \textsc{\Large TREBALL FINAL DE GRAU}\\[0.5cm] % Thesis type
@@ -112,20 +116,20 @@ headsepline, % Uncomment to get a line under the header
 \begin{minipage}[t]{0.4\textwidth}
 \begin{flushleft} \large
 \emph{Autor:}\\
-\href{http://www.johnsmith.com}{\authorname} % Author name - remove the \href bracket to remove the link
+\authorname % Author name - remove the \href bracket to remove the link
 \end{flushleft}
 \end{minipage}
 \begin{minipage}[t]{0.4\textwidth}
 \begin{flushright} \large
 \emph{Tutora:} \\
-\href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\supname
 \end{flushright}
 \end{minipage}\\[3cm]
  
 \vfill
 
 \large \degreename\\[0.3cm] % University requirement text
-\large Facultat d'Informàtica de Barcelona\\ % University requirement text
+\large \textbf{Facultat d'Informàtica de Barcelona}\\ % University requirement text
 \deptname\\[2cm] % Research group name and department name
  
 \vfill
