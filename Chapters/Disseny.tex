@@ -318,11 +318,17 @@ En la pantalla de consultar nota l'usuari pot veure la nota seleccionada i té i
 
 \section{Diagrama de classes de disseny}
 
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.80]{Figures/classesDisseny.png}
+\caption{Diagrama de classes de disseny.}
+\end{figure}
+
 \section{Model de dades}
 
 En aquest apartat s'explica el model de dades utilitzat per desenvolupar el projecte. La base de dades que s'ha utilitzat és un base de dades no relacional de tipus \textit{key-value}. Per tal de modelar les dades, s'han seguit les bones pràctiques de la tecnologia utilitzada \textit{Firebase}.\\
 
-Les dades del projecte es guarden en una direcció concreta que proporciona \textit{Firebase}. En aquesta direcció existeix un node pare del projecte des d'on pengen totes les dades. Des d'aquest node pare pengen llistes clau-valor, per cada tipus de dades diferent, amb totes les dades emmagatzemades d'aquell tipus concret (figura 8.25). El fet que es guardin les dades per tipus de d'entitat és degut a que els manuals de \textit{Firebase} defineixen que per tal d'obtenir un bon resultat és el camí que s'ha de seguir.
+Les dades del projecte es guarden en una direcció concreta que proporciona \textit{Firebase}. En aquesta direcció existeix un node pare del projecte des d'on pengen totes les dades. Des d'aquest node pare pengen llistes clau-valor, per cada tipus de dades diferent, amb totes les dades emmagatzemades d'aquell tipus concret (figura 8.26). El fet que es guardin les dades per tipus de d'entitat és degut a que els manuals de \textit{Firebase} defineixen que per tal d'obtenir un bon resultat és el camí que s'ha de seguir.
 
 \begin{figure}[!h]
 \centering
@@ -331,7 +337,7 @@ Les dades del projecte es guarden en una direcció concreta que proporciona \tex
 \end{figure}
 
 
-En la llista d'una entitat en concret, per a cada clau tenim un valor, i aquest valor conté tots els atributs de l'entitat guardada. En tenir llistes separades per cada entitat, quan es necessita referenciar un altre objecte guardat en la base de dades, s'utilitza la clau. Per tant, un deute no s'emmagatzema dins la despesa a la qual pertany sinnó que es guarda en la llista de deutes i es guarda un atribut amb la clau de la despesa (figura 8.26).
+En la llista d'una entitat en concret, per a cada clau tenim un valor, i aquest valor conté tots els atributs de l'entitat guardada. En tenir llistes separades per cada entitat, quan es necessita referenciar un altre objecte guardat en la base de dades, s'utilitza la clau. Per tant, un deute no s'emmagatzema dins la despesa a la qual pertany sinnó que es guarda en la llista de deutes i es guarda un atribut amb la clau de la despesa (figura 8.27).
 
 
 \begin{figure}[!h]
@@ -340,5 +346,14 @@ En la llista d'una entitat en concret, per a cada clau tenim un valor, i aquest 
 \caption{Solució per no duplicar informació.}
 \end{figure}
 
+\clearpage
+
+Finalment, en la figura 8.28 es mostra l'esquema total de la base de dades.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=1.00]{Figures/esquemabdGeneral.png}
+\caption{Esquema de la base de dades}
+\end{figure}
 
 \section{Diagrames de seqüència}

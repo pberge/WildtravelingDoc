@@ -53,6 +53,8 @@ Per tal de llegir dades de firebase, el que es fa és el següent. Quan s'inicia
 \caption{Conversió de les dades a l'entitat Nota}
 \end{figure}
 
+\clearpage
+
 \item{\textbf{Accés a les dades des de l'\textit{Activity}}}\\
 
 Per interaccionar amb les dades i poder mostrar-les a l'usuari s'implementen diversos serveis. Aquests serveis són els encarregats de fer les operacions necessaries per tal de proporcionar a l'\textit{Activity} les dades que vol mostrar a l'usuari o per tal d'emmagatzemar les dades que l'usuari introdueix.\\
@@ -71,7 +73,7 @@ Pel que fa a l'\textit{Activity}, es declara el servei com en la figura 9.7 i s'
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.8]{Figures/serv2.png}
-\caption{Mètode de la classe ExpenseService}
+\caption{Accés a ExpenseService}
 \end{figure}
 
 \item{\textbf{Connexió amb serveis externs}}\\
@@ -96,13 +98,14 @@ La diferencia es veu en la classe servei, ja que enlloc de comunicar-se amb la b
 
 Per tal de poder enviar un correu electrònic directament des del codi \textit{Android} s'utilitza una classe anomenada MailSender. En aquesta classe es defineixen tots els paràmetres que permetran enviar un correu electrònic. En la figura 9.10 es pot veure el fragment de codi on es defineixen els paràmetre que permeten enviar des de \textit{Gmail}, s'inicia la sessió amb les credencials del compte \textit{WildTraveling} i es crea i envia el missatge en si.
 
-\clearpage
 
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.8]{Figures/email.png}
 \caption{Enviament d'un correu electrònic}
 \end{figure}
+
+\clearpage
 
 Des de l'\textit{Activity}, per tal d'enviar un email, es crea una instància de la classe MailSender amb les dades del receptor del correu, l'assumpte i el cos, i s'executa el procés que s'ha definit dins la classe (Figura 9.11).
 
