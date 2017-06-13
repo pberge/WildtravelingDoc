@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.23)  13 JUN 2017 12:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.23)  13 JUN 2017 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4759,15 +4759,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
 (./Chapters/InformeSostenibilitat.aux) (./Chapters/Conclusions.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: CBDD7F50EE75E1DE769699807FF99303;12799.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 8E24B5204B3E45AF56A62D8C00FB858B;12804
-(rerunfilecheck)             After:  CBDD7F50EE75E1DE769699807FF99303;12799.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -4778,7 +4772,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  30390 strings out of 494966
  618751 string characters out of 6179559
- 1010136 words of memory out of 5000000
+ 1010135 words of memory out of 5000000
  32722 multiletter control sequences out of 15000+600000
  44665 words of font info for 74 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
@@ -4793,7 +4787,7 @@ a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (108 pages, 3642734 bytes).
+Output written on main.pdf (108 pages, 3644153 bytes).
 PDF statistics:
  1411 PDF objects out of 1440 (max. 8388607)
  1166 compressed objects within 12 object streams
