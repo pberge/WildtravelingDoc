@@ -61,13 +61,13 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \newcolumntype{M}{m{9cm}}
 \newcolumntype{T}{m{12cm}}
 
-\newcommand\tab[1][0.75cm]{\hspace*{#1}}
+
 
 \newcolumntype{L}{>{\centering}m{0.75cm}}
 \newcolumntype{M}{m{9cm}}
 \newcolumntype{T}{m{12cm}}
 
-\newcommand\tab[1][0.75cm]{\hspace*{#1}}
+
 
 \begin{table}[!h]
 \centering
@@ -203,13 +203,27 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \caption{Cas d'ús \textit{Consultar llista de viatges}}
 \end{table}
 
-\clearpage
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|L|l|}
+\hline
+\textbf{Cas d'ús }& \#6 &  Consultar informació general del viatge\\ \hline
+\textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
+\textbf{Precondició} & \multicolumn{ 2}{M|}{L’usuari ha creat almenys un viatge.} \\ \hline
+\textbf{Trigger} & \multicolumn{ 2}{M|}{L’usuari vol consultar la informació general d'un viatge.} \\ \hline
+\multicolumn{ 3}{|T|}{\textbf{Escenari principal d’èxit}} \\ \hline
+\multicolumn{ 3}{|T|}{1. L’usuari indica que vol consultar la informació general d'un viatge.}\\
+\multicolumn{ 3}{|T|}{2. El sistema redirigeix l’usuari a la pantalla de consultar informació general del viatge seleccionat.}\\\hline
+\end{tabular}
+\label{}
+\caption{Cas d'ús \textit{Consultar informació general del viatge}}
+\end{table}
 
 \begin{table}[!h]
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#6 & Consultar despeses   \\ \hline
+\textbf{Cas d'ús }& \#7 & Consultar despeses   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L’usuari ha accedit a un viatge i ha iniciat sessió.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L’usuari vol accedir a la funcionalitat gestió de despeses.} \\ \hline
@@ -227,7 +241,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#7 & Afegir nova despesa  \\ \hline
+\textbf{Cas d'ús }& \#8 & Afegir nova despesa  \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L’usuari ha accedit a la funcionaltiat gestió de despeses compartides.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L’usuari vol afegir una nova despesa.} \\ \hline
@@ -256,7 +270,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#8 & Eliminar despesa   \\ \hline
+\textbf{Cas d'ús }& \#9 & Eliminar despesa   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L’usuari ha accedit a la funcionalitat gestió de despeses compartides i ha creat almenys una despesa.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L’usuari vol eliminar una despesa.} \\ \hline
@@ -278,7 +292,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#9 &  Consultar deutes de despesa \\ \hline
+\textbf{Cas d'ús }& \#10 &  Consultar deutes de despesa \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L’usuari ha accedit a la funcionalitat de gestió de despeses.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{ L’usuari vol consultar els deutes d’una despesa.} \\ \hline
@@ -293,7 +307,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#10 & Cobrar deute   \\ \hline
+\textbf{Cas d'ús }& \#11 & Cobrar deute   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L’usuari ha accedit a la consulta de deutes d’una despesa i almenys existeix un deute per aquella despesa.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L’usuari vol marcar com a cobrat un deute.} \\ \hline
@@ -314,7 +328,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#11 & Modificar despesa   \\ \hline
+\textbf{Cas d'ús }& \#12 & Modificar despesa   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L’usuari ha accedit a la consulta de despeses i té almenys una despesa.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L’usuari vol modificar una despesa.} \\ \hline
@@ -336,7 +350,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#12 & Gestionar cerques   \\ \hline
+\textbf{Cas d'ús }& \#13 & Gestionar cerques   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L’usuari ha iniciat sessió i té un viatge en curs.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L’usuari vol accedir a la funcionalitat de cerques.} \\ \hline
@@ -352,7 +366,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#13 & Realitzar una cerca   \\ \hline
+\textbf{Cas d'ús }& \#14 & Realitzar una cerca   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L’usuari ha accedit a la funcionalitat de gestionar cerques.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L’usuari vol realitzar una cerca.} \\ \hline
@@ -379,7 +393,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#14 & Consultar ruta   \\ \hline
+\textbf{Cas d'ús }& \#15 & Consultar ruta   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L’usuari ha realitzat una cerca.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L’usuari vol consultar com arribar fins a un dels punts de la cerca.} \\ \hline
@@ -405,7 +419,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#15 & Consultar previsió metereològica  \\ \hline
+\textbf{Cas d'ús }& \#16 & Consultar previsió metereològica  \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L'usuari té un viatge en curs i ha iniciat sessió.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L'usuari vol accedir a la funcionalitat de consultar previsió metereològica.} \\ \hline
@@ -421,7 +435,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#16 & Gestionar emergències  \\ \hline
+\textbf{Cas d'ús }& \#17 & Gestionar emergències  \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L'usuari té un viatge en curs i ha iniciat sessió.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L'usuari vol accedir a la funcionalitat de gestió d'emergències.} \\ \hline
@@ -434,13 +448,40 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \caption{Cas d'ús \textit{Gestionar emergències}}
 \end{table}
 
-\clearpage
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|L|l|}
+\hline
+\textbf{Cas d'ús }& \#18 & Consultar ruta a l'hospital \\ \hline
+\textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
+\textbf{Precondició} & \multicolumn{ 2}{M|}{L'usuari ha accedit a la funcionalitat de gestionar emergències.} \\ \hline
+\textbf{Trigger} & \multicolumn{ 2}{M|}{L'usuari vol consultar la ruta a l'hospital més proper.} \\ \hline
+\multicolumn{ 3}{|T|}{\textbf{Escenari principal d’èxit}} \\ \hline
+\multicolumn{ 3}{|T|}{1. L'usuari indica que vol consultar la ruta a l'hospital més proper.}\\
+\multicolumn{ 3}{|T|}{2. El sistema fa una crida a la API i redirigeix l’usuari a la pantalla de ruta on mostra el resultat obtingut representat al mapa.}\\ \hline
+\multicolumn{ 3}{|T|}{\textbf{Extensions}} \\ \hline
+\multicolumn{ 3}{|T|}{1.a El sistema detecta que l’usuari no té activat el GPS al seu dispositiu.} \\
+\multicolumn{ 3}{|T|}{\tab1.a.1 El sistema demana si pot activar el GPS.} \\
+\multicolumn{ 3}{|T|}{\tab1.a.2 L’usuari accepta activar el GPS.} \\
+\multicolumn{ 3}{|T|}{\tab1.a.3 El sistema executa el pas 2.} \\
+\multicolumn{ 3}{|T|}{\tab1.a.2.a L’usuari no accepta activar el GPS.} \\
+\multicolumn{ 3}{|T|}{\tab\tab1.a.2.a.1 El sistema retorna a la pantalla inicial del cas d’ús.} \\
+\multicolumn{ 3}{|T|}{2.a El sistema no pot comunicar-se amb la API per falta de connexió a internet.} \\
+\multicolumn{ 3}{|T|}{\tab2.a.1 El sistema notifica a l’usuari.} \\\hline
+\end{tabular}
+\label{}
+\caption{Cas d'ús \textit{Consultar ruta a l'hospital}}
+\end{table}
+
+
+
+
 
 \begin{table}[!h]
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#17 & Trucar telèfon d'emergència   \\ \hline
+\textbf{Cas d'ús }& \#19 & Trucar telèfon d'emergència   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L'usuari ha accedit a la funcionalitat de gestionar emergències.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L'usuari vol fer una trucada al telèfon d'emegència.} \\ \hline
@@ -453,11 +494,13 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \caption{Cas d'ús \textit{Trucar telèfon d'emergència}}
 \end{table}
 
+
+
 \begin{table}[!h]
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#18 & Trucar telèfon de contacte   \\ \hline
+\textbf{Cas d'ús }& \#20 & Trucar telèfon de contacte   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L'usuari ha accedit a la funcionalitat de gestionar emergències.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L'usuari vol realitzar una trucada al telèfon de contacte.} \\ \hline
@@ -473,7 +516,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#19 & Consultar llista de notes   \\ \hline
+\textbf{Cas d'ús }& \#21 & Consultar llista de notes   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L'usuari té un viatge en curs i ha iniciat sessió al sistema.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L'usuari vol accedir a la llista de notes.} \\ \hline
@@ -485,13 +528,13 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \caption{Cas d'ús \textit{Consultar llista de notes}}
 \end{table}
 
-\clearpage
+
 
 \begin{table}[!h]
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#20 & Crear nota   \\ \hline
+\textbf{Cas d'ús }& \#22 & Crear nota   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L'usuari ha accedit a la llista de notes.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L'usuari vol crear una nota.} \\ \hline
@@ -511,7 +554,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#21 & Consultar nota   \\ \hline
+\textbf{Cas d'ús }& \#23 & Consultar nota   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L'usuari ha accedit a la llista de notes i ha creat almenys una nota.} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L'usuari vol consultar una nota concreta.} \\ \hline
@@ -529,7 +572,7 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#22 & Eliminar nota   \\ \hline
+\textbf{Cas d'ús }& \#24 & Eliminar nota   \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L'usuari ha accedit a la pantalla de consultar nota} \\ \hline
 \textbf{Trigger} & \multicolumn{ 2}{M|}{L'usuari vol eliminar la nota consultada.} \\ \hline
