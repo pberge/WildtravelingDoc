@@ -47,11 +47,13 @@ El desenvolupament de l’aplicació té un impacte en la societat, a més, s’
 En aquest apartat s’exposen les diferències que hi ha hagut entre la planificació inicial i la realitat en el desenvolupament del projecte i les conseqüències
 d’aquestes desviacions sobre el pressupost.\\
 
-\textbf{Fase inicial:}\\
+\textbf{Fase inicial}\\
+
 La fase inicial ha estat més llarga del que s’esperava ja que es va haver de dedicar més hores de les previstes en la definició del projecte i l’especificació de
 requisits. Això va comportar un retard de 7 dies.\\
 
-\textbf{Iteracions:}\\
+\textbf{Iteracions}\\
+
 Degut al retard en la fase inicial, les iteracions es van començar una setmana després de l’esperat. Aquest fet va forçar una reorganització de la fase de
 desenvolupament del producte. S’han convertit les 5 iteracions planificades en
 7, fent-les més curtes.\\
@@ -69,12 +71,13 @@ metia.
 \item{}\textbf{Iteració 4:} 3 de maig - 11 de maig (planificació : 11 de maig - 24 de maig)
 \item{}\textbf{Iteració 5:} 11 de maig - 18 de maig (planificació: 25 de maig - 7 de juny)
 \item{}\textbf{Iteració 6:} 19 de maig - 25 de maig (iteració extra)
-\textbf{Iteració 7:} 26 de maig - 7 de juny (iteració extra)\\
+\item{}\textbf{Iteració 7:} 26 de maig - 7 de juny (iteració extra)\\
 En aquesta iteració es té previst millorar les interfícies i acabar alguns detalls pendents. Un cop finalitzada aquesta iteració el producte estarà llest
 per ser llençat al mercat.
 \end{itemize}
 
 \textbf{Fase final}\\
+
 La fase final no es veurà afectada pels canvis en la planificació que hi ha hagut en les fases anteriors.\\
 
 Tenint en compte les desviacions mencionades, les hores emprades en el projecte queden repartides de la següent manera.
@@ -123,7 +126,43 @@ van preveure. Si restem els costos dels imprevistos i el valor de les contingèn
 
 \section{Gantt final}
 
+En aquest apartat es mostra el diagrama de Gantt final (Figura 12.2) i la taula de planificació final (Figura 12.1) de les tasques que s'han dut a terme amb les corresponents dates inicials i finals.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=1]{Figures/ganttFinal.png}
+\caption{Taula de planificació final}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.85]{Figures/ganttFinal2.png}
+\caption{Diagrama de Gantt final}
+\end{figure}
+
 \section{Limitacions i dificultats}
+Degut a temes de pressupost, no es pot garantir una quantitat molt gran d'usuaris ja que el servei que s'utilitza per tal d'implementar la base de dades només ofereix una quantitat d'usuaris finita de manera gratuïta. En el cas que es volgués incrementar el nombre d'usuaris s'hauria de comptar amb un pagament mensual al sistema \textit{Firebase}.\\
+
+El mateix passa amb la crida a l'api que retorna la previsió metereològica, aquest servei només permet fer un número finit de crides cada minut. Aquesta limitació però és menys important ja que haurien de registrar-se molts usuaris per tal de sobrecarregar el sistema, i si aquest fos el cas, l'usuari podria tornar a provar d'aconseguir la previsió meterològica uns segons més tard. Cal dir però, que el servei no és molt car i també es podria fer un pagament mensual.\\
+
+A l'inici del projecte es volia oferir l'aplicació a l'usuari en diversos idiomes: català, castellà, anglès i italià. Degut a la limitació temporal del projecte s'ha prioritzat altres tasques i actualment l'aplicació només es pot utilitzar en anglès. També per un tema de prioritats, s'ha posposat el desenvolupament d'una pàgina web informativa sobre l'aplicació mòbil.\\
+
+Els punts que han suposat l'aparició de dificultats han estat, sobretot, la connexió amb els serveis externs que utilitza l'aplicació, ja que no havia treballat mai amb ells; i també la connexió amb la base de dades, que en ser també un servei, aconseguir una connexió que permeti desacoblar al màxim la base de dades ha estat un tema difícil de gestionar. Malgrat aquests obstacles, s'ha pogut tirar el projecte endavant consultant documentació i conversant amb experts en el tema.
+
 
 \section{Treball futur}
+
+El projecte ha assolit els objectius que es van plantejar a l'inici, tot i així, el sistema pot incorporar més funcionalitats i continuar treballant en diversos aspectes.\\
+
+En primer lloc, com ja s'ha especificat en aquest document l'aplicació està pensada per tal de que sigui molt senzill incorporar noves funcionalitats que donin suport al viatger durant el transcurs del seu viatge. Per aquest motiu, un punt fonamental del treball a fer en un futur és analitzar quines funcionalitats s'utilitzen més i quines es podrien incorporar. Si alguna funcionalitat no s'utilitza s'hauria d'estudiar els motius i actuar. D'atra banda, sempre s'ha d'estar atent a l'aparició de noves tecnologies i sistemes que puguessin millorar el servei.\\
+
+Un altre punt important és crear una versió de l'aplicació per al sistema operatiu \textit{iOS} ja que actualment només està desenvolupat per \textit{Android}. Això permetria que gairebé el 100\% de les persones que utilitzen un \textit{smartphone} poguessin utilitzar l'aplicació.\\
+
+\clearpage
+
+En tercer lloc, degut als meus pocs coneixements en seguretat informàtica seria necessari consultar i valorar quins canvis s'hauria de dur a terme per tal de minimitzar riscs ja que la llei estableix que s'han de protegir les dades. Les mesures de seguretat actuals són molt estàndard.\\
+
+
+Finalment, es vol treballar en la creació d'una interfície única per la marca WildTraveling, això suposaria contractar especialistes en disseny d'interfícies gràfiques i treballar conjuntament en un disseny nou. Actualment s'utilitzen icones i símbols que, tot i estar lliures de llicència, no són únics del sistema.
+
 

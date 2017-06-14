@@ -357,3 +357,40 @@ Finalment, en la figura 8.28 es mostra l'esquema total de la base de dades.
 \end{figure}
 
 \section{Diagrames de seqüència}
+
+En aquest apartat es mostren diagrames de seqüència dels punts crítics del sistema. En alguns diagrames s'ha eliminat la part de comprovació d'errors per tal de fer el diagrama més fàcil d'entendre.\\
+
+El primer punt important del sistema és l'inici de sessió. En la figura 8.29 es mostra el diagrama de seqüència d'aquest cas d'ús. L'usuari es registra utilitzant les credencials de \textit{Google}, un cop es comfirma que les dades a \textit{Google} són correctes, el sistema inicialitza tots els serveis. Quan s'inicialitza un servei, aquest es connecta amb la base de dades i carrega els repositoris. Si l'usuari no ha estat registrat prèviament el sistema es guarda la seva informació i el condueix la pantalla de consultar la llista de viatges, si ja ha estat registrat l'usuari es conduit directament a la pantalla de consultar la llista de viatges.\\
+
+En segon lloc, es vol mostrar com l'usuari interacciona amb l'aplicació. Per aquest motiu, a la figura 8.30 es mostra un exemple de com es controla la interacció en la pantalla de consultar viatges. Es pot comprovar que quan l'usuari selecciona un item de la llista el sistema estableix el viatge com a viatge actual en el servei corresponent i redirigeix l'usuari a la pantalla de consultar el viatge seleccionat.\\
+
+En tercer lloc, es mostra com s'accedeix a les dades que prèviament ja s'han carregat als repositoris. En la figura 8.31 es pot veure com des de l'activitat es crida al servei i és el servei qui interacciona amb el repositori per tal d'obtenir el viatge desitjat. Finalment l'activitat es posa en contacte amb la vista per tal de llistar els participants del viatge.\\
+
+Com a últim punt crític del sistema, es mostra com es dur a terme una crida a un servei extern. En la figura 8.32 es mostra com es crida al servei extern que retorna una llista d'hospitals, mentre es fa la crida es mostra un diàleg indicant que s'estan carregant dades. L'activitat consulta la posició de l'usuari utilitzant el GPS del dispositiu mòbil i es comunica amb l'adaptador que és qui fa la crida al servei i tradueix la resposta a entitats que puguin ser processades pel sistema. Finalment, l'adaptador executa un mètode per tal de trobar l'hospital més proper i retorna el resultat.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=1.2]{Figures/logInDS.png}
+\caption{Diagrama de seqüència \textit{Inici sessió}}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=1.2]{Figures/tripListDS.png}
+\caption{Diagrama de seqüència \textit{Interacció amb l'usuari}}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=1.2]{Figures/accesBDDS.png}
+\caption{Diagrama de seqüència \textit{Interacció amb la base de dades}}
+\end{figure}
+
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=1.2]{Figures/apiDS.png}
+\caption{Diagrama de seqüència \textit{Crida a una API}}
+\end{figure}
+

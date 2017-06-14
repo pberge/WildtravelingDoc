@@ -54,18 +54,24 @@
 \contentsline {figure}{\numberline {8.26}{\ignorespaces Estructura base de dades.\relax }}{79}{figure.caption.212}
 \contentsline {figure}{\numberline {8.27}{\ignorespaces Soluci\IeC {\'o} per no duplicar informaci\IeC {\'o}.\relax }}{79}{figure.caption.213}
 \contentsline {figure}{\numberline {8.28}{\ignorespaces Esquema de la base de dades\relax }}{80}{figure.caption.214}
+\contentsline {figure}{\numberline {8.29}{\ignorespaces Diagrama de seq\IeC {\@umlaut u}\IeC {\`e}ncia \textit {Inici sessi\IeC {\'o}}\relax }}{81}{figure.caption.216}
+\contentsline {figure}{\numberline {8.30}{\ignorespaces Diagrama de seq\IeC {\@umlaut u}\IeC {\`e}ncia \textit {Interacci\IeC {\'o} amb l'usuari}\relax }}{81}{figure.caption.217}
+\contentsline {figure}{\numberline {8.31}{\ignorespaces Diagrama de seq\IeC {\@umlaut u}\IeC {\`e}ncia \textit {Interacci\IeC {\'o} amb la base de dades}\relax }}{82}{figure.caption.218}
+\contentsline {figure}{\numberline {8.32}{\ignorespaces Diagrama de seq\IeC {\@umlaut u}\IeC {\`e}ncia \textit {Crida a una API}\relax }}{82}{figure.caption.219}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Crida d'inici de sessi\IeC {\'o}\relax }}{81}{figure.caption.217}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Retorn d'inici de sessi\IeC {\'o}\relax }}{81}{figure.caption.218}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Constructor del repositori\relax }}{82}{figure.caption.219}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Funci\IeC {\'o} d'\textit {insert} gen\IeC {\`e}rica\relax }}{82}{figure.caption.220}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Conversi\IeC {\'o} de les dades a l'entitat Nota\relax }}{82}{figure.caption.221}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces M\IeC {\`e}tode de la classe ExpenseService\relax }}{83}{figure.caption.222}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Acc\IeC {\'e}s a ExpenseService\relax }}{83}{figure.caption.223}
-\contentsline {figure}{\numberline {9.8}{\ignorespaces M\IeC {\`e}tode per obtenir l'hospital m\IeC {\'e}s proper\relax }}{84}{figure.caption.224}
-\contentsline {figure}{\numberline {9.9}{\ignorespaces Crida al servei de punts d'inter\IeC {\'e}s\relax }}{84}{figure.caption.225}
-\contentsline {figure}{\numberline {9.10}{\ignorespaces Enviament d'un correu electr\IeC {\`o}nic\relax }}{84}{figure.caption.226}
-\contentsline {figure}{\numberline {9.11}{\ignorespaces Funci\IeC {\'o} enviar correu electr\IeC {\`o}nic\relax }}{85}{figure.caption.227}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Crida d'inici de sessi\IeC {\'o}\relax }}{83}{figure.caption.221}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Retorn d'inici de sessi\IeC {\'o}\relax }}{83}{figure.caption.222}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Constructor del repositori\relax }}{84}{figure.caption.223}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Funci\IeC {\'o} d'\textit {insert} gen\IeC {\`e}rica\relax }}{84}{figure.caption.224}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Conversi\IeC {\'o} de les dades a l'entitat Nota\relax }}{84}{figure.caption.225}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces M\IeC {\`e}tode de la classe ExpenseService\relax }}{85}{figure.caption.226}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Acc\IeC {\'e}s a ExpenseService\relax }}{85}{figure.caption.227}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces M\IeC {\`e}tode per obtenir l'hospital m\IeC {\'e}s proper\relax }}{86}{figure.caption.228}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Crida al servei de punts d'inter\IeC {\'e}s\relax }}{86}{figure.caption.229}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Enviament d'un correu electr\IeC {\`o}nic\relax }}{86}{figure.caption.230}
+\contentsline {figure}{\numberline {9.11}{\ignorespaces Funci\IeC {\'o} enviar correu electr\IeC {\`o}nic\relax }}{87}{figure.caption.231}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Taula de planificaci\IeC {\'o} final\relax }}{100}{figure.caption.269}
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Diagrama de Gantt final\relax }}{100}{figure.caption.270}
