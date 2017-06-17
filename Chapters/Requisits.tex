@@ -1,21 +1,19 @@
-% Chapter Template
-
 \chapter{Requisits} % Main chapter title
 
 \label{Requisits} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
 \section{Propietats i hipòtesis sobre el domini}
 
-Per a poder desenvolupar aquest projecte, s’ha considerat necessari definir una sèrie d’expectatives sobre l’ús del sistema.
+Per a poder desenvolupar aquest projecte, s'ha considerat necessari definir una sèrie d'expectatives sobre l'ús del sistema.
 \begin{itemize}
 \item{}\textbf{Connexió a internet}\\
-L’usuari té connexió a internet en tot moment ja que es necessita a l’hora
-de guardar i consultar dades, i a l’hora d’accedir a serveis web.
+L'usuari té connexió a internet en tot moment, ja que es necessita a l'hora
+de guardar i consultar dades, i a l'hora d'accedir a serveis web.
 \item{}\textbf{Ús del sistema}\\
-Els usuaris utilitzaran el sistema d’acord amb la finalitat per al qual ha
-sigut creat sense fer-ne un mal us o emprenen accions malicioses que puguin trencar la integritat del sistema. Tot i així, s’implementaran mitjants de seguretat per protegir l’aplicació en aquest aspecte.
+Els usuaris utilitzaran el sistema d'acord amb la finalitat per al qual ha
+sigut creat sense fer-ne un mal ús o emprenen accions malicioses que puguin trencar la integritat del sistema. Tot i així, s'implementaran mitjans de seguretat per protegir l'aplicació en aquest aspecte.
 \item{}\textbf{Obtenció de dades correctes}\\
- Les dades que s’obtenen de serveis web són
+Les dades que s'obtenen de serveis web són
 correctes i actualitzades.
 
 \end{itemize}
@@ -24,30 +22,29 @@ correctes i actualitzades.
 \begin{itemize}
 \item[]\textbf{Restricció de la solució}
 \begin{itemize}
-\item{}Descripció: L’aplicació serà desenvolupada com a aplicació mòbil Android.
-\item{}Justificació: Els dispositius mòbils estan sempre aprop de l’usuari i
-disponibles per al seu ús, a més, en els últims anys s’ha extés l’ús
-d’internet al mòbil. Pel que fa al sistema operatiu, degut a la limitació temporal del treball i a que té una quota de mercat molt gran a
-Espanya s’ha optat per la implementació en Android, encara que no
+\item{}Descripció: L'aplicació serà desenvolupada com a aplicació mòbil Android.
+\item{}Justificació: Els dispositius mòbils estan sempre a prop de l'usuari i
+disponibles per al seu ús, a més, en els últims anys s'ha estès l'ús
+d'internet al mòbil. Pel que fa al sistema operatiu, a causa de la limitació temporal del treball i a que té una quota de mercat molt gran a
+Espanya s'ha optat per la implementació en Android, encara que no
 es descarten altres sistemes operatius en un futur.
 \end{itemize}
 \item[]\textbf{Restricció temporal}
 \begin{itemize}
-\item{}Descripció: El sistema ha d’estar acabat a meitats de juny de 2017.
-\item{}Justificació: S’estableix una data límit per presentar el projecte.
+\item{}Descripció: El sistema ha d'estar acabat a meitats de juny del 2017.
+\item{}Justificació: S'estableix una data límit per presentar el projecte.
 \end{itemize}
 \item[]\textbf{Restricció econòmica}
 \begin{itemize}
 \item{}Descripció: El desenvolupament del projecte es durà a terme sense
 cap cost econòmic.
 \item{}Justificació: Com que no es disposa de cap inversió econòmica i el
-projecte es desenvolupa en un entorn acadèmic les eines i serveis uti-
-litzats suposaran un cost molt baix.
+projecte es desenvolupa en un entorn acadèmic les eines i serveis utilitzats suposaran un cost molt baix.
 \end{itemize}
 \end{itemize}
 
 \section{Diagrama de casos d'ús}
-En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir en compte la gestió d'usuaris.
+En la figura 5.1 es mostra el diagrama de casos d'ús del sistema sense tenir en compte la gestió d'usuaris.
 
 \begin{figure}[!h]
 \centering
@@ -57,11 +54,9 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 
 \section{Casos dús}
 
-\newcolumntype{L}{>{\centering}m{0.75cm}}
+\newcolumntype{L}{>;{\centering}m{0.75cm}}
 \newcolumntype{M}{m{9cm}}
 \newcolumntype{T}{m{12cm}}
-
-
 
 \newcolumntype{L}{>{\centering}m{0.75cm}}
 \newcolumntype{M}{m{9cm}}
@@ -419,16 +414,16 @@ En la figura 5.1 es mostra el diagrama de casos d’ús del sistema sense tenir 
 \centering
 \begin{tabular}{|l|L|l|}
 \hline
-\textbf{Cas d'ús }& \#16 & Consultar previsió metereològica  \\ \hline
+\textbf{Cas d'ús }& \#16 & Consultar previsió meteorològica  \\ \hline
 \textbf{Actor principal} & \multicolumn{ 2}{l|}{Usuari} \\ \hline
 \textbf{Precondició} & \multicolumn{ 2}{M|}{L'usuari té un viatge en curs i ha iniciat sessió.} \\ \hline
-\textbf{Trigger} & \multicolumn{ 2}{M|}{L'usuari vol accedir a la funcionalitat de consultar previsió metereològica.} \\ \hline
+\textbf{Trigger} & \multicolumn{ 2}{M|}{L'usuari vol accedir a la funcionalitat de consultar previsió meteorològica.} \\ \hline
 \multicolumn{ 3}{|T|}{\textbf{Escenari principal d’èxit}} \\ \hline
-\multicolumn{ 3}{|T|}{1. L'usuari indica que vol accedir a la funcionalitat de consultar previsió metereològica.}\\
-\multicolumn{ 3}{|T|}{2. El sistema redirigeix l'usuari a la pantalla de previsió metereològica.}\\\hline
+\multicolumn{ 3}{|T|}{1. L'usuari indica que vol accedir a la funcionalitat de consultar previsió meteorològica.}\\
+\multicolumn{ 3}{|T|}{2. El sistema redirigeix l'usuari a la pantalla de previsió meteorològica.}\\\hline
 \end{tabular}
 \label{}
-\caption{Cas d'ús \textit{Consultar previsió metereològica}}
+\caption{Cas d'ús \textit{Consultar previsió meteorològica}}
 \end{table}
 
 \begin{table}[!h]
@@ -880,20 +875,6 @@ del sistema. \\ \hline
 \caption{Requisit de manteniment}
 \end{table}
 
-\item{Requisit de suport}
-
-\begin{table}[!h]
-\centering
-\begin{tabular}{|l|M|}
-\hline
-\textbf{Requisit no funcional }& \#16  \\ \hline
-\textbf{Descripció} & El sistema disposa de secció d’ajuda.\\ \hline
-\textbf{Justificació} & És important que el sistema inclogui una secció d’ajuda per tal de resoldre dubtes a l’usuari. \\ \hline
-\textbf{Criteri de satisfacció} & S’inclou una secció d’ajuda a l’aplicació.\\ \hline
-\end{tabular}
-\label{}
-\caption{Requisit de suport}
-\end{table}
 
 \end{itemize}
 
@@ -915,25 +896,11 @@ del sistema. \\ \hline
 \end{table}
 
 
-\item{Requisits de privacitat}
-\begin{table}[!h]
-\centering
-\begin{tabular}{|l|M|}
-\hline
-\textbf{Requisit no funcional }& \#18  \\ \hline
-\textbf{Descripció} & El sistema informarà a l’usuari de la política de privacitat de les dades que es guarden.\\ \hline
-\textbf{Justificació} & Els usuaris han d’estar al corrent de que les dades es
-guarden de forma segura i poden confiar amb el sistema. \\ \hline
-\textbf{Criteri de satisfacció} & El sistema permetrà als usuaris consultar la política de privacitat.\\ \hline
-\end{tabular}
-\label{}
-\caption{Requisit de privacitat}
-\end{table}
+
 
 \end{itemize}
 
 
-\clearpage
 \subsection{Requisits legals}
 
 \begin{itemize}

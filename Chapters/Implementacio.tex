@@ -17,7 +17,7 @@ Per a l'inici de sessió s'utilitza el servei que proporciona \textit{Google}. L
 \caption{Crida d'inici de sessió}
 \end{figure}
 
-Un cop l'usuari ha introduit les seves dades a \textit{Google} es retorna el control al sistema. Quan l'aplicació continua amb la seva execució ho fa a partir de la funció que es pot veure en la figura 9.2. L'últim pas per a l'inici de sessió es obtenir les dades de l'usuari i iniciar l'aplicació.
+Un cop l'usuari ha introduït les seves dades a \textit{Google} es retorna el control al sistema. Quan l'aplicació continua amb la seva execució ho fa a partir de la funció que es pot veure en la figura 9.2. L'últim pas per a l'inici de sessió és obtenir les dades de l'usuari i iniciar l'aplicació.
 
 \begin{figure}[!h]
 \centering
@@ -27,7 +27,7 @@ Un cop l'usuari ha introduit les seves dades a \textit{Google} es retorna el con
 
 \item{\textbf{Accés a la base de dades}}\\
 
-La connexió amb la base de dades es dur a terme des de la classe \textit{FirebaseRepository}, aquesta classe és la classe genèrica que utilitzarant tots els serveis per tal d'accedir a la base de dades. En la figura 9.3 es pot veure com s'inicialitzen els camps del repositori.
+La connexió amb la base de dades es dur a terme des de la classe \textit{FirebaseRepository}, aquesta classe és la classe genèrica que utilitzaran tots els serveis per tal d'accedir a la base de dades. En la figura 9.3 es pot veure com s'inicialitzen els camps del repositori.
 
 \clearpage
 
@@ -57,10 +57,9 @@ Per tal de llegir dades de firebase, el que es fa és el següent. Quan s'inicia
 
 \item{\textbf{Accés a les dades des de l'\textit{Activity}}}\\
 
-Per interaccionar amb les dades i poder mostrar-les a l'usuari s'implementen diversos serveis. Aquests serveis són els encarregats de fer les operacions necessaries per tal de proporcionar a l'\textit{Activity} les dades que vol mostrar a l'usuari o per tal d'emmagatzemar les dades que l'usuari introdueix.\\
+Per interaccionar amb les dades i poder mostrar-les a l'usuari s'implementen diversos serveis. Aquests serveis són els encarregats de fer les operacions necessàries per tal de proporcionar a l'\textit{Activity} les dades que vol mostrar a l'usuari o per tal d'emmagatzemar les dades que l'usuari introdueix.\\
 
 Es declara un servei per cada funcionalitat: un servei pels diferents tipus de persones, un per als viatges, un per despeses i deutes, i un altre per a les notes. En cada servei tenim una instància de repositori del tipus que estem tractant, per exemple, en el servei que tracta les despeses tenim una instància del repositori de despeses i una instància del repositori de deutes. En el servei es defineixen operacions com la de la figura 9.6.
-
 
 \begin{figure}[!h]
 \centering
@@ -68,7 +67,7 @@ Es declara un servei per cada funcionalitat: un servei pels diferents tipus de p
 \caption{Mètode de la classe ExpenseService}
 \end{figure}
 
-Pel que fa a l'\textit{Activity}, es declara el servei com en la figura 9.7 i s'utilitza aquest servei per tal d'obtenir qualsevol dada i guardar les dades introduides per l'usuari.
+Pel que fa a l'\textit{Activity}, es declara el servei com en la figura 9.7 i s'utilitza aquest servei per tal d'obtenir qualsevol dada i guardar les dades introduïdes per l'usuari.
 
 \begin{figure}[!h]
 \centering
@@ -78,9 +77,9 @@ Pel que fa a l'\textit{Activity}, es declara el servei com en la figura 9.7 i s'
 
 \item{\textbf{Connexió amb serveis externs}}\\
 
-En la connexió amb els serveis externs que s'utiltizen s'utilitza la mateixa arquitectura que en l'accés a les dades. Des del punt de vista de l'\textit{Activity}, el procediment és exactament el mateix. S'instància el servei que es necessita obtenint-lo de la factoria de serveis i s'utilitza per tal d'obtenir les dades que es necessiten.\\
+En la connexió amb els serveis externs que s'utilitzen s'utilitza la mateixa arquitectura que en l'accés a les dades. Des del punt de vista de l'\textit{Activity}, el procediment és exactament el mateix. instància el S'servei que es necessita obtenint-lo de la factoria de serveis i s'utilitza per a obtenir les dades que es necessiten.\\
 
-La diferencia es veu en la classe servei, ja que enlloc de comunicar-se amb la base de dades es comunica amb un servei extern. En la figura 9.8 i 9.9 es pot veure un exemple de crida al servei extern que proporciona la llista dels hospitals que hi ha al voltant de l'usuari i posteriorment es selecciona el més proper a l'usuari. El resultat de la crida als diferents serveis sempre és un JSON el qual es deserialitza per tal d'obtenir objectes útils per al sistema.\\
+La diferencia es veu en la classe servei, ja que en lloc de comunicar-se amb la base de dades es comunica amb un servei extern. En la figura 9.8 i 9.9 es pot veure un exemple de crida al servei extern que proporciona la llista dels hospitals que hi ha al voltant de l'usuari i posteriorment se selecciona el més proper a l'usuari. El resultat de la crida als diferents serveis sempre és un JSON el qual es desserialitza per tal d'obtenir objectes útils per al sistema.\\
 
 \begin{figure}[!h]
 \centering
@@ -96,8 +95,7 @@ La diferencia es veu en la classe servei, ja que enlloc de comunicar-se amb la b
 
 \item{\textbf{Enviar correu electrònic}}\\
 
-Per tal de poder enviar un correu electrònic directament des del codi \textit{Android} s'utilitza una classe anomenada MailSender. En aquesta classe es defineixen tots els paràmetres que permetran enviar un correu electrònic. En la figura 9.10 es pot veure el fragment de codi on es defineixen els paràmetre que permeten enviar des de \textit{Gmail}, s'inicia la sessió amb les credencials del compte \textit{WildTraveling} i es crea i envia el missatge en si.
-
+Per tal de poder enviar un correu electrònic directament des del codi \textit{Android} s'utilitza una classe anomenada MailSender. En aquesta classe es defineixen tots els paràmetres que permetran enviar un correu electrònic. En la figura 9.10 es pot veure el fragment de codi on es defineixen els paràmetres que permeten enviar des de \textit{Gmail}, s'inicia la sessió amb les credencials del compte \textit{WildTraveling} i es crea i envia el missatge en si.
 
 \begin{figure}[!h]
 \centering

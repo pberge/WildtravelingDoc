@@ -10,7 +10,7 @@ El sistema separa clarament els conceptes en activitats diferents. Com que es tr
 
 \section{Arquitectura}
 
-Per al desenvolupament d'aquest projecte s'ha obtat per utilitzar l'arquitectura que proporciona la plataforma \textit{Android} per defecte. Aquesta consta d'un conjunt d'activitats que fan servir un model i controlen la interfície. En l'Activitat, només hi ha de constar el codi que faci de vincle entre el model i la vista, per aquest motiu, per tal de dur a terme tots els processos que es necessiten per obtenir la informació adequada s'ha dissenyat un servei (figura 8.1).
+Per al desenvolupament d'aquest projecte s'ha optat per utilitzar l'arquitectura que proporciona la plataforma \textit{Android} per defecte. Aquesta consta d'un conjunt d'activitats que fan servir un model i controlen la interfície. En l'Activitat, només hi ha de constar el codi que faci de vincle entre el model i la vista, per aquest motiu, per tal de dur a terme tots els processos que es necessiten per obtenir la informació adequada s'ha dissenyat un servei (figura 8.1).
 
 \begin{figure}[!h]
 \centering
@@ -21,7 +21,7 @@ Per al desenvolupament d'aquest projecte s'ha obtat per utilitzar l'arquitectura
 \begin{itemize}
 
 \item[]{\textbf{Activitat}}\\
-El sistema implementa una activitat per a cada funcionalitat diferent, d'aquesta manera, com s'ha exposat anteriorment, minimitzem les dependències i garantim més fiabilitat. No existeix un controlador que goberni les activitats sinó que es cada activitat que sap en tot moment amb qui s'ha de comunicar i qui pot ser que es comuniqui amb ella.\\
+El sistema implementa una activitat per a cada funcionalitat diferent, d'aquesta manera, com s'ha exposat anteriorment, minimitzem les dependències i garantim més fiabilitat. No existeix un controlador que governi les activitats sinó que és cada activitat que sap en tot moment amb qui s'ha de comunicar i qui pot ser que es comuniqui amb ella.\\
 
 \item[]{\textbf{Servei}}\\
 Des de qualsevol activitat es pot accedir a un servei per tal d'obtenir dades que es volen utilitzar per mostrar-les a l'usuari. En la figura 8.2 es pot apreciar una part de l'estructura dels serveis, es declara un servei per cada temàtica, dins el servei es dur a terme les operacions que convinguin utilitzant les dades guardades en els repositoris.
@@ -35,8 +35,7 @@ Des de qualsevol activitat es pot accedir a un servei per tal d'obtenir dades qu
 \item[]{\textbf{Dades}}\\
 Es tenen en compte dos tipus de fonts de dades, les que guardem i consultem de la base de dades i les que obtenim de les consultes a serveis externs. Des del punt de vista de l'activitat, no hi ha cap diferencia en accedir-hi. \\
 En el cas de les dades guardades a la base de dades, la qual està en el núvol, s'utilitzen uns repositoris per tal de tenir les dades en local. Hi ha un repositori per cada tipus d'entitat a la base de dades. En la figura 8.3 es pot apreciar l'accés des de l'activitat a la base de dades.\\
-Pel que fa a les consultes a serveis externs no s'utilitzen respositoris, des del servei es fa una crida directament a la API corresponent per tal d'obtenir les dades i és al mateix servei on es tracten i es torna el resultat desitjat a l'activitat (figura 8.4).
-
+Pel que fa a les consultes a serveis externs no s'utilitzen repositoris, des del servei es fa una crida directament a l'API corresponent per tal d'obtenir les dades i és al mateix servei on es tracten i es torna el resultat desitjat a l'activitat (figura 8.4).
 
 \begin{figure}[!h]
 \centering
@@ -69,7 +68,7 @@ En el disseny de l'aplicació, s'utilitza el patró factoria per tal d'aconsegui
 \end{figure}
 
 \item{\textbf{Patró adaptador}}\\
-Per tal de cridar als serveis externs s'utilitza el patró adaptador, que fa de pont entre el servei i el sistema. Des de l'\textit{Activity} es crida a l'adaptador, i és l'adaptador qui es comunica amb el servei extern desitjat. D'aquesta manera aconseguim una capa d'abastracció que ens permetria canviar el servei extern i no haver de modificar res en l'\textit{Activity}.
+Per tal de cridar als serveis externs s'utilitza el patró adaptador, que fa de pont entre el servei i el sistema. Des de l'\textit{Activity} es crida a l'adaptador, i és l'adaptador qui es comunica amb el servei extern desitjat. D'aquesta manera aconseguim una capa d'abstracció que ens permetria canviar el servei extern i no haver de modificar res en l'\textit{Activity}.
 
 \begin{figure}[!h]
 \centering
@@ -80,7 +79,7 @@ Per tal de cridar als serveis externs s'utilitza el patró adaptador, que fa de 
 \clearpage
 
 \item{\textbf{Patró repositori}}\\
-S'utilitza per tal d'evitar l'accés directe a les dades i d'aquesta manera desacoblar al màxim l'accés a \textit{Firebase}. Per qualsevol classe que resulti un objecte emmagatzemat a la base de dades es definirà una interficie \textit{Repository} parametritzada, sobre la qual s'haurà de defnir una classe \textit{RepositoryXXXX} que la implementi.
+S'utilitza per a evitar l'accés directe a les dades i d'aquesta manera desacoblar al màxim l'accés a \textit{Firebase}. Per qualsevol classe que resulti un objecte emmagatzemat a la base de dades es definirà una interficie \textit{Repository} parametritzada, sobre la qual s'haurà de definir una classe \textit{RepositoryXXXX} que la implementi.
 
 \begin{figure}[!h]
 \centering
@@ -102,24 +101,21 @@ S'utilitza per crear una capa d'abstracció sobre els repositoris prèviament me
 \subsection{Tecnologies utilitzades}
 \begin{itemize}
 \item[]{\textbf{Android}}\\
-És el sistema operatiu per a dispositius mòbils amb pantalla tàctil més utilitzat. Actualment l'utilitzen des de telèfons inteligens i tables, fins a rellotges de nova generació, televisors i automòbils. És un projecte de codi obert recolçat per Google des del 2008. El desenvolupament d'aplicacions es fa habitualment en llenguatge Java i es diposa d'un SDK (Software Development Kit) que es pot descarregar gratuïtament des de la pàgina web oficial.\\
+És el sistema operatiu per a dispositius mòbils amb pantalla tàctil més utilitzat. Actualment l'utilitzen des de telèfons intel·ligents i tablets, fins a rellotges de nova generació, televisors i automòbils. És un projecte de codi obert recolzat per Google des del 2008. El desenvolupament d'aplicacions es fa habitualment en llenguatge Java i es disposa d'un SDK (Software Development Kit) que es pot descarregar gratuïtament des de la pàgina web oficial.\\
 
 \item[]{\textbf{JSON}}\\
-JavaScript Object Notation és el nom que rep una forma d'estructurar les dades per, posteriorment, ser enviades entre dispositius o per la xarxa. Es l'alternativa a XML en termes de llenguatge marcat i s'acostuma a utilitzar en les aplicacions Android per la comunicació amb el servidor o serveis externs.\\
+JavaScript Object Notation és el nom que rep una forma d'estructurar les dades per, posteriorment, ser enviades entre dispositius o per la xarxa. És l'alternativa a XML en termes de llenguatge marcat i s'acostuma a utilitzar en les aplicacions Android per la comunicació amb el servidor o serveis externs.\\
 
 \item[]{\textbf{Firebase}}\\
 Firebase ofereix una base de dades en temps real com a servei. Aquest servei ofereix als desenvolupadors una API que permet guardar dades al núvol de les seves aplicacions. La companyia ofereix al client diverses llibreries per tal de facilitar la integració amb Android, iOS, Java i d'altres aplicacions.
 
 \end{itemize}
 
-
-
 \section{Capa de presentació}
 \begin{itemize}
 
 \item[]{\textbf{Iniciar sessió}}\\
 El procés d'identificació de l'usuari es dur a terme a través de Google, per tant, l'usuari no es registra al nostre sistema sinó que utilitza les credencials del seu compte de Google per tal d'identificar-se.
-
 
 
 \begin{figure}[!h]
@@ -130,7 +126,7 @@ El procés d'identificació de l'usuari es dur a terme a través de Google, per 
 \end{figure}
 
 \item[]{\textbf{Consultar llista de viatges}}\\
-A la pantalla de consultar viatges es mostra la llista de viatges de lúsuari. Si l'usuari selecciona qualsevol viatge l'aplicació el redigirà a la pantalla de consulta de viatge. També hi ha l'opció de crear un nou viatge. Des d'aquesta pantalla l'usuari pot tancar la sessió.
+A la pantalla de consultar viatges es mostra la llista de viatges de l'usuari. Si l'usuari selecciona qualsevol viatge l'aplicació el redirigirà a la pantalla de consulta de viatge. També hi ha l'opció de crear un nou viatge. Des d'aquesta pantalla l'usuari pot tancar la sessió.
 
 \clearpage
 
@@ -140,12 +136,8 @@ A la pantalla de consultar viatges es mostra la llista de viatges de lúsuari. S
 \caption{Inici de sessió}
 \end{figure}
 
-
-
 \item[]{\textbf{Crear viatge}}\\
 En aquesta pantalla és on s'introdueixen totes les dades d'un nou viatge com el nom, el destí, les dates i els participants. A més, el sistema li pregunta sobre el seu estil de viatjar i demana que li introdueixi les dades d'un contacte d'emergència. Un cop creat el viatge, l'aplicació redirigeix l'usuari a la pantalla de consultar viatge.
-
-
 
 \begin{figure}[!h]
 \centering
@@ -156,7 +148,7 @@ En aquesta pantalla és on s'introdueixen totes les dades d'un nou viatge com el
 \end{figure}
 
 \item[]{\textbf{Consultar viatge}}\\
-La pantalla on es mostra tota la informació del viatge: nom, destí, dates i participants. A més, és la pantalla des d'on es pot accedir a totes les funcionalitats nombrades en apartats anteriors i permet eliminar el viatge.
+La pantalla on es mostra tota la informació del viatge: nom, destí, dates i participants. A més, és la pantalla des d'on es pot accedir a totes les funcionalitats nomenades en apartats anteriors i permet eliminar el viatge.
 
 \clearpage
 
@@ -169,7 +161,6 @@ La pantalla on es mostra tota la informació del viatge: nom, destí, dates i pa
 
 \item[]{\textbf{Consultar llista de despeses}}\\
 La pantalla de consultar despeses és on es poden veure totes les despeses del viatge i la quantitat total gastada. Si l'usuari selecciona una despesa el sistema el redirigeix a la pantalla de consultar despesa. A més, l'usuari també té l'opció de crear-ne una de nova, fet que el portarà a la pantalla de crear despesa.
-
 
 
 \begin{figure}[!h]
@@ -192,18 +183,14 @@ En la pantalla crear despesa l'usuari introdueix les dades de la nova despesa co
 \item[]{\textbf{Consultar despesa}}\\
 En la pantalla de consultar despesa l'usuari pot veure tota la informació de les despeses i té l'opció de marcar un deute com a pagat, modificar la despesa o eliminar-la. En el cas que l'usuari seleccioni modificar despesa el sistema el redirigeix a la pantalla de modificació de despesa, per l'altra banda, si decideix eliminar la despesa, el sistema el redirigeix a la pantalla de consultar llista de despeses.
 
-
-
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.15]{Figures/consultarDespesa.png}
 \caption{Consultar despesa}
 \end{figure}
 
-
-
 \item[]{\textbf{Modificar despesa}}\\
-En la pantalla de modificar despesa l'usuari pot modificar totes les dades d'una despesa. Quan comfirma la modificació el sistema el redirigeix la pantalla de consultar despesa.
+En la pantalla de modificar despesa l'usuari pot modificar totes les dades d'una despesa. Quan confirma la modificació el sistema el redirigeix la pantalla de consultar despesa.
 
 \clearpage
 
@@ -215,9 +202,7 @@ En la pantalla de modificar despesa l'usuari pot modificar totes les dades d'una
 
 
 \item[]{\textbf{Cerca llocs d'interés}}\\
-En la pantalla de cerca lloc d'interés l'usuari pot seleccionar què vol buscar d'entre les possibilitats proposades i a quin lloc ho vol buscar. Si el lloc on ho vol buscar queda buit, es cercaran els resultats tenint en compte la localització de l'usuari en el moment de la cerca. Si no es troben resultats o es necessita activar el GPS s'informarà a l'usuari, d'altra banda, si la cerca es dur a terme satisfactoriament el sistema redirigirà l'usuari a la pantalla de llista de resultats de cerca.
-
-
+En la pantalla de cerca lloc d'interès l'usuari pot seleccionar què vol buscar d'entre les possibilitats proposades i a quin lloc ho vol buscar. Si el lloc on ho vol buscar queda buit, es cercaran els resultats tenint en compte la localització de l'usuari en el moment de la cerca. Si no es troben resultats o es necessita activar el GPS s'informarà l'usuari, d'altra banda, si la cerca és dur a terme satisfactòriament el sistema redirigirà l'usuari a la pantalla de llista de resultats de cerca.
 
 \begin{figure}[!h]
 \centering
@@ -225,10 +210,8 @@ En la pantalla de cerca lloc d'interés l'usuari pot seleccionar què vol buscar
 \caption{Cerca de llocs d'interès}
 \end{figure}
 
-
-
 \item[]{\textbf{Consultar llista de resultats de cerca}}\\
-És la pantalla on es veuen les resultats de la cerca, aquests estan ordenats per l'estil de viatjar de l'usuari. Per a cada item trobat es pot consultar el nom, la localització i, en cas que n'hi hagi, el nivell de preus de l'establiment. Quan l'usuari selecciona un resultat de la cerca el sistema el redirigeix a la pantalla de consultar ruta.
+És la pantalla on es veuen els resultats de la cerca, aquests estan ordenats per l'estil de viatjar de l'usuari. Per a cada item trobat es pot consultar el nom, la localització i, en cas que n'hi hagi, el nivell de preus de l'establiment. Quan l'usuari selecciona un resultat de la cerca el sistema el redirigeix a la pantalla de consultar ruta.
 
 \clearpage
 
@@ -238,12 +221,8 @@ En la pantalla de cerca lloc d'interés l'usuari pot seleccionar què vol buscar
 \caption{Resultats de cerca}
 \end{figure}
 
-
-
 \item[]{\textbf{Consultar ruta}}\\
-En la pantalla de consultar ruta, l'usuari pot veure diverses opcions de ruta des d'on s'ha fet la cerca fins al punt seleccionat. A més, pot consultar la ruta en cotxe, transport públic i a peu, per a cada modalitat es poden veure paràmetres com la distància en quilòmetres i el temps que tardarà en arribar-hi. Si l'usuari prem sobre una de les rutes, l'aplicació li dona l'opció de consultar la ruta exacta utilitzant, en el cas que l'usuari la tingui instalada, l'aplicació Google Maps. Per últim, l'usuari té l'opció de consultar la ruta inversa.
-
-
+En la pantalla de consultar ruta, l'usuari pot veure diverses opcions de ruta des d'on s'ha fet la cerca fins al punt seleccionat. A més, pot consultar la ruta en cotxe, transport públic i a peu, per a cada modalitat es poden veure paràmetres com la distància en quilòmetres i el temps que tardarà a arribar-hi. Si l'usuari prem sobre una de les rutes, l'aplicació li dona l'opció de consultar la ruta exacta utilitzant, en el cas que l'usuari la tingui instal·lada, l'aplicació Google Maps. Per últim, l'usuari té l'opció de consultar la ruta inversa.
 
 \begin{figure}[!h]
 \centering
@@ -251,10 +230,8 @@ En la pantalla de consultar ruta, l'usuari pot veure diverses opcions de ruta de
 \caption{Consultar ruta}
 \end{figure}
 
-
-
-\item[]{\textbf{Consultar previsió metereològica}}\\
-En la pantalla de consultar previsió metereològica es pot veure la metereologia del dia actual amb paràmetre com la temperatura màxima i mínima, el percentatge de possibilitat de pluja, la velocitat del vent o la descripció del cel. A més, l'usuari també pot consultar la previsió fins a sis dies vista.
+\item[]{\textbf{Consultar previsió meteorològica}}\\
+En la pantalla de consultar previsió meteorològica es pot veure la meteorologia del dia actual amb paràmetre com la temperatura màxima i mínima, el percentatge de possibilitat de pluja, la velocitat del vent o la descripció del cel. A més, l'usuari també pot consultar la previsió fins a sis dies vista.
 
 \clearpage
 
@@ -288,7 +265,6 @@ En aquesta pantalla l'usuari pot consultar la llista de notes que té el viatge.
 \item[]{\textbf{Crear nota}}\\
 En la pantalla de crear nota, l'usuari pot introduir el títol i el text de la nota i pot seleccionar un color per tal de canviar el fons d'aquesta. També pot seleccionar els participants del viatge amb qui vol compartir la nota a través de correu electrònic.
 
-
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.12]{Figures/crearNota1.png}
@@ -298,10 +274,8 @@ En la pantalla de crear nota, l'usuari pot introduir el títol i el text de la n
 \caption{Crear nota}
 \end{figure}
 
-
-
 \item[]{\textbf{Consultar nota}}\\
-En la pantalla de consultar nota l'usuari pot veure la nota seleccionada i té informació de amb qui l'ha compartit. A més, sempre pot canviar el color del fons de la nota.
+En la pantalla de consultar nota l'usuari pot veure la nota seleccionada i té informació d'amb qui l'ha compartit. A més, sempre pot canviar el color del fons de la nota.
 
 \clearpage
 
@@ -310,7 +284,6 @@ En la pantalla de consultar nota l'usuari pot veure la nota seleccionada i té i
 \includegraphics[scale=0.15]{Figures/consultarNota.png}
 \caption{Consultar nota}
 \end{figure}
-
 
 \end{itemize}
 
@@ -328,7 +301,7 @@ En la pantalla de consultar nota l'usuari pot veure la nota seleccionada i té i
 
 En aquest apartat s'explica el model de dades utilitzat per desenvolupar el projecte. La base de dades que s'ha utilitzat és un base de dades no relacional de tipus \textit{key-value}. Per tal de modelar les dades, s'han seguit les bones pràctiques de la tecnologia utilitzada \textit{Firebase}.\\
 
-Les dades del projecte es guarden en una direcció concreta que proporciona \textit{Firebase}. En aquesta direcció existeix un node pare del projecte des d'on pengen totes les dades. Des d'aquest node pare pengen llistes clau-valor, per cada tipus de dades diferent, amb totes les dades emmagatzemades d'aquell tipus concret (figura 8.26). El fet que es guardin les dades per tipus de d'entitat és degut a que els manuals de \textit{Firebase} defineixen que per tal d'obtenir un bon resultat és el camí que s'ha de seguir.
+Les dades del projecte es guarden en una direcció concreta que proporciona \textit{Firebase}. En aquesta direcció existeix un node pare del projecte des d'on pengen totes les dades. Des d'aquest node pare pengen llistes clau-valor, per cada tipus de dades diferent, amb totes les dades emmagatzemades d'aquell tipus concret (figura 8.26). El fet que es guardin les dades per tipus d'entitat és degut al fet que els manuals de \textit{Firebase} defineixen que per tal d'obtenir un bon resultat és el camí que s'ha de seguir.
 
 \begin{figure}[!h]
 \centering
@@ -336,9 +309,7 @@ Les dades del projecte es guarden en una direcció concreta que proporciona \tex
 \caption{Estructura base de dades.}
 \end{figure}
 
-
-En la llista d'una entitat en concret, per a cada clau tenim un valor, i aquest valor conté tots els atributs de l'entitat guardada. En tenir llistes separades per cada entitat, quan es necessita referenciar un altre objecte guardat en la base de dades, s'utilitza la clau. Per tant, un deute no s'emmagatzema dins la despesa a la qual pertany sinnó que es guarda en la llista de deutes i es guarda un atribut amb la clau de la despesa (figura 8.27).
-
+En la llista d'una entitat en concret, per a cada clau tenim un valor, i aquest valor conté tots els atributs de l'entitat guardada. En tenir llistes separades per cada entitat, quan es necessita referenciar un altre objecte guardat en la base de dades, s'utilitza la clau. Per tant, un deute no s'emmagatzema dins la despesa a la qual pertany sinó que es guarda en la llista de deutes i es guarda un atribut amb la clau de la despesa (figura 8.27).
 
 \begin{figure}[!h]
 \centering
@@ -360,7 +331,7 @@ Finalment, en la figura 8.28 es mostra l'esquema total de la base de dades.
 
 En aquest apartat es mostren diagrames de seqüència dels punts crítics del sistema. En alguns diagrames s'ha eliminat la part de comprovació d'errors per tal de fer el diagrama més fàcil d'entendre.\\
 
-El primer punt important del sistema és l'inici de sessió. En la figura 8.29 es mostra el diagrama de seqüència d'aquest cas d'ús. L'usuari es registra utilitzant les credencials de \textit{Google}, un cop es comfirma que les dades a \textit{Google} són correctes, el sistema inicialitza tots els serveis. Quan s'inicialitza un servei, aquest es connecta amb la base de dades i carrega els repositoris. Si l'usuari no ha estat registrat prèviament el sistema es guarda la seva informació i el condueix la pantalla de consultar la llista de viatges, si ja ha estat registrat l'usuari es conduit directament a la pantalla de consultar la llista de viatges.\\
+El primer punt important del sistema és l'inici de sessió. En la figura 8.29 es mostra el diagrama de seqüència d'aquest cas d'ús. L'usuari es registra utilitzant les credencials de \textit{Google}, un cop es confirma que les dades a \textit{Google} són correctes, el sistema inicialitza tots els serveis. Quan s'inicialitza un servei, aquest es connecta amb la base de dades i carrega els repositoris. Si l'usuari no ha estat registrat prèviament el sistema es guarda la seva informació i el condueix la pantalla de consultar la llista de viatges, si ja ha estat registrat l'usuari és conduït directament a la pantalla de consultar la llista de viatges.\\
 
 En segon lloc, es vol mostrar com l'usuari interacciona amb l'aplicació. Per aquest motiu, a la figura 8.30 es mostra un exemple de com es controla la interacció en la pantalla de consultar viatges. Es pot comprovar que quan l'usuari selecciona un item de la llista el sistema estableix el viatge com a viatge actual en el servei corresponent i redirigeix l'usuari a la pantalla de consultar el viatge seleccionat.\\
 
@@ -386,11 +357,8 @@ Com a últim punt crític del sistema, es mostra com es dur a terme una crida a 
 \caption{Diagrama de seqüència \textit{Interacció amb la base de dades}}
 \end{figure}
 
-
-
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=1.2]{Figures/apiDS.png}
 \caption{Diagrama de seqüència \textit{Crida a una API}}
 \end{figure}
-
