@@ -59,6 +59,8 @@
       <file>authoryear.cbx</file>
       <file>biblatex.cfg</file>
       <file>catalan.lbx</file>
+      <file>spanish.lbx</file>
+      <file>english.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">

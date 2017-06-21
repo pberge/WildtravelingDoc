@@ -25,7 +25,9 @@
 \documentclass[
 11pt, % The default document font size, options: 10pt, 11pt, 12pt
 %oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
-catalan, % ngerman for German
+english,
+spanish,
+catalan,
 singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
 %nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
@@ -42,6 +44,7 @@ headsepline % Uncomment to get a line under the header
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{booktabs}
+\usepackage{babel}
 \usepackage{palatino} % Use the Palatino font by default
 
 \usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
@@ -142,15 +145,44 @@ headsepline % Uncomment to get a line under the header
 \end{titlepage}
 
 %----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+\selectlanguage{catalan}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+Aquest treball de final de grau s'inicia amb la idea de millorar el món dels viatges, en concret, es treballa per millorar i innovar en el suport que pot necessitar l'usuari durant el transcurs d'un viatge.\\\\
+Durant un viatge sorgeixen necessitats i, com a conseqüència que gairebé la totalitat de la població disposa d'un \textit{smartphone}, han aparegut al mercat moltes aplicacions que solucionen problemes molt concrets al viatger com per exemple el control de despeses. Tot i així, no existeix una aplicació que s'identifiqui com a suport total al viatger.\\\\
+L'objectiu principal de Wildtraveling és oferir suport al viatger durant el transcurs del seu viatge a través d'una aplicació mòbil. En termes més tècnics el projecte pretén utilitzar algunes de les aplicacions ja existents que afronten problemes específics i oferir-les a l'usuari des d'un únic punt d'accés. A més, el sistema pretén ser fàcilment escalable a l'hora d'afegir, modificar o eliminar funcionalitats i vol mostrar la informació filtrada tenint en compte l'estil de viatjar personal de cada usuari.
+\end{abstract}
+
+\selectlanguage{spanish}
+\begin{abstract}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+Este trabajo de fin de grado se inicia con la idea de mejorar el mundo de los viajes, en concreto, se trabaja para mejorar e innovar en el soporte que puede necesitar el usuario durante el transcurso de un viaje.\\\\
+Cuando estas de viaje surgen necesidades y, como consecuencia de que casi la totalidad de la población dispone de un \textit{smartphone}, han aparecido en el mercado muchas aplicaciones que solucionan problemas muy concretos al viajero como, por ejemplo, el control de gastos. Aún así, no existe una aplicación que se ofrezca un soporte total al viajero.\\\\
+El objetivo principal de Wildtraveling es ofrecer soporte al viajero durante el transcurso de su viaje a través de una aplicación móvil. En términos más técnicos el proyecto pretende utilizar algunas de las aplicaciones ya existentes que afrontan problemas específicos y ofrecerlas al usuario des de un único punto de acceso. Además, el sistema pretende ser fácilmente escalable en términos de añadir, modificar o eliminar funcionalidades y quiere mostrar la información filtrada teniendo en cuenta el estilo de viajar personal de cada usuario.
+\end{abstract}
+
+\selectlanguage{english}
+\begin{abstract}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+This final degree project starts with the idea to improve the world of travel, in particular, it works to improve and innovate any kind of support the traveler could need while is traveling around the world.\\\\
+During a trip needs arise and, as a consequence of almost everyone has an smart-phone, many mobile applications which solve very concrete problems to the traveler has appeared, for example, expense control. However, there is not any application identified as a total support for the traveler.\\\\
+The main goal of Wildtraveling is to offer support to the travel during his trips through a mobile application. In more technical terms, the project pretends to use some existing applications which solve concrete problems offering them to the user in only one access point. In addition, the system wants to be easily scalable in terms of adding, modifying or delete functionalities and it wants to filter the information shown to the user taking into account his traveling style.
+\end{abstract}
+
+\selectlanguage{catalan}
+
+
+%----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
 %----------------------------------------------------------------------------------------
 
 
 \tableofcontents % Prints the main table of contents
 
-\listoftables
 
-\listoffigures
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
@@ -176,7 +208,9 @@ headsepline % Uncomment to get a line under the header
 \include{Chapters/InformeSostenibilitat}
 \include{Chapters/Conclusions}
 
+\listoftables
 
+\listoffigures
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
 %----------------------------------------------------------------------------------------

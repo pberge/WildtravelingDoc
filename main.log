@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.23)  17 JUN 2017 10:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.23)  21 JUN 2017 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -340,15 +340,32 @@ File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2013/12/03 3.9h The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-catalan/catalan.ldf
-Language: catalan 2005/03/29 v2.2p Catalan support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count119
 \U@D=\dimen134
 )
-Package babel Info: Making " an active character on input line 91.
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2014/01/29 v5.0m Spanish support from the babel system
+\es@datefmt=\count120
+\es@quottoks=\toks14
+\es@quotdepth=\count121
+Package babel Info: Making " an active character on input line 496.
+Package babel Info: Making . an active character on input line 599.
+Package babel Info: Making < an active character on input line 644.
+Package babel Info: Making > an active character on input line 644.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-catalan/catalan.ldf
+Language: catalan 2005/03/29 v2.2p Catalan support from the babel system
 Warning: You are using encoding OT1 instead of T1.
 Some word breaks will not be found.
 \leftllkern=\dimen135
@@ -361,7 +378,7 @@ basics and keyval usage)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
@@ -384,17 +401,17 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip50
 \LTpre=\skip51
 \LTpost=\skip52
-\LTchunksize=\count120
+\LTchunksize=\count122
 \LTcapwidth=\dimen138
 \LT@head=\box41
 \LT@firsthead=\box42
 \LT@foot=\box43
 \LT@lastfoot=\box44
-\LT@cols=\count121
-\LT@rows=\count122
-\c@LT@tables=\count123
-\c@LT@chunks=\count124
-\LT@p@ftn=\toks15
+\LT@cols=\count123
+\LT@rows=\count124
+\c@LT@tables=\count125
+\c@LT@chunks=\count126
+\LT@p@ftn=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2013/07/31 v2.5s A comprehensive (SI) units package
@@ -404,14 +421,14 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks16
+\@emptytoks=\toks17
 \ex@=\dimen139
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen140
 \extrarowheight=\dimen141
-\NC@list=\toks17
+\NC@list=\toks18
 \extratabsurround=\skip53
 \backup@length=\skip54
 )
@@ -421,30 +438,30 @@ Package: l3keys2e 2013/12/31 v4634 LaTeX2e option processing using LaTeX3 keys
 Variant \tl_if_blank:VTF already defined; not changing it on line 50
 \l__siunitx_tmp_box=\box45
 \l__siunitx_tmp_dim=\dimen142
-\l__siunitx_tmp_int=\count125
+\l__siunitx_tmp_int=\count127
 Variant \prop_get:NVNT already defined; not changing it on line 371
 Variant \prop_get:NVNF already defined; not changing it on line 372
 Variant \prop_get:NVNTF already defined; not changing it on line 373
-\l__siunitx_number_mantissa_length_int=\count126
-\l__siunitx_number_uncert_length_int=\count127
-\l__siunitx_round_int=\count128
-\l__siunitx_process_decimal_int=\count129
-\l__siunitx_process_uncertainty_int=\count130
-\l__siunitx_process_fixed_int=\count131
-\l__siunitx_process_integer_min_int=\count132
-\l__siunitx_process_precision_int=\count133
-\l__siunitx_group_min_int=\count134
+\l__siunitx_number_mantissa_length_int=\count128
+\l__siunitx_number_uncert_length_int=\count129
+\l__siunitx_round_int=\count130
+\l__siunitx_process_decimal_int=\count131
+\l__siunitx_process_uncertainty_int=\count132
+\l__siunitx_process_fixed_int=\count133
+\l__siunitx_process_integer_min_int=\count134
+\l__siunitx_process_precision_int=\count135
+\l__siunitx_group_min_int=\count136
 \l__siunitx_angle_marker_box=\box46
 \l__siunitx_angle_unit_box=\box47
 \l__siunitx_angle_marker_dim=\dimen143
 \l__siunitx_angle_unit_dim=\dimen144
-\l__siunitx_unit_int=\count135
-\l__siunitx_unit_denominator_int=\count136
-\l__siunitx_unit_numerator_int=\count137
-\l__siunitx_unit_prefix_int=\count138
-\l__siunitx_unit_prefix_base_int=\count139
-\l__siunitx_unit_prefix_gram_int=\count140
-\l__siunitx_number_product_int=\count141
+\l__siunitx_unit_int=\count137
+\l__siunitx_unit_denominator_int=\count138
+\l__siunitx_unit_numerator_int=\count139
+\l__siunitx_unit_prefix_int=\count140
+\l__siunitx_unit_prefix_base_int=\count141
+\l__siunitx_unit_prefix_gram_int=\count142
+\l__siunitx_number_product_int=\count143
 \c__siunitx_one_fill_skip=\skip55
 \l__siunitx_table_unit_align_skip=\skip56
 \l__siunitx_table_exponent_dim=\dimen145
@@ -618,7 +635,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count142
+\Gread@gobject=\count144
 ))
 \Gin@req@height=\dimen154
 \Gin@req@width=\dimen155
@@ -635,12 +652,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen163
 \cmidrulekern=\dimen164
 \defaultaddspace=\dimen165
-\@cmidla=\count143
-\@cmidlb=\count144
+\@cmidla=\count145
+\@cmidlb=\count146
 \@aboverulesep=\dimen166
 \@belowrulesep=\dimen167
-\@thisruleclass=\count145
-\@lastruleclass=\count146
+\@thisruleclass=\count147
+\@lastruleclass=\count148
 \@thisrulewidth=\dimen168
 ) (./caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
@@ -656,7 +673,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen174
 \caption@hangindent=\dimen175
 )
-\c@ContinuedFloat=\count147
+\c@ContinuedFloat=\count149
 Package caption Info: longtable package is loaded.
  (./ltcaption.sty
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
@@ -764,9 +781,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count148
-\Gm@cntv=\count149
-\c@Gm@tempcnt=\count150
+\Gm@cnth=\count150
+\Gm@cntv=\count151
+\c@Gm@tempcnt=\count152
 \Gm@bindingoffset=\dimen176
 \Gm@wd@mp=\dimen177
 \Gm@odd@mp=\dimen178
@@ -775,7 +792,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen181
 \Gm@layouthoffset=\dimen182
 \Gm@layoutvoffset=\dimen183
-\Gm@dimlist=\toks18
+\Gm@dimlist=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
 Package: scrlayer-scrpage 14/12/2013 v0.9.1548 package (end user interface for 
@@ -855,34 +872,34 @@ Package scrbase Info: Unknown processing state.
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining document environment 'abstract' with arg. spec. ' O{\null \vfill }
-. ' on line 380.
+. ' on line 381.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining document environment 'extraAbstract' with arg. spec. ' O{\null
-. \vfill } ' on line 405.
+. \vfill } ' on line 406.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining document environment 'acknowledgements' with arg. spec. '' on line
-. 436.
+. 437.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining document environment 'declaration' with arg. spec. '' on line 458.
+. Defining document environment 'declaration' with arg. spec. '' on line 459.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining document environment 'constants' with arg. spec. ' m ' on line 500.
+. Defining document environment 'constants' with arg. spec. ' m ' on line 501.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining document environment 'symbols' with arg. spec. ' m ' on line 518.
+. Defining document environment 'symbols' with arg. spec. ' m ' on line 519.
 .................................................
 ) (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
@@ -890,8 +907,8 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -1145,7 +1162,7 @@ Package etexcmds Info: Could not find \expanded.
 )))
 (./logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count151
+\lrq@indent=\count153
  (./logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
@@ -1158,49 +1175,49 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (./xstring.sty
 (./xstring.tex
 \@xs@message=\write3
-\integerpart=\count152
-\decimalpart=\count153
+\integerpart=\count154
+\decimalpart=\count155
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count154
-\c@listtotal=\count155
-\c@listcount=\count156
-\c@liststart=\count157
-\c@liststop=\count158
-\c@citecount=\count159
-\c@citetotal=\count160
-\c@multicitecount=\count161
-\c@multicitetotal=\count162
-\c@instcount=\count163
-\c@maxnames=\count164
-\c@minnames=\count165
-\c@maxitems=\count166
-\c@minitems=\count167
-\c@citecounter=\count168
-\c@savedcitecounter=\count169
-\c@uniquelist=\count170
-\c@uniquename=\count171
-\c@refsection=\count172
-\c@refsegment=\count173
-\c@maxextratitle=\count174
-\c@maxextratitleyear=\count175
-\c@maxextrayear=\count176
-\c@maxextraalpha=\count177
-\c@abbrvpenalty=\count178
-\c@highnamepenalty=\count179
-\c@lownamepenalty=\count180
-\c@maxparens=\count181
-\c@parenlevel=\count182
-\blx@tempcnta=\count183
-\blx@tempcntb=\count184
-\blx@tempcntc=\count185
-\blx@maxsection=\count186
-\blx@maxsegment@0=\count187
-\blx@notetype=\count188
-\blx@parenlevel@text=\count189
-\blx@parenlevel@foot=\count190
-\blx@sectionciteorder@0=\count191
+\c@tabx@nest=\count156
+\c@listtotal=\count157
+\c@listcount=\count158
+\c@liststart=\count159
+\c@liststop=\count160
+\c@citecount=\count161
+\c@citetotal=\count162
+\c@multicitecount=\count163
+\c@multicitetotal=\count164
+\c@instcount=\count165
+\c@maxnames=\count166
+\c@minnames=\count167
+\c@maxitems=\count168
+\c@minitems=\count169
+\c@citecounter=\count170
+\c@savedcitecounter=\count171
+\c@uniquelist=\count172
+\c@uniquename=\count173
+\c@refsection=\count174
+\c@refsegment=\count175
+\c@maxextratitle=\count176
+\c@maxextratitleyear=\count177
+\c@maxextrayear=\count178
+\c@maxextraalpha=\count179
+\c@abbrvpenalty=\count180
+\c@highnamepenalty=\count181
+\c@lownamepenalty=\count182
+\c@maxparens=\count183
+\c@parenlevel=\count184
+\blx@tempcnta=\count185
+\blx@tempcntb=\count186
+\blx@tempcntc=\count187
+\blx@maxsection=\count188
+\blx@maxsegment@0=\count189
+\blx@notetype=\count190
+\blx@parenlevel@text=\count191
+\blx@parenlevel@foot=\count192
+\blx@sectionciteorder@0=\count193
 \labelnumberwidth=\skip60
 \labelalphawidth=\skip61
 \biblabelsep=\skip62
@@ -1211,9 +1228,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip67
 \blx@bcfin=\read2
 \blx@bcfout=\write4
-\c@mincomprange=\count192
-\c@maxcomprange=\count193
-\c@mincompwidth=\count194
+\c@mincomprange=\count194
+\c@maxcomprange=\count195
+\c@mincompwidth=\count196
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
@@ -1451,8 +1468,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-\c@labelname=\count195
-\c@savedlabelname=\count196
+\c@labelname=\count197
+\c@savedlabelname=\count198
 ! Undefined control sequence.
 <argument> \blx@datamodel@lists 
                                 
@@ -1464,8 +1481,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-\c@pageref=\count197
-\c@savedpageref=\count198
+\c@pageref=\count199
+\c@savedpageref=\count200
 ! Undefined control sequence.
 <argument> \blx@datamodel@labelfields 
                                       
@@ -1745,13 +1762,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 
-\c@textcitecount=\count199
-\c@textcitetotal=\count200
-\c@textcitemaxnames=\count201
+\c@textcitecount=\count201
 Normal \count register pool exhausted, switching to extended pool.
-\c@biburlnumpenalty=\count277
-\c@biburlucpenalty=\count278
-\c@biburllcpenalty=\count279
+\c@textcitetotal=\count277
+\c@textcitemaxnames=\count278
+\c@biburlnumpenalty=\count279
+\c@biburlucpenalty=\count280
+\c@biburllcpenalty=\count281
 
 ! Illegal parameter number in definition of \blx@defformat@d.
 <to be read again> 
@@ -2158,7 +2175,7 @@ You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-\c@smartand=\count280
+\c@smartand=\count282
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -2175,8 +2192,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count281
-\c@bbx:relatedtotal=\count282
+\c@bbx:relatedcount=\count283
+\c@bbx:relatedtotal=\count284
 )
 ! Undefined control sequence.
 \KV@default ...csname \ifx \@tempb \relax \KV@err 
@@ -2246,7 +2263,7 @@ File: biblatex.cfg
 ! Undefined control sequence.
 <argument> \blx@datamodel@names 
                                 
-l.48 
+l.51 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2257,7 +2274,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \blx@datamodel@lists 
                                 
-l.48 
+l.51 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2272,20 +2289,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 
+l.51 
      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 (./csquotes.sty
 Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
-\csq@reset=\count283
-\csq@gtype=\count284
-\csq@glevel=\count285
-\csq@qlevel=\count286
-\csq@maxlvl=\count287
-\csq@tshold=\count288
-\csq@ltx@everypar=\toks21
+\csq@reset=\count285
+\csq@gtype=\count286
+\csq@glevel=\count287
+\csq@qlevel=\count288
+\csq@maxlvl=\count289
+\csq@tshold=\count290
+\csq@ltx@everypar=\toks22
  (./csquotes.def
 File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
 )
@@ -2296,72 +2313,72 @@ Package csquotes Info: Enabling multilingual quotes.
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \@title with arg. spec. ' ' on line 71.
+* Redefining document command \@title with arg. spec. ' ' on line 74.
 *************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ttitle with arg. spec. ' ' on line 71.
+. Defining document command \ttitle with arg. spec. ' ' on line 74.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \supname with arg. spec. ' ' on line 72.
+. Defining document command \supname with arg. spec. ' ' on line 75.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \examname with arg. spec. ' ' on line 73.
+. Defining document command \examname with arg. spec. ' ' on line 76.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \degreename with arg. spec. ' ' on line 74.
+. Defining document command \degreename with arg. spec. ' ' on line 77.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \authorname with arg. spec. ' ' on line 75.
+. Defining document command \authorname with arg. spec. ' ' on line 78.
 .................................................
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \@author with arg. spec. ' ' on line 75.
+* Redefining document command \@author with arg. spec. ' ' on line 78.
 *************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \addressname with arg. spec. ' ' on line 76.
+. Defining document command \addressname with arg. spec. ' ' on line 79.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \subjectname with arg. spec. ' ' on line 78.
+. Defining document command \subjectname with arg. spec. ' ' on line 81.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \keywordnames with arg. spec. ' ' on line 79.
+. Defining document command \keywordnames with arg. spec. ' ' on line 82.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \univname with arg. spec. ' ' on line 80.
+. Defining document command \univname with arg. spec. ' ' on line 83.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \deptname with arg. spec. ' ' on line 81.
+. Defining document command \deptname with arg. spec. ' ' on line 84.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \groupname with arg. spec. ' ' on line 82.
+. Defining document command \groupname with arg. spec. ' ' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \facname with arg. spec. ' ' on line 83.
+. Defining document command \facname with arg. spec. ' ' on line 86.
 .................................................
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -2402,15 +2419,15 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen184
-\Hy@linkcounter=\count289
-\Hy@pagecounter=\count290
+\Hy@linkcounter=\count291
+\Hy@pagecounter=\count292
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count291
+\Hy@SavedSpaceFactor=\count293
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -2422,10 +2439,10 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count292
+\c@Hy@tempcnt=\count294
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen185
-\Fld@menulength=\count293
+\Fld@menulength=\count295
 \Field@Width=\dimen186
 \Fld@charsize=\dimen187
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -2437,21 +2454,21 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count294
-\c@Item=\count295
-\c@Hfootnote=\count296
+\Hy@abspage=\count296
+\c@Item=\count297
+\c@Hfootnote=\count298
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 92.
+(scrhack)             need that hack, on input line 95.
 
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count297
-\c@bookmark@seq@number=\count298
+\Fld@listcount=\count299
+\c@bookmark@seq@number=\count300
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -2460,27 +2477,39 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip68
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 92.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 92.
-Package hyperref Info: Option `colorlinks' set `true' on input line 92.
-Package hyperref Info: Option `unicode' set `true' on input line 92.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 95.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 95.
+Package hyperref Info: Option `colorlinks' set `true' on input line 95.
+Package hyperref Info: Option `unicode' set `true' on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 92.
+Package hyperref Info: Option `breaklinks' set `true' on input line 95.
 Package biblatex Info: Trying to load language 'catalan'...
 Package biblatex Info: ... file 'catalan.lbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/catalan.lbx
 File: catalan.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
 ! Undefined control sequence.
 \abx@donameparts ...@datamodel@constant@nameparts 
                                                   }
-l.92 \begin{document}
+l.95 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2491,7 +2520,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \blx@datamodel@dates 
                                 
-l.92 \begin{document}
+l.95 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2501,7 +2530,10 @@ and I'll forget about whatever was undefined.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-(./main.aux (./Chapters/Context.aux) (./Chapters/Abast.aux)
+(./main.aux
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+ (./Chapters/Context.aux) (./Chapters/Abast.aux)
 (./Chapters/Planificacio.aux) (./Chapters/GestioEconimica.aux
 
 LaTeX Warning: Label `' multiply defined.
@@ -2836,28 +2868,28 @@ LaTeX Warning: Label `' multiply defined.
 ))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 95.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Info: Redefining \l on input line 92.
-LaTeX Info: Redefining \L on input line 92.
+LaTeX Info: Redefining \l on input line 95.
+LaTeX Info: Redefining \L on input line 95.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
@@ -2938,17 +2970,17 @@ fg
 File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 ) (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count299
+\scratchcounter=\count301
 \scratchdimen=\dimen188
 \scratchbox=\box53
-\nofMPsegments=\count300
-\nofMParguments=\count301
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count302
+\nofMPsegments=\count302
+\nofMParguments=\count303
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count304
 \MPscratchDim=\dimen189
-\MPnumerator=\count303
-\makeMPintoPDFobject=\count304
-\everyMPtoPDFconversion=\toks23
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
+\everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -3004,9 +3036,11 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 92.
-Package scrbase Info: activating catalan \byname on input line 92.
-Package scrbase Info: activating catalan \acknowledgementname on input line 92.
+(scrlayer)             \begin{document} on input line 95.
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
+Package scrbase Info: activating catalan \byname on input line 95.
+Package scrbase Info: activating catalan \acknowledgementname on input line 95.
 
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -3014,7 +3048,7 @@ Package biblatex Info: Automatic encoding selection.
 ! Undefined control sequence.
 <argument> \blx@datamodel@names 
                                 
-l.92 \begin{document}
+l.95 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3025,7 +3059,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \blx@datafieldsets 
                               
-l.92 \begin{document}
+l.95 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3036,7 +3070,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...ATAFIELDSETS}\blx@bcf@datafieldsets 
                                                   }
-l.92 \begin{document}
+l.95 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3047,7 +3081,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \blx@lantem@type 
                             
-l.92 \begin{document}
+l.95 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3058,7 +3092,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \blx@uniquenametemplate 
                                    
-l.92 \begin{document}
+l.95 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3069,7 +3103,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \blx@datamodel@entrytypes 
                                      
-l.92 \begin{document}
+l.95 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3080,7 +3114,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \blx@xml@datamodel@constants 
                                         {\blx@bcf@datamodel@constants }\blx@...
-l.92 \begin{document}
+l.95 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3091,7 +3125,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...tants {\blx@bcf@datamodel@constants 
                                                   }\blx@xml@datamodel@entryt...
-l.92 \begin{document}
+l.95 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3104,61 +3138,61 @@ and I'll forget about whatever was undefined.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 92.
-Package biblatex Info: Reference segment=0 on input line 92.
+Package biblatex Info: Reference section=0 on input line 95.
+Package biblatex Info: Reference segment=0 on input line 95.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ttitle' on input line 92.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\authorname' on input line 92.
+(hyperref)                removing `\ttitle' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\keywordnames' on input line 92.
+(hyperref)                removing `\authorname' on input line 95.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\keywordnames' on input line 95.
 
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring ON on input line 92.
+Package hyperref Info: Link coloring ON on input line 95.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count305
+\c@section@level=\count307
 )
-LaTeX Info: Redefining \ref on input line 92.
-LaTeX Info: Redefining \pageref on input line 92.
-LaTeX Info: Redefining \nameref on input line 92.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-\c__siunitx_mathsf_int=\count306
+\c__siunitx_mathsf_int=\count308
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 92.
+(Font)              <10.95> on input line 95.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 92.
+(Font)              <8> on input line 95.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 92.
-\c__siunitx_mathtt_int=\count307
+(Font)              <6> on input line 95.
+\c__siunitx_mathtt_int=\count309
  [2
 
 ]
 1: section
-<Figures/logo.png, id=316, 823.075pt x 116.435pt>
+<Figures/logo.png, id=328, 823.075pt x 116.435pt>
 File: Figures/logo.png Graphic file (type png)
  <use Figures/logo.png>
-Package pdftex.def Info: Figures/logo.png used on input line 106.
+Package pdftex.def Info: Figures/logo.png used on input line 109.
 (pdftex.def)             Requested size: 246.9244pt x 34.93076pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 109.
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 112.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 113.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 132.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 135.
 
 [1
 
@@ -3166,34 +3200,110 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
  <./Figures/logo.png>] [2
 
 ]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 149.
- (./main.toc
+--------------------
+ Resum
+--------------------
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 4.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 151.
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
+
+ []
+
+LaTeX Info: Redefining \. on input line 159.
+LaTeX Info: Redefining \% on input line 159.
+1: section
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 160.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 160.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 160.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 160.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 160.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 160.
+[3]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 160.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 160.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 160.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 160.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 160.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 160.
+ [4
+
+]
+--------------------
+ Resumen
+--------------------
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 161.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 161.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 161.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 161.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 161.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 161.
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--165
+
+ []
 
 1: section
-[3])
+[5] [6
+
+]
+--------------------
+ Abstract
+--------------------
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--173
+
+ []
+
+1: section
+[7] [8
+
+]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 183.
+ (./main.toc
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+
+1: section
+[9])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [4] (./main.lot
-1: section
-[5
-
-])
-\tf@lot=\write7
-\openout7 = `main.lot'.
-
- [6] (./main.lof
-1: section
-[7
-
-])
-\tf@lof=\write8
-\openout8 = `main.lof'.
-
- [8]
+ [10]
 1: section
 \openout2 = `Chapters/Context.aux'.
 
@@ -3249,39 +3359,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
-<Figures/vta1.png, id=742, 152.82094pt x 238.64156pt>
+<Figures/vta1.png, id=468, 152.82094pt x 238.64156pt>
 File: Figures/vta1.png Graphic file (type png)
  <use Figures/vta1.png>
 Package pdftex.def Info: Figures/vta1.png used on input line 64.
 (pdftex.def)             Requested size: 129.89839pt x 202.84627pt.
 
-<Figures/vta2.png, id=743, 160.34906pt x 238.64156pt>
+<Figures/vta2.png, id=469, 160.34906pt x 238.64156pt>
 File: Figures/vta2.png Graphic file (type png)
  <use Figures/vta2.png>
 Package pdftex.def Info: Figures/vta2.png used on input line 65.
 (pdftex.def)             Requested size: 136.29733pt x 202.84627pt.
 
-<Figures/vta3.png, id=744, 133.24782pt x 238.64156pt>
+<Figures/vta3.png, id=470, 133.24782pt x 238.64156pt>
 File: Figures/vta3.png Graphic file (type png)
  <use Figures/vta3.png>
 Package pdftex.def Info: Figures/vta3.png used on input line 66.
 (pdftex.def)             Requested size: 113.26117pt x 202.84627pt.
 
-<Figures/settleUp1.jpg, id=745, 142.28156pt x 240.14719pt>
+<Figures/settleUp1.jpg, id=471, 142.28156pt x 240.14719pt>
 File: Figures/settleUp1.jpg Graphic file (type jpg)
 
 <use Figures/settleUp1.jpg>
 Package pdftex.def Info: Figures/settleUp1.jpg used on input line 85.
 (pdftex.def)             Requested size: 128.0522pt x 216.13045pt.
 
-<Figures/settleUp2.jpg, id=746, 142.28156pt x 238.64156pt>
+<Figures/settleUp2.jpg, id=472, 142.28156pt x 238.64156pt>
 File: Figures/settleUp2.jpg Graphic file (type jpg)
 
 <use Figures/settleUp2.jpg>
 Package pdftex.def Info: Figures/settleUp2.jpg used on input line 86.
 (pdftex.def)             Requested size: 128.0522pt x 214.7754pt.
 
-<Figures/settleUp3.jpg, id=747, 143.03438pt x 238.64156pt>
+<Figures/settleUp3.jpg, id=473, 143.03438pt x 238.64156pt>
 File: Figures/settleUp3.jpg Graphic file (type jpg)
 
 <use Figures/settleUp3.jpg>
@@ -3292,21 +3402,21 @@ Package pdftex.def Info: Figures/settleUp3.jpg used on input line 87.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3 <./Figures/vta1.png> <./Figures/vta2.png> <./Figures/vta3.png>]
-<Figures/splitwise1.jpg, id=753, 140.02313pt x 237.88875pt>
+<Figures/splitwise1.jpg, id=479, 140.02313pt x 237.88875pt>
 File: Figures/splitwise1.jpg Graphic file (type jpg)
 
 <use Figures/splitwise1.jpg>
 Package pdftex.def Info: Figures/splitwise1.jpg used on input line 96.
 (pdftex.def)             Requested size: 126.01964pt x 214.09789pt.
 
-<Figures/splitwise2.jpg, id=754, 141.52875pt x 237.88875pt>
+<Figures/splitwise2.jpg, id=480, 141.52875pt x 237.88875pt>
 File: Figures/splitwise2.jpg Graphic file (type jpg)
 
 <use Figures/splitwise2.jpg>
 Package pdftex.def Info: Figures/splitwise2.jpg used on input line 97.
 (pdftex.def)             Requested size: 127.37468pt x 214.09789pt.
 
-<Figures/splitwise3.jpg, id=755, 143.03438pt x 238.64156pt>
+<Figures/splitwise3.jpg, id=481, 143.03438pt x 238.64156pt>
 File: Figures/splitwise3.jpg Graphic file (type jpg)
 
 <use Figures/splitwise3.jpg>
@@ -3315,21 +3425,21 @@ Package pdftex.def Info: Figures/splitwise3.jpg used on input line 98.
  [4 <./Figures/settleUp1.jpg> <./Figures/settleUp2.jpg> <./Figures/settleUp3.jp
 g> <./Figures/splitwise1.jpg> <./Figures/splitwise2.jpg> <./Figures/splitwise3.
 jpg>]
-<Figures/rainAlarm.jpg, id=760, 141.52875pt x 238.64156pt>
+<Figures/rainAlarm.jpg, id=488, 141.52875pt x 238.64156pt>
 File: Figures/rainAlarm.jpg Graphic file (type jpg)
 
 <use Figures/rainAlarm.jpg>
 Package pdftex.def Info: Figures/rainAlarm.jpg used on input line 112.
 (pdftex.def)             Requested size: 127.37468pt x 214.7754pt.
 
-<Figures/meteoplaza1.jpg, id=761, 155.07938pt x 240.14719pt>
+<Figures/meteoplaza1.jpg, id=489, 155.07938pt x 240.14719pt>
 File: Figures/meteoplaza1.jpg Graphic file (type jpg)
 
 <use Figures/meteoplaza1.jpg>
 Package pdftex.def Info: Figures/meteoplaza1.jpg used on input line 121.
 (pdftex.def)             Requested size: 139.57013pt x 216.13045pt.
 
-<Figures/meteoplaza2.jpg, id=762, 154.32657pt x 240.14719pt>
+<Figures/meteoplaza2.jpg, id=490, 154.32657pt x 240.14719pt>
 File: Figures/meteoplaza2.jpg Graphic file (type jpg)
 
 <use Figures/meteoplaza2.jpg>
@@ -3337,42 +3447,42 @@ Package pdftex.def Info: Figures/meteoplaza2.jpg used on input line 122.
 (pdftex.def)             Requested size: 138.89261pt x 216.13045pt.
  [5 <./Figures/rainAlarm.jpg> <./Figures/meteoplaza1.jpg> <./Figures/meteoplaza
 2.jpg>]
-<Figures/emerAssistant1.jpg, id=767, 141.52875pt x 239.39438pt>
+<Figures/emerAssistant1.jpg, id=497, 141.52875pt x 239.39438pt>
 File: Figures/emerAssistant1.jpg Graphic file (type jpg)
 
 <use Figures/emerAssistant1.jpg>
 Package pdftex.def Info: Figures/emerAssistant1.jpg used on input line 136.
 (pdftex.def)             Requested size: 127.37468pt x 215.45294pt.
 
-<Figures/emerAssistant2.jpg, id=768, 141.52875pt x 240.9pt>
+<Figures/emerAssistant2.jpg, id=498, 141.52875pt x 240.9pt>
 File: Figures/emerAssistant2.jpg Graphic file (type jpg)
 
 <use Figures/emerAssistant2.jpg>
 Package pdftex.def Info: Figures/emerAssistant2.jpg used on input line 137.
 (pdftex.def)             Requested size: 127.37468pt x 216.80798pt.
  [6 <./Figures/emerAssistant1.jpg> <./Figures/emerAssistant2.jpg>] <Figures/fir
-stCall1.jpg, id=773, 92.59593pt x 167.12437pt>
+stCall1.jpg, id=505, 92.59593pt x 167.12437pt>
 File: Figures/firstCall1.jpg Graphic file (type jpg)
 
 <use Figures/firstCall1.jpg>
 Package pdftex.def Info: Figures/firstCall1.jpg used on input line 148.
 (pdftex.def)             Requested size: 101.85582pt x 183.83736pt.
 
-<Figures/firstCall2.jpg, id=774, 94.85437pt x 164.86594pt>
+<Figures/firstCall2.jpg, id=506, 94.85437pt x 164.86594pt>
 File: Figures/firstCall2.jpg Graphic file (type jpg)
 
 <use Figures/firstCall2.jpg>
 Package pdftex.def Info: Figures/firstCall2.jpg used on input line 149.
 (pdftex.def)             Requested size: 104.3401pt x 181.35306pt.
 
-<Figures/arroundMe1.jpg, id=775, 152.06813pt x 238.64156pt>
+<Figures/arroundMe1.jpg, id=507, 152.06813pt x 238.64156pt>
 File: Figures/arroundMe1.jpg Graphic file (type jpg)
 
 <use Figures/arroundMe1.jpg>
 Package pdftex.def Info: Figures/arroundMe1.jpg used on input line 163.
 (pdftex.def)             Requested size: 136.86003pt x 214.7754pt.
 
-<Figures/arroundMe2.jpg, id=776, 149.8097pt x 237.88875pt>
+<Figures/arroundMe2.jpg, id=508, 149.8097pt x 237.88875pt>
 File: Figures/arroundMe2.jpg Graphic file (type jpg)
 
 <use Figures/arroundMe2.jpg>
@@ -3382,7 +3492,7 @@ Package pdftex.def Info: Figures/arroundMe2.jpg used on input line 164.
 
  <./Figures/firstCall1.jpg> <./Figures/firstCall2.jpg> <./Figures/arroundMe1.jp
 g> <./Figures/arroundMe2.jpg>]
-<Figures/maps1.jpg, id=781, 113.67468pt x 188.95593pt>
+<Figures/maps1.jpg, id=516, 113.67468pt x 188.95593pt>
 File: Figures/maps1.jpg Graphic file (type jpg)
  <use Figures/maps1.jpg>
 Package pdftex.def Info: Figures/maps1.jpg used on input line 176.
@@ -3391,28 +3501,28 @@ Package pdftex.def Info: Figures/maps1.jpg used on input line 176.
 [8
 
  <./Figures/maps1.jpg>]
-<Figures/notes1.jpg, id=786, 142.28156pt x 238.64156pt>
+<Figures/notes1.jpg, id=522, 142.28156pt x 238.64156pt>
 File: Figures/notes1.jpg Graphic file (type jpg)
 
 <use Figures/notes1.jpg>
 Package pdftex.def Info: Figures/notes1.jpg used on input line 192.
 (pdftex.def)             Requested size: 142.2812pt x 238.64096pt.
 
-<Figures/notes2.jpg, id=787, 193.47281pt x 342.5297pt>
+<Figures/notes2.jpg, id=523, 193.47281pt x 342.5297pt>
 File: Figures/notes2.jpg Graphic file (type jpg)
 
 <use Figures/notes2.jpg>
 Package pdftex.def Info: Figures/notes2.jpg used on input line 193.
 (pdftex.def)             Requested size: 135.43004pt x 239.76915pt.
 
-<Figures/colorNote1.jpg, id=788, 141.52875pt x 240.14719pt>
+<Figures/colorNote1.jpg, id=524, 141.52875pt x 240.14719pt>
 File: Figures/colorNote1.jpg Graphic file (type jpg)
 
 <use Figures/colorNote1.jpg>
 Package pdftex.def Info: Figures/colorNote1.jpg used on input line 203.
 (pdftex.def)             Requested size: 127.37468pt x 216.13045pt.
 
-<Figures/colorNote2.jpg, id=789, 143.03438pt x 239.39438pt>
+<Figures/colorNote2.jpg, id=525, 143.03438pt x 239.39438pt>
 File: Figures/colorNote2.jpg Graphic file (type jpg)
 
 <use Figures/colorNote2.jpg>
@@ -3476,7 +3586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<Figures/metodologia.png, id=807, 243.15843pt x 245.41687pt>
+<Figures/metodologia.png, id=546, 243.15843pt x 245.41687pt>
 File: Figures/metodologia.png Graphic file (type png)
 
 <use Figures/metodologia.png>
@@ -3492,7 +3602,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
-<Figures/toggl.jpg, id=812, 431.36156pt x 313.17pt>
+<Figures/toggl.jpg, id=554, 431.36156pt x 313.17pt>
 File: Figures/toggl.jpg Graphic file (type jpg)
  <use Figures/toggl.jpg>
 Package pdftex.def Info: Figures/toggl.jpg used on input line 101.
@@ -3537,14 +3647,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--35
 
 
 
-] <Figures/planificacio.jpg, id=830, 554.82281pt x 345.54094pt>
+] <Figures/planificacio.jpg, id=576, 554.82281pt x 345.54094pt>
 File: Figures/planificacio.jpg Graphic file (type jpg)
 
 <use Figures/planificacio.jpg>
 Package pdftex.def Info: Figures/planificacio.jpg used on input line 61.
 (pdftex.def)             Requested size: 360.63055pt x 224.59894pt.
 
-<Figures/Gantt.jpg, id=831, 622.57594pt x 319.94531pt>
+<Figures/Gantt.jpg, id=577, 622.57594pt x 319.94531pt>
 File: Figures/Gantt.jpg Graphic file (type jpg)
  <use Figures/Gantt.jpg>
 Package pdftex.def Info: Figures/Gantt.jpg used on input line 67.
@@ -3708,7 +3818,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
 ]
 Cap\'{\i }tol 6.
-<Figures/casosUs.png, id=906, 670.75594pt x 364.36125pt>
+<Figures/casosUs.png, id=680, 670.75594pt x 364.36125pt>
 File: Figures/casosUs.png Graphic file (type png)
 
 <use Figures/casosUs.png>
@@ -3866,7 +3976,7 @@ Underfull \hbox (badness 1092) in paragraph at lines 832--833
 
 ]
 Cap\'{\i }tol 7.
-<Figures/UML.png, id=974, 410.2828pt x 291.33844pt>
+<Figures/UML.png, id=800, 410.2828pt x 291.33844pt>
 File: Figures/UML.png Graphic file (type png)
  <use Figures/UML.png>
 Package pdftex.def Info: Figures/UML.png used on input line 12.
@@ -3895,21 +4005,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [53
 
-] <Figures/IniciSessioEC.png, id=988, 461.47406pt x 196.48407pt>
+] <Figures/IniciSessioEC.png, id=826, 461.47406pt x 196.48407pt>
 File: Figures/IniciSessioEC.png Graphic file (type png)
 
 <use Figures/IniciSessioEC.png>
 Package pdftex.def Info: Figures/IniciSessioEC.png used on input line 209.
 (pdftex.def)             Requested size: 369.17973pt x 157.18745pt.
  [54 <./Figures/IniciSessioEC.png>]
-<Figures/TancarSessioEC.png, id=996, 461.47406pt x 199.49532pt>
+<Figures/TancarSessioEC.png, id=835, 461.47406pt x 199.49532pt>
 File: Figures/TancarSessioEC.png Graphic file (type png)
 
 <use Figures/TancarSessioEC.png>
 Package pdftex.def Info: Figures/TancarSessioEC.png used on input line 229.
 (pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
 
-<Figures/ConsultarViatgeEC.png, id=997, 461.47406pt x 196.48407pt>
+<Figures/ConsultarViatgeEC.png, id=836, 461.47406pt x 196.48407pt>
 File: Figures/ConsultarViatgeEC.png Graphic file (type png)
 
 <use Figures/ConsultarViatgeEC.png>
@@ -3923,14 +4033,14 @@ Underfull \hbox (badness 1735) in paragraph at lines 252--253
 [55
 
  <./Figures/TancarSessioEC.png> <./Figures/ConsultarViatgeEC.png>]
-<Figures/CrearViatgeEC.png, id=1006, 461.47406pt x 250.68657pt>
+<Figures/CrearViatgeEC.png, id=846, 461.47406pt x 250.68657pt>
 File: Figures/CrearViatgeEC.png Graphic file (type png)
 
 <use Figures/CrearViatgeEC.png>
 Package pdftex.def Info: Figures/CrearViatgeEC.png used on input line 265.
 (pdftex.def)             Requested size: 369.17973pt x 200.54951pt.
 
-<Figures/EliminarViatgeEC.png, id=1007, 461.47406pt x 199.49532pt>
+<Figures/EliminarViatgeEC.png, id=847, 461.47406pt x 199.49532pt>
 File: Figures/EliminarViatgeEC.png Graphic file (type png)
 
 <use Figures/EliminarViatgeEC.png>
@@ -3939,7 +4049,7 @@ Package pdftex.def Info: Figures/EliminarViatgeEC.png used on input line 302.
  [56
 
  <./Figures/CrearViatgeEC.png> <./Figures/EliminarViatgeEC.png>]
-<Figures/ConsultarLlistaDespesesEC.png, id=1017, 461.47406pt x 199.49532pt>
+<Figures/ConsultarLlistaDespesesEC.png, id=857, 461.47406pt x 199.49532pt>
 File: Figures/ConsultarLlistaDespesesEC.png Graphic file (type png)
 
 <use Figures/ConsultarLlistaDespesesEC.png>
@@ -3952,7 +4062,7 @@ Overfull \hbox (96.54926pt too wide) in paragraph at lines 329--330
 Set(TupleType(qtt,
  []
 
-<Figures/CrearDespesaEC.png, id=1018, 461.47406pt x 199.49532pt>
+<Figures/CrearDespesaEC.png, id=858, 461.47406pt x 199.49532pt>
 File: Figures/CrearDespesaEC.png Graphic file (type png)
 
 <use Figures/CrearDespesaEC.png>
@@ -3961,7 +4071,7 @@ Package pdftex.def Info: Figures/CrearDespesaEC.png used on input line 341.
  [57
 
  <./Figures/ConsultarLlistaDespesesEC.png> <./Figures/CrearDespesaEC.png>]
-<Figures/ConsultarDespesaEC.png, id=1029, 461.47406pt x 199.49532pt>
+<Figures/ConsultarDespesaEC.png, id=868, 461.47406pt x 199.49532pt>
 File: Figures/ConsultarDespesaEC.png Graphic file (type png)
 
 <use Figures/ConsultarDespesaEC.png>
@@ -3973,7 +4083,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--368
 []|\T1/ppl/m/n/10.95 Sistema::ConsultarDespesa()::TupleType(qtt, lloc, da-ta,
  []
 
-<Figures/CobrarDeuteEC.png, id=1030, 461.47406pt x 199.49532pt>
+<Figures/CobrarDeuteEC.png, id=869, 461.47406pt x 199.49532pt>
 File: Figures/CobrarDeuteEC.png Graphic file (type png)
 
 <use Figures/CobrarDeuteEC.png>
@@ -3982,14 +4092,14 @@ Package pdftex.def Info: Figures/CobrarDeuteEC.png used on input line 379.
  [58
 
  <./Figures/ConsultarDespesaEC.png> <./Figures/CobrarDeuteEC.png>]
-<Figures/EliminarDespesaEC.png, id=1039, 461.47406pt x 199.49532pt>
+<Figures/EliminarDespesaEC.png, id=878, 461.47406pt x 199.49532pt>
 File: Figures/EliminarDespesaEC.png Graphic file (type png)
 
 <use Figures/EliminarDespesaEC.png>
 Package pdftex.def Info: Figures/EliminarDespesaEC.png used on input line 399.
 (pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
 
-<Figures/ModificarDespesaEC.png, id=1040, 461.47406pt x 199.49532pt>
+<Figures/ModificarDespesaEC.png, id=879, 461.47406pt x 199.49532pt>
 File: Figures/ModificarDespesaEC.png Graphic file (type png)
 
 <use Figures/ModificarDespesaEC.png>
@@ -3999,14 +4109,14 @@ Package pdftex.def Info: Figures/ModificarDespesaEC.png used on input line 417.
  [59
 
  <./Figures/EliminarDespesaEC.png> <./Figures/ModificarDespesaEC.png>]
-<Figures/CercaEC.png, id=1049, 461.47406pt x 199.49532pt>
+<Figures/CercaEC.png, id=889, 461.47406pt x 199.49532pt>
 File: Figures/CercaEC.png Graphic file (type png)
 
 <use Figures/CercaEC.png>
 Package pdftex.def Info: Figures/CercaEC.png used on input line 436.
 (pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
 
-<Figures/ConsultarRutaEC.png, id=1050, 461.47406pt x 199.49532pt>
+<Figures/ConsultarRutaEC.png, id=890, 461.47406pt x 199.49532pt>
 File: Figures/ConsultarRutaEC.png Graphic file (type png)
 
 <use Figures/ConsultarRutaEC.png>
@@ -4015,7 +4125,7 @@ Package pdftex.def Info: Figures/ConsultarRutaEC.png used on input line 453.
  [60
 
  <./Figures/CercaEC.png> <./Figures/ConsultarRutaEC.png>]
-<Figures/ConsultarMeteoEC.png, id=1059, 461.47406pt x 199.49532pt>
+<Figures/ConsultarMeteoEC.png, id=899, 461.47406pt x 199.49532pt>
 File: Figures/ConsultarMeteoEC.png Graphic file (type png)
 
 <use Figures/ConsultarMeteoEC.png>
@@ -4026,7 +4136,7 @@ Underfull \hbox (badness 6173) in paragraph at lines 478--479
 []|\T1/ppl/m/n/10.95 Sistema::ConsultarMeteo():TupleType(data, desc, temp-
  []
 
-<Figures/ConsultarRutaHospitalEC.png, id=1060, 461.47406pt x 199.49532pt>
+<Figures/ConsultarRutaHospitalEC.png, id=900, 461.47406pt x 199.49532pt>
 File: Figures/ConsultarRutaHospitalEC.png Graphic file (type png)
 
 <use Figures/ConsultarRutaHospitalEC.png>
@@ -4041,7 +4151,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 495--496
 [61
 
  <./Figures/ConsultarMeteoEC.png> <./Figures/ConsultarRutaHospitalEC.png>]
-<Figures/TrucadaEmergenciesEC.png, id=1069, 461.47406pt x 199.49532pt>
+<Figures/TrucadaEmergenciesEC.png, id=910, 461.47406pt x 199.49532pt>
 File: Figures/TrucadaEmergenciesEC.png Graphic file (type png)
 
 <use Figures/TrucadaEmergenciesEC.png>
@@ -4049,7 +4159,7 @@ Package pdftex.def Info: Figures/TrucadaEmergenciesEC.png used on input line 50
 8.
 (pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
 
-<Figures/TrucadaContacteEC.png, id=1070, 461.47406pt x 199.49532pt>
+<Figures/TrucadaContacteEC.png, id=911, 461.47406pt x 199.49532pt>
 File: Figures/TrucadaContacteEC.png Graphic file (type png)
 
 <use Figures/TrucadaContacteEC.png>
@@ -4058,7 +4168,7 @@ Package pdftex.def Info: Figures/TrucadaContacteEC.png used on input line 525.
  [62
 
  <./Figures/TrucadaEmergenciesEC.png> <./Figures/TrucadaContacteEC.png>]
-<Figures/ConsultarLlistaNotesEC.png, id=1079, 461.47406pt x 199.49532pt>
+<Figures/ConsultarLlistaNotesEC.png, id=920, 461.47406pt x 199.49532pt>
 File: Figures/ConsultarLlistaNotesEC.png Graphic file (type png)
 
 <use Figures/ConsultarLlistaNotesEC.png>
@@ -4071,7 +4181,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
  []
 
-<Figures/ConsultarNotaEC.png, id=1080, 461.47406pt x 199.49532pt>
+<Figures/ConsultarNotaEC.png, id=921, 461.47406pt x 199.49532pt>
 File: Figures/ConsultarNotaEC.png Graphic file (type png)
 
 <use Figures/ConsultarNotaEC.png>
@@ -4085,14 +4195,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 567--568
 [63
 
  <./Figures/ConsultarLlistaNotesEC.png> <./Figures/ConsultarNotaEC.png>]
-<Figures/CrearNotaEC.png, id=1090, 461.47406pt x 199.49532pt>
+<Figures/CrearNotaEC.png, id=930, 461.47406pt x 199.49532pt>
 File: Figures/CrearNotaEC.png Graphic file (type png)
 
 <use Figures/CrearNotaEC.png>
 Package pdftex.def Info: Figures/CrearNotaEC.png used on input line 580.
 (pdftex.def)             Requested size: 369.17973pt x 159.59645pt.
 
-<Figures/EliminarNotaEC.png, id=1091, 461.47406pt x 199.49532pt>
+<Figures/EliminarNotaEC.png, id=931, 461.47406pt x 199.49532pt>
 File: Figures/EliminarNotaEC.png Graphic file (type png)
 
 <use Figures/EliminarNotaEC.png>
@@ -4110,7 +4220,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<Figures/ArquitecturaSistema.jpg, id=1100, 392.21532pt x 234.1247pt>
+<Figures/ArquitecturaSistema.jpg, id=940, 392.21532pt x 234.1247pt>
 File: Figures/ArquitecturaSistema.jpg Graphic file (type jpg)
 
 <use Figures/ArquitecturaSistema.jpg>
@@ -4128,7 +4238,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
 
  <./Figures/ArquitecturaSistema.jpg>]
-<Figures/EstructuraServeis.jpg, id=1105, 624.83438pt x 275.52937pt>
+<Figures/EstructuraServeis.jpg, id=948, 624.83438pt x 275.52937pt>
 File: Figures/EstructuraServeis.jpg Graphic file (type jpg)
 
 <use Figures/EstructuraServeis.jpg>
@@ -4139,7 +4249,7 @@ Overfull \hbox (33.352pt too wide) in paragraph at lines 31--32
  [][] 
  []
 
-<Figures/AccesBD.jpg, id=1106, 298.86656pt x 316.93407pt>
+<Figures/AccesBD.jpg, id=949, 298.86656pt x 316.93407pt>
 File: Figures/AccesBD.jpg Graphic file (type jpg)
 
 <use Figures/AccesBD.jpg>
@@ -4149,7 +4259,7 @@ Package pdftex.def Info: Figures/AccesBD.jpg used on input line 42.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/AccesAPI.jpg, id=1107, 279.29344pt x 239.39438pt>
+<Figures/AccesAPI.jpg, id=950, 279.29344pt x 239.39438pt>
 File: Figures/AccesAPI.jpg Graphic file (type jpg)
 
 <use Figures/AccesAPI.jpg>
@@ -4160,14 +4270,14 @@ Package pdftex.def Info: Figures/AccesAPI.jpg used on input line 48.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [66 <./Figures/EstructuraServeis.jpg>] [67 <./Figures/AccesBD.jpg> <./Figures/A
-ccesAPI.jpg>] <Figures/patroFactoria.png, id=1116, 411.78844pt x 192.72pt>
+ccesAPI.jpg>] <Figures/patroFactoria.png, id=963, 411.78844pt x 192.72pt>
 File: Figures/patroFactoria.png Graphic file (type png)
 
 <use Figures/patroFactoria.png>
 Package pdftex.def Info: Figures/patroFactoria.png used on input line 66.
 (pdftex.def)             Requested size: 308.84056pt x 144.53963pt.
 
-<Figures/patroAdaptador.png, id=1117, 411.78844pt x 192.72pt>
+<Figures/patroAdaptador.png, id=964, 411.78844pt x 192.72pt>
 File: Figures/patroAdaptador.png Graphic file (type png)
 
 <use Figures/patroAdaptador.png>
@@ -4176,14 +4286,14 @@ Package pdftex.def Info: Figures/patroAdaptador.png used on input line 75.
  [68
 
  <./Figures/patroFactoria.png> <./Figures/patroAdaptador.png>]
-<Figures/patroRepositori.png, id=1122, 411.78844pt x 192.72pt>
+<Figures/patroRepositori.png, id=972, 411.78844pt x 192.72pt>
 File: Figures/patroRepositori.png Graphic file (type png)
 
 <use Figures/patroRepositori.png>
 Package pdftex.def Info: Figures/patroRepositori.png used on input line 86.
 (pdftex.def)             Requested size: 308.84056pt x 144.53963pt.
 
-<Figures/patroServei.png, id=1123, 411.78844pt x 192.72pt>
+<Figures/patroServei.png, id=973, 411.78844pt x 192.72pt>
 File: Figures/patroServei.png Graphic file (type png)
 
 <use Figures/patroServei.png>
@@ -4202,41 +4312,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--108
 [69
 
  <./Figures/patroRepositori.png> <./Figures/patroServei.png>]
-<Figures/initSesion.png, id=1130, 722.7pt x 1284.8pt>
+<Figures/initSesion.png, id=981, 722.7pt x 1284.8pt>
 File: Figures/initSesion.png Graphic file (type png)
 
 <use Figures/initSesion.png>
 Package pdftex.def Info: Figures/initSesion.png used on input line 123.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/TriarComte.png, id=1131, 722.7pt x 1284.8pt>
+<Figures/TriarComte.png, id=982, 722.7pt x 1284.8pt>
 File: Figures/TriarComte.png Graphic file (type png)
 
 <use Figures/TriarComte.png>
 Package pdftex.def Info: Figures/TriarComte.png used on input line 124.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
  [70 <./Figures/initSesion.png> <./Figures/TriarComte.png>] <Figures/llistaViat
-ges.png, id=1136, 542.025pt x 963.6pt>
+ges.png, id=989, 542.025pt x 963.6pt>
 File: Figures/llistaViatges.png Graphic file (type png)
 
 <use Figures/llistaViatges.png>
 Package pdftex.def Info: Figures/llistaViatges.png used on input line 135.
 (pdftex.def)             Requested size: 108.40308pt x 192.71658pt.
 
-<Figures/cerarViatge.png, id=1137, 722.7pt x 1284.8pt>
+<Figures/cerarViatge.png, id=990, 722.7pt x 1284.8pt>
 File: Figures/cerarViatge.png Graphic file (type png)
 
 <use Figures/cerarViatge.png>
 Package pdftex.def Info: Figures/cerarViatge.png used on input line 144.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
- <Figures/style.png, id=1138, 722.7pt x 1284.8pt>
+ <Figures/style.png, id=991, 722.7pt x 1284.8pt>
 File: Figures/style.png Graphic file (type png)
 
 <use Figures/style.png>
 Package pdftex.def Info: Figures/style.png used on input line 145.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/emergencyContact.png, id=1139, 722.7pt x 1284.8pt>
+<Figures/emergencyContact.png, id=992, 722.7pt x 1284.8pt>
 File: Figures/emergencyContact.png Graphic file (type png)
 
 <use Figures/emergencyContact.png>
@@ -4246,19 +4356,19 @@ Package pdftex.def Info: Figures/emergencyContact.png used on input line 146.
 
  <./Figures/llistaViatges.png> <./Figures/cerarViatge.png> <./Figures/style.png
 > <./Figures/emergencyContact.png>]
-<Figures/Drawer.png, id=1144, 722.7pt x 1284.8pt>
+<Figures/Drawer.png, id=999, 722.7pt x 1284.8pt>
 File: Figures/Drawer.png Graphic file (type png)
  <use Figures/Drawer.png>
 Package pdftex.def Info: Figures/Drawer.png used on input line 157.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/getTrip.png, id=1145, 722.7pt x 1284.8pt>
+<Figures/getTrip.png, id=1000, 722.7pt x 1284.8pt>
 File: Figures/getTrip.png Graphic file (type png)
  <use Figures/getTrip.png>
 Package pdftex.def Info: Figures/getTrip.png used on input line 158.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/llistaDespeses.png, id=1146, 722.7pt x 1284.8pt>
+<Figures/llistaDespeses.png, id=1001, 722.7pt x 1284.8pt>
 File: Figures/llistaDespeses.png Graphic file (type png)
 
 <use Figures/llistaDespeses.png>
@@ -4268,14 +4378,14 @@ Package pdftex.def Info: Figures/llistaDespeses.png used on input line 168.
 
  <./Figures/Drawer.png> <./Figures/getTrip.png> <./Figures/llistaDespeses.png>]
 
-<Figures/crearDespesa.png, id=1151, 722.7pt x 1284.8pt>
+<Figures/crearDespesa.png, id=1008, 722.7pt x 1284.8pt>
 File: Figures/crearDespesa.png Graphic file (type png)
 
 <use Figures/crearDespesa.png>
 Package pdftex.def Info: Figures/crearDespesa.png used on input line 179.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/consultarDespesa.png, id=1152, 722.7pt x 1284.8pt>
+<Figures/consultarDespesa.png, id=1009, 722.7pt x 1284.8pt>
 File: Figures/consultarDespesa.png Graphic file (type png)
 
 <use Figures/consultarDespesa.png>
@@ -4284,14 +4394,14 @@ Package pdftex.def Info: Figures/consultarDespesa.png used on input line 188.
  [73
 
  <./Figures/crearDespesa.png> <./Figures/consultarDespesa.png>]
-<Figures/modificarDespesa.png, id=1157, 722.7pt x 1284.8pt>
+<Figures/modificarDespesa.png, id=1017, 722.7pt x 1284.8pt>
 File: Figures/modificarDespesa.png Graphic file (type png)
 
 <use Figures/modificarDespesa.png>
 Package pdftex.def Info: Figures/modificarDespesa.png used on input line 199.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/cerca.png, id=1158, 722.7pt x 1284.8pt>
+<Figures/cerca.png, id=1018, 722.7pt x 1284.8pt>
 File: Figures/cerca.png Graphic file (type png)
  <use Figures/cerca.png>
 Package pdftex.def Info: Figures/cerca.png used on input line 209.
@@ -4300,14 +4410,14 @@ Package pdftex.def Info: Figures/cerca.png used on input line 209.
 [74
 
  <./Figures/modificarDespesa.png> <./Figures/cerca.png>]
-<Figures/resultatsCerca.png, id=1163, 722.7pt x 1284.8pt>
+<Figures/resultatsCerca.png, id=1025, 722.7pt x 1284.8pt>
 File: Figures/resultatsCerca.png Graphic file (type png)
 
 <use Figures/resultatsCerca.png>
 Package pdftex.def Info: Figures/resultatsCerca.png used on input line 220.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/ruta.png, id=1164, 722.7pt x 1284.8pt>
+<Figures/ruta.png, id=1026, 722.7pt x 1284.8pt>
 File: Figures/ruta.png Graphic file (type png)
  <use Figures/ruta.png>
 Package pdftex.def Info: Figures/ruta.png used on input line 229.
@@ -4315,20 +4425,20 @@ Package pdftex.def Info: Figures/ruta.png used on input line 229.
  [75
 
  <./Figures/resultatsCerca.png> <./Figures/ruta.png>]
-<Figures/meteo.png, id=1170, 722.7pt x 1284.8pt>
+<Figures/meteo.png, id=1033, 722.7pt x 1284.8pt>
 File: Figures/meteo.png Graphic file (type png)
  <use Figures/meteo.png>
 Package pdftex.def Info: Figures/meteo.png used on input line 240.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/emergencies.png, id=1171, 722.7pt x 1284.8pt>
+<Figures/emergencies.png, id=1034, 722.7pt x 1284.8pt>
 File: Figures/emergencies.png Graphic file (type png)
 
 <use Figures/emergencies.png>
 Package pdftex.def Info: Figures/emergencies.png used on input line 249.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/hospital.png, id=1172, 722.7pt x 1284.8pt>
+<Figures/hospital.png, id=1035, 722.7pt x 1284.8pt>
 File: Figures/hospital.png Graphic file (type png)
  <use Figures/hospital.png>
 Package pdftex.def Info: Figures/hospital.png used on input line 250.
@@ -4337,35 +4447,35 @@ Package pdftex.def Info: Figures/hospital.png used on input line 250.
 [76
 
  <./Figures/meteo.png> <./Figures/emergencies.png> <./Figures/hospital.png>] <F
-igures/llistaNotes.png, id=1177, 722.7pt x 1284.8pt>
+igures/llistaNotes.png, id=1043, 722.7pt x 1284.8pt>
 File: Figures/llistaNotes.png Graphic file (type png)
 
 <use Figures/llistaNotes.png>
 Package pdftex.def Info: Figures/llistaNotes.png used on input line 261.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/crearNota1.png, id=1178, 722.7pt x 1284.8pt>
+<Figures/crearNota1.png, id=1044, 722.7pt x 1284.8pt>
 File: Figures/crearNota1.png Graphic file (type png)
 
 <use Figures/crearNota1.png>
 Package pdftex.def Info: Figures/crearNota1.png used on input line 270.
 (pdftex.def)             Requested size: 86.72025pt x 154.16934pt.
 
-<Figures/crearNota2.png, id=1179, 722.7pt x 1284.8pt>
+<Figures/crearNota2.png, id=1045, 722.7pt x 1284.8pt>
 File: Figures/crearNota2.png Graphic file (type png)
 
 <use Figures/crearNota2.png>
 Package pdftex.def Info: Figures/crearNota2.png used on input line 271.
 (pdftex.def)             Requested size: 86.72025pt x 154.16934pt.
 
-<Figures/crearNota3.png, id=1180, 722.7pt x 1284.8pt>
+<Figures/crearNota3.png, id=1046, 722.7pt x 1284.8pt>
 File: Figures/crearNota3.png Graphic file (type png)
 
 <use Figures/crearNota3.png>
 Package pdftex.def Info: Figures/crearNota3.png used on input line 272.
 (pdftex.def)             Requested size: 86.72025pt x 154.16934pt.
 
-<Figures/crearNota4.png, id=1181, 722.7pt x 1284.8pt>
+<Figures/crearNota4.png, id=1047, 722.7pt x 1284.8pt>
 File: Figures/crearNota4.png Graphic file (type png)
 
 <use Figures/crearNota4.png>
@@ -4375,14 +4485,14 @@ Package pdftex.def Info: Figures/crearNota4.png used on input line 273.
 
  <./Figures/llistaNotes.png> <./Figures/crearNota1.png> <./Figures/crearNota2.p
 ng> <./Figures/crearNota3.png> <./Figures/crearNota4.png>] <Figures/consultarNo
-ta.png, id=1186, 722.7pt x 1284.8pt>
+ta.png, id=1054, 722.7pt x 1284.8pt>
 File: Figures/consultarNota.png Graphic file (type png)
 
 <use Figures/consultarNota.png>
 Package pdftex.def Info: Figures/consultarNota.png used on input line 284.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
 
-<Figures/classesDisseny.png, id=1187, 571.38469pt x 304.88907pt>
+<Figures/classesDisseny.png, id=1055, 571.38469pt x 304.88907pt>
 File: Figures/classesDisseny.png Graphic file (type png)
 
 <use Figures/classesDisseny.png>
@@ -4401,21 +4511,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 302--303
 [78
 
  <./Figures/consultarNota.png> <./Figures/classesDisseny.png>]
-<Figures/EstructuraBD.jpg, id=1192, 283.0575pt x 196.48407pt>
+<Figures/EstructuraBD.jpg, id=1063, 283.0575pt x 196.48407pt>
 File: Figures/EstructuraBD.jpg Graphic file (type jpg)
 
 <use Figures/EstructuraBD.jpg>
 Package pdftex.def Info: Figures/EstructuraBD.jpg used on input line 308.
 (pdftex.def)             Requested size: 283.0568pt x 196.48358pt.
 
-<Figures/DebtBD.jpg, id=1193, 314.67563pt x 168.63pt>
+<Figures/DebtBD.jpg, id=1064, 314.67563pt x 168.63pt>
 File: Figures/DebtBD.jpg Graphic file (type jpg)
  <use Figures/DebtBD.jpg>
 Package pdftex.def Info: Figures/DebtBD.jpg used on input line 316.
 (pdftex.def)             Requested size: 314.67485pt x 168.62958pt.
 
 [79 <./Figures/EstructuraBD.jpg> <./Figures/DebtBD.jpg>]
-<Figures/esquemabdGeneral.png, id=1198, 177.66376pt x 191.9672pt>
+<Figures/esquemabdGeneral.png, id=1072, 177.66376pt x 191.9672pt>
 File: Figures/esquemabdGeneral.png Graphic file (type png)
 
 <use Figures/esquemabdGeneral.png>
@@ -4444,21 +4554,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--339
 [80
 
  <./Figures/esquemabdGeneral.png>]
-<Figures/logInDS.png, id=1203, 319.94531pt x 285.31593pt>
+<Figures/logInDS.png, id=1079, 319.94531pt x 285.31593pt>
 File: Figures/logInDS.png Graphic file (type png)
 
 <use Figures/logInDS.png>
 Package pdftex.def Info: Figures/logInDS.png used on input line 344.
 (pdftex.def)             Requested size: 383.93243pt x 342.3774pt.
 
-<Figures/tripListDS.png, id=1204, 295.1025pt x 140.77594pt>
+<Figures/tripListDS.png, id=1080, 295.1025pt x 140.77594pt>
 File: Figures/tripListDS.png Graphic file (type png)
 
 <use Figures/tripListDS.png>
 Package pdftex.def Info: Figures/tripListDS.png used on input line 350.
 (pdftex.def)             Requested size: 354.1212pt x 168.93025pt.
 
-<Figures/accesBDDS.png, id=1205, 336.50719pt x 108.405pt>
+<Figures/accesBDDS.png, id=1081, 336.50719pt x 108.405pt>
 File: Figures/accesBDDS.png Graphic file (type png)
 
 <use Figures/accesBDDS.png>
@@ -4468,7 +4578,7 @@ Package pdftex.def Info: Figures/accesBDDS.png used on input line 356.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/apiDS.png, id=1206, 293.59688pt x 289.83281pt>
+<Figures/apiDS.png, id=1082, 293.59688pt x 289.83281pt>
 File: Figures/apiDS.png Graphic file (type png)
 
 <use Figures/apiDS.png>
@@ -4489,7 +4599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<Figures/initSessio1.png, id=1216, 455.45157pt x 60.225pt>
+<Figures/initSessio1.png, id=1095, 455.45157pt x 60.225pt>
 File: Figures/initSessio1.png Graphic file (type png)
 
 <use Figures/initSessio1.png>
@@ -4500,7 +4610,7 @@ Overfull \hbox (5.87354pt too wide) in paragraph at lines 16--17
  [][] 
  []
 
-<Figures/initSessio2.png, id=1217, 484.05844pt x 97.86563pt>
+<Figures/initSessio2.png, id=1096, 484.05844pt x 97.86563pt>
 File: Figures/initSessio2.png Graphic file (type png)
 
 <use Figures/initSessio2.png>
@@ -4517,19 +4627,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 
  <./Figures/initSessio1.png> <./Figures/initSessio2.png>]
-<Figures/db1.png, id=1222, 465.99094pt x 87.32625pt>
+<Figures/db1.png, id=1104, 465.99094pt x 87.32625pt>
 File: Figures/db1.png Graphic file (type png)
  <use Figures/db1.png>
 Package pdftex.def Info: Figures/db1.png used on input line 36.
 (pdftex.def)             Requested size: 372.79324pt x 69.86108pt.
 
-<Figures/db2.png, id=1223, 273.27094pt x 88.07906pt>
+<Figures/db2.png, id=1105, 273.27094pt x 88.07906pt>
 File: Figures/db2.png Graphic file (type png)
  <use Figures/db2.png>
 Package pdftex.def Info: Figures/db2.png used on input line 44.
 (pdftex.def)             Requested size: 218.61702pt x 70.46332pt.
 
-<Figures/db3.png, id=1224, 314.67563pt x 295.85532pt>
+<Figures/db3.png, id=1106, 314.67563pt x 295.85532pt>
 File: Figures/db3.png Graphic file (type png)
  <use Figures/db3.png>
 Package pdftex.def Info: Figures/db3.png used on input line 52.
@@ -4550,13 +4660,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-<Figures/serv1.png, id=1229, 353.82187pt x 115.18031pt>
+<Figures/serv1.png, id=1114, 353.82187pt x 115.18031pt>
 File: Figures/serv1.png Graphic file (type png)
 
 <use Figures/serv1.png>
 Package pdftex.def Info: Figures/serv1.png used on input line 66.
 (pdftex.def)             Requested size: 283.05788pt x 92.14435pt.
- <Figures/serv2.png, id=1230, 331.99031pt x 85.82062pt>
+ <Figures/serv2.png, id=1115, 331.99031pt x 85.82062pt>
 File: Figures/serv2.png Graphic file (type png)
 
 <use Figures/serv2.png>
@@ -4577,7 +4687,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-<Figures/api2.png, id=1231, 323.70938pt x 104.64093pt>
+<Figures/api2.png, id=1116, 323.70938pt x 104.64093pt>
 File: Figures/api2.png Graphic file (type png)
  <use Figures/api2.png>
 Package pdftex.def Info: Figures/api2.png used on input line 86.
@@ -4586,7 +4696,7 @@ Package pdftex.def Info: Figures/api2.png used on input line 86.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/api1.png, id=1232, 448.67625pt x 326.72063pt>
+<Figures/api1.png, id=1117, 448.67625pt x 326.72063pt>
 File: Figures/api1.png Graphic file (type png)
  <use Figures/api1.png>
 Package pdftex.def Info: Figures/api1.png used on input line 92.
@@ -4603,7 +4713,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 [85
 
  <./Figures/serv1.png> <./Figures/serv2.png>]
-<Figures/email.png, id=1238, 513.41812pt x 100.87688pt>
+<Figures/email.png, id=1126, 513.41812pt x 100.87688pt>
 File: Figures/email.png Graphic file (type png)
 
 <use Figures/email.png>
@@ -4615,7 +4725,7 @@ Overfull \hbox (6.70596pt too wide) in paragraph at lines 102--103
  []
 
 [86 <./Figures/api2.png> <./Figures/api1.png> <./Figures/email.png>]
-<Figures/email2.png, id=1243, 444.15938pt x 332.74312pt>
+<Figures/email2.png, id=1134, 444.15938pt x 332.74312pt>
 File: Figures/email2.png Graphic file (type png)
 
 <use Figures/email2.png>
@@ -4836,14 +4946,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--104
 
  []
 
-<Figures/ganttFinal.png, id=1295, 307.1475pt x 277.035pt>
+<Figures/ganttFinal.png, id=1219, 307.1475pt x 277.035pt>
 File: Figures/ganttFinal.png Graphic file (type png)
 
 <use Figures/ganttFinal.png>
 Package pdftex.def Info: Figures/ganttFinal.png used on input line 133.
 (pdftex.def)             Requested size: 307.14674pt x 277.03432pt.
  [99]
-<Figures/ganttFinal2.png, id=1301, 429.85594pt x 307.1475pt>
+<Figures/ganttFinal2.png, id=1226, 429.85594pt x 307.1475pt>
 File: Figures/ganttFinal2.png Graphic file (type png)
 
 <use Figures/ganttFinal2.png>
@@ -4886,20 +4996,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
 ) [102
 
-]
+] (./main.lot
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
 
-LaTeX Warning: Empty bibliography on input line 197.
+1: section
+[103
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
-(./main.aux (./Chapters/Context.aux) (./Chapters/Abast.aux)
+
+])
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+ [104] (./main.lof
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+
+1: section
+[105
+
+])
+\tf@lof=\write8
+\openout8 = `main.lof'.
+
+
+
+LaTeX Warning: Empty bibliography on input line 231.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+[106]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
+ (./main.aux
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+ (./Chapters/Context.aux) (./Chapters/Abast.aux)
 (./Chapters/Planificacio.aux) (./Chapters/GestioEconimica.aux)
 (./Chapters/AnalisiInicial.aux) (./Chapters/Requisits.aux)
 (./Chapters/Especificacio.aux) (./Chapters/Disseny.aux)
 (./Chapters/Implementacio.aux) (./Chapters/Proves.aux)
 (./Chapters/InformeSostenibilitat.aux) (./Chapters/Conclusions.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -4907,8 +5044,8 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: F334C7B795B8F1DE94D1D6EE60841E58;12799
-(rerunfilecheck)             After:  E4310CA7228BF260E09640EE8B099AA0;12794.
+(rerunfilecheck)             Before: 403C77009283040EA7B55AA9250DDF95;13031
+(rerunfilecheck)             After:  026F369B14841150413879A244E89704;13029.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -4917,27 +5054,312 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30440 strings out of 494966
- 619871 string characters out of 6179559
- 1010136 words of memory out of 5000000
- 32754 multiletter control sequences out of 15000+600000
- 44665 words of font info for 74 fonts, out of 8000000 for 9000
+ 30930 strings out of 494966
+ 626882 string characters out of 6179559
+ 1038361 words of memory out of 5000000
+ 33127 multiletter control sequences out of 15000+600000
+ 46218 words of font info for 76 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 59i,20n,78p,10402b,2201s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/pere/.texm
-f-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/eurosym/feybr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eu
-rosym/feymr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (112 pages, 3735460 bytes).
+ 59i,20n,78p,10402b,2428s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.caption.271} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.270} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.232} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.231} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.219} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.214} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.208} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.191} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.190} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.185} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.124} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.70} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.36} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.35} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.28} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.21} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.20} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.268} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.267} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.260} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.257} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.256} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.135} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.134} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.121} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.114} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.109} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.106} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.101} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.98} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.95} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.94} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.52} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.51} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.48} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.39} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.273} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.272} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.269} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.266} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.265} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.264} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.262} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.259} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.258} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.234} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.233} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.221} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.216} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.212} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.193} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.192} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.187} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.182} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.181} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.136} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.126} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.125} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.123} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.122} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.120} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.111} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.108} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.103} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.100} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.97} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.96} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.71} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.68} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.66} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.64} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.63} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.61} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.60} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.59} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.58} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.57} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.55} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.54} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.53} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.50} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.42} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.41} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.37} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.34} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.33} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.32} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.31} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.30} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.29} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.24} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.23} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.10} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.9} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.7} has been referenced but does not exist, 
+replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/pere/.texmf-
+var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/eurosym/feybr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/euro
+sym/feymr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (118 pages, 3742621 bytes).
 PDF statistics:
- 1451 PDF objects out of 1728 (max. 8388607)
- 1194 compressed objects within 12 object streams
- 382 named destinations out of 1000 (max. 500000)
- 1121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1609 PDF objects out of 1728 (max. 8388607)
+ 1344 compressed objects within 14 object streams
+ 486 named destinations out of 1000 (max. 500000)
+ 1145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
