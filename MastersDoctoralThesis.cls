@@ -415,7 +415,7 @@ KOMA-script documentation for details.}]{fancyhdr}
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}
  {\acknowledgementname}{Acknowledgements}
  \providecaptionname{catalan}
-  {\acknowledgementname}{Agraiments}  % Acknowledgement text for English countries
+  {\acknowledgementname}{Agra\"iments}  % Acknowledgement text for English countries
 \providecaptionname{german,ngerman,austrian,naustrian}{\acknowledgementname}{Danksagung} % Acknowledgement text for Germanic countries
 
 \ifbool{consistentlayout}{

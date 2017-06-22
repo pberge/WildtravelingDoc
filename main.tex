@@ -1,22 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Masters/Doctoral Thesis 
-% LaTeX Template
-% Version 2.4 (22/11/16)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Version 2.x major modifications by:
-% Vel (vel@latextemplates.com)
-%
-% This template is based on a template by:
-% Steve Gunn (http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/)
-% Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)
-%
-% Template license:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
@@ -45,10 +26,10 @@ headsepline % Uncomment to get a line under the header
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{booktabs}
 \usepackage{babel}
+\usepackage{textcomp}
 \usepackage{palatino} % Use the Palatino font by default
 
-\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
-
+\usepackage[backend=bibtex,style=numeric,natbib=true,sorting=none]{biblatex} 
 \addbibresource{example.bib} % The filename of the bibliography
 
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
@@ -85,6 +66,7 @@ headsepline % Uncomment to get a line under the header
 \group{\href{http://researchgroup.university.com}{Research Group Name}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
 \faculty{\textbf{Facultat d'informàtica de Catalunya}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
 
+
 \AtBeginDocument{
 \hypersetup{linkcolor=black}
 \hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
@@ -92,7 +74,8 @@ headsepline % Uncomment to get a line under the header
 \hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
 }
 
-\begin{document}
+
+	\begin{document}
 
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
 
@@ -143,6 +126,17 @@ headsepline % Uncomment to get a line under the header
 \vfill
 \end{center}
 \end{titlepage}
+
+\clearpage  % Abstract ended, start a new page
+
+
+\acknowledgements{
+\addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
+\\Agraeixo molt a la Claudia haver acceptat ser la directora del meu Treball Final de Grau, els consells i la paciència en totes les reunions han estat clau per al desenvolupament del projecte.\\\\
+M'agradaria agrair també a la família totes les estones que han dedicat escoltant les meves idees i inquietuds durant els quatre anys d'universitat i, especialment, aquests últims mesos de desenvolupament del projecte.\\\\
+Per últim, m'agradaria agrair als companys de la universitat les estones de discussió i suport durant aquests mesos.
+}
+\clearpage  % End of the Acknowledgements
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
@@ -211,24 +205,65 @@ The main goal of Wildtraveling is to offer support to the travel during his trip
 \listoftables
 
 \listoffigures
-%----------------------------------------------------------------------------------------
-%	THESIS CONTENT - APPENDICES
-%----------------------------------------------------------------------------------------
-
-\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
-
-% Include the appendices of the thesis as separate files from the Appendices folder
-% Uncomment the lines as you write the Appendices
-
-%\include{Appendices/AppendixA}
-%\include{Appendices/AppendixB}
-%\include{Appendices/AppendixC}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 
-\printbibliography[heading=bibintoc]
+%\printbibliography[heading=bibintoc]
+\begin{thebibliography}
+
+  \bibitem{viatjar} Anders Norén. {\em El nou art de descobrir el món: El viatger 2.0.}  2017. URL: {\em http://usr.uvic.cat/bloc/2015/06/06/el-nou-art-de-descobrir-el-mon-el-viatger-2-0}\\
+
+  \bibitem{virtualTravel} Gkumar7. {\em Virtual Travel Assistant - Android Apps on Google Play.}  2016. URL: {\em https://play.google.com/store/apps/details?id=com.projectgroup7.virtualtravelassistant}\\
+
+  \bibitem{settleup} Step Up Labs. {\em Settle Up - Group Expenses - Android Apps on Google Play.}  2016. URL: {\em https://play.google.com/store/apps/details?id=cz.destil.settleup}\\
+
+  \bibitem{splitwise} Splitwise. {\em Splitwise - Android Apps on Google Play.}  2017. URL: {\em https://play.google.com/store/apps/details?id=com.Splitwise.SplitwiseMobile}\\
+    
+  \bibitem{rainAlarm} Michael Diener. {\em Rain Alarm - Android Apps on Google Play.}  2016. URL: {\em https://play.google.com/store/apps/details?id=de.mdiener.rain.usa}\\
+  
+  \bibitem{infoplaza} Infoplaza. {\em Rain Alarm Weatherplaza - Android Apps on Google Play.}  2017. URL: {\em https://play.google.com/store/apps/details?id=com.meteoplaza.splash}\\
+    
+  \bibitem{emergencyassistant} Martin Software Solutions. {\em Emergency Assistant - Android Apps on Google Play.}  2017. URL: {\em https://play.google.com/store/apps/details?id=com.mss.emergencyinfo}\\
+     
+  \bibitem{aroundme} Flying Code. {\em AroundMe - Android Apps on Google Play.}  2017. URL: {\em https://play.google.com/store/apps/details?id=com.tweakersoft.aroundme}\\
+       
+  \bibitem{maps} Google Inc. {\em Maps - Navigation & Transit - Android Apps on Google Play.}  2017. URL: {\em https://play.google.com/store/apps/details?id=com.google.android.apps.maps}\\
+         
+  \bibitem{notes} Sea.Xiao. {\em Notes - Android Apps on Google Play.}  2016. URL: {\em https://play.google.com/store/apps/details?id=com.ogden.memo}\\
+    
+  \bibitem{colornote} Kenzap Ltd. {\em Raloco Notes - Android Apps on Google Play.}  2017. URL: {\em https://play.google.com/store/apps/details?id=com.kenzap.notes}\\
+            
+  \bibitem{firebase} Firebase. {\em Legacy Website.}  2017. URL: {\em https://www.firebase.com}\\
+    
+  \bibitem{androidstudio} Android Studio. {\em Android Studio. The Official IDE for Android.}  2017. URL: {\em https://developer.android.com/studio/index.html}\\
+            
+  \bibitem{github} GitHub. {\em Wildtraveling.} 2017. URL: {\em https://github.com/Wildtraveling}\\
+  
+  \bibitem{trello} Trello. {\em Wildtraveling.}  2017. URL: {\em https://trello.com/wildTraveling}\\
+  
+  \bibitem{foursquare} Foursquare. {\em Foursquare API.}  2017. URL: {\em https://developer.foursquare.com}\\
+  
+  \bibitem{darksky} Dark Sky. {\em Dark Sky API.}  2017. URL: {\em https://darksky.net/dev/docs}\\
+  
+  \bibitem{openweathermap} OpenWeatherMap Inc. {\em Open Weather Map API.}  2017. URL: {\em http://www.openweathermap.com}\\
+  
+  \bibitem{googleapi} Google. {\em Google API.}  2017. URL: {\em https://console.developers.google.com/apis/}\\
+  
+  \bibitem{json} JSON.org. {\em JSON.}  2017. URL: {\em http://www.json.org/json-es.html}\\
+  
+  \bibitem{java} Cecilio Álvarez. {\em Java, el lenguaje más usado y su evolución.}  2015. URL: {\em https://www.genbetadev.com/java-j2ee/java-el-lenguaje-mas-usado-y-su-evolucion}\\
+   
+  \bibitem{xml} Gabriel Ceravolo. {\em Haxe en Español: Atlas, Xml y Packers.}  2015. URL: {\em http://haxelatam.blogspot.com.es/2015/04/atlas-xml-y-packers-parte-2.html}\\
+  
+  \bibitem{latex} Sylvain Benner. {\em LaTeX layer.}  2016. URL: {\em http://spacemacs.org/layers/+lang/latex/README.html}  \\
+  
+  \bibitem{git} SCM. {\em Git.}  2017. URL: {\em https://git-scm.com}\\  
+  
+  \bibitem{gantt} Wikipedia.  {\em Diagrama de Gantt.}  2017. URL: {\em https://es.wikipedia.org/wiki/Diagrama_de_Gantt}
+  
+  \end{thebibliography}
 
 %----------------------------------------------------------------------------------------
 
